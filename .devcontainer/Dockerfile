@@ -1,16 +1,17 @@
-FROM osrf/ros:humble-desktop
+FROM ros:humble-ros-base-jammy
 
 # Add nonroot user with same UID and GID as your host system
 # (copied from https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user#_creating-a-nonroot-user)
 ARG USERNAME=astro-dev
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
-RUN groupadd --gid $USER_GID $USERNAME \
-    && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
-    && apt-get update \
-    && apt-get install -y sudo \
-    && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
-    && chmod 0440 /etc/sudoers.d/$USERNAME
+RUN groupadd --gid $USER_GID $USERNAME 
+
+RUN useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME 
+RUN apt-get update 
+RUN apt-get install -y sudo 
+RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME 
+RUN chmod 0440 /etc/sudoers.d/$USERNAME
 
 # Switch from root to user
 USER $USERNAME

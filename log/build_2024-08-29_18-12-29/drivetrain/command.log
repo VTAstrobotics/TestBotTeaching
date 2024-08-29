@@ -1,0 +1,6 @@
+Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Testbot/src/testbot_ws/src/drivetrain -DCMAKE_INSTALL_PREFIX=/Testbot/install/drivetrain
+Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /Testbot/src/testbot_ws/src/drivetrain -DCMAKE_INSTALL_PREFIX=/Testbot/install/drivetrain
+Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4
+Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4
+Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Testbot/build/drivetrain
+Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /Testbot/build/drivetrain
