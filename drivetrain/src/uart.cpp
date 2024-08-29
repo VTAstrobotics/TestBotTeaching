@@ -13,6 +13,7 @@
 #include <string>
 
 using namespace std;
+const char *uart_target = "/dev/ttyTHS1";
 
 Uart :: Uart (){
   int ii, jj, kk;

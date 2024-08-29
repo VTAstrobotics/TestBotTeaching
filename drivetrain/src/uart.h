@@ -10,7 +10,6 @@
 
 
 // Define Constants
-const char *uart_target = "/dev/ttyTHS1";
 #define     NSERIAL_CHAR   256
 #define     VMINX          1
 #define     BAUDRATE       B115200
