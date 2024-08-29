@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::DriveSub()':
+drivesub.cpp:(.text._ZN8DriveSubC2Ev[_ZN8DriveSubC5Ev]+0xc8): undefined reference to `Uart::Uart()'
+/usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::~DriveSub()':
+drivesub.cpp:(.text._ZN8DriveSubD2Ev[_ZN8DriveSubD5Ev]+0x24): undefined reference to `Uart::closeUart()'
+/usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::joy_callback(std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >)':
+drivesub.cpp:(.text._ZN8DriveSub12joy_callbackESt10shared_ptrIN11sensor_msgs3msg4Joy_ISaIvEEEE[_ZN8DriveSub12joy_callbackESt10shared_ptrIN11sensor_msgs3msg4Joy_ISaIvEEEE]+0x420): undefined reference to `Uart::sendUart(unsigned char*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:175: drivetrainNode] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

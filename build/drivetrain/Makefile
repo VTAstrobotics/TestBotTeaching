@@ -234,6 +234,30 @@ src/drivesub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.s
 .PHONY : src/drivesub.cpp.s
 
+src/uart.o: src/uart.cpp.o
+.PHONY : src/uart.o
+
+# target to build an object file
+src/uart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.o
+.PHONY : src/uart.cpp.o
+
+src/uart.i: src/uart.cpp.i
+.PHONY : src/uart.i
+
+# target to preprocess a source file
+src/uart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.i
+.PHONY : src/uart.cpp.i
+
+src/uart.s: src/uart.cpp.s
+.PHONY : src/uart.s
+
+# target to generate assembly for a file
+src/uart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.s
+.PHONY : src/uart.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -253,6 +277,9 @@ help:
 	@echo "... src/drivesub.o"
 	@echo "... src/drivesub.i"
 	@echo "... src/drivesub.s"
+	@echo "... src/uart.o"
+	@echo "... src/uart.i"
+	@echo "... src/uart.s"
 .PHONY : help
 
 

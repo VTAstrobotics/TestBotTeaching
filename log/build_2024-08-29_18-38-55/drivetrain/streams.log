@@ -1,0 +1,14 @@
+[0.176s] Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4
+[0.687s] [ 50%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[48.506s] [100%] [32m[1mLinking CXX executable drivetrainNode[0m
+[52.566s] /usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::DriveSub()':
+[52.567s] drivesub.cpp:(.text._ZN8DriveSubC2Ev[_ZN8DriveSubC5Ev]+0xc8): undefined reference to `Uart::Uart()'
+[52.568s] /usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::~DriveSub()':
+[52.569s] drivesub.cpp:(.text._ZN8DriveSubD2Ev[_ZN8DriveSubD5Ev]+0x24): undefined reference to `Uart::closeUart()'
+[52.572s] /usr/bin/ld: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: in function `DriveSub::joy_callback(std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >)':
+[52.572s] drivesub.cpp:(.text._ZN8DriveSub12joy_callbackESt10shared_ptrIN11sensor_msgs3msg4Joy_ISaIvEEEE[_ZN8DriveSub12joy_callbackESt10shared_ptrIN11sensor_msgs3msg4Joy_ISaIvEEEE]+0x420): undefined reference to `Uart::sendUart(unsigned char*)'
+[52.799s] collect2: error: ld returned 1 exit status
+[52.805s] gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:175: drivetrainNode] Error 1
+[52.806s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+[52.807s] gmake: *** [Makefile:146: all] Error 2
+[52.828s] Invoked command in '/Testbot/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4

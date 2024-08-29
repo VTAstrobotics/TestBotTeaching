@@ -620,4 +620,8 @@ CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /Testbot/src/testbot_ws/src/drivetrain/src/uart.h
