@@ -7,10 +7,20 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+add_executable(drivetrainNode /Testbot/src/testbot_ws/src/drivetrain/src/drivesub.cpp)
+ament_target_dependencies(drivetrainNode rclcpp sensor_msgs)
 
+install(
+  TARGETS
+  drivetrainNode
+  DESTINATION lib/${PROJECT_NAME}
+)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

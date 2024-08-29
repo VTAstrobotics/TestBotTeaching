@@ -197,6 +197,43 @@ drivetrain_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrain_uninstall.dir/build.make CMakeFiles/drivetrain_uninstall.dir/build
 .PHONY : drivetrain_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named drivetrainNode
+
+# Build rule for target.
+drivetrainNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drivetrainNode
+.PHONY : drivetrainNode
+
+# fast build rule for target.
+drivetrainNode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/build
+.PHONY : drivetrainNode/fast
+
+src/drivesub.o: src/drivesub.cpp.o
+.PHONY : src/drivesub.o
+
+# target to build an object file
+src/drivesub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o
+.PHONY : src/drivesub.cpp.o
+
+src/drivesub.i: src/drivesub.cpp.i
+.PHONY : src/drivesub.i
+
+# target to preprocess a source file
+src/drivesub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.i
+.PHONY : src/drivesub.cpp.i
+
+src/drivesub.s: src/drivesub.cpp.s
+.PHONY : src/drivesub.s
+
+# target to generate assembly for a file
+src/drivesub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.s
+.PHONY : src/drivesub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... drivetrain_uninstall"
 	@echo "... uninstall"
+	@echo "... drivetrainNode"
+	@echo "... src/drivesub.o"
+	@echo "... src/drivesub.i"
+	@echo "... src/drivesub.s"
 .PHONY : help
 
 

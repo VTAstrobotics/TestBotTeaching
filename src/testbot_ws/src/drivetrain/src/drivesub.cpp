@@ -1,9 +1,8 @@
 #include <functional>
 #include <memory>
 
-#include "rclcpp/rclcpp.hpp"
-#include "sensor_msgs/msg/joy.hpp"
-#include <string__struct.hpp>
+#include <rclcpp/rclcpp.hpp>
+#include <sensor_msgs/msg/joy.hpp>
 #include "uart.h"
 
 using std::placeholders::_1;
@@ -17,6 +16,10 @@ public:
     rclcpp::SubscriptionBase::SharedPtr
         subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
             "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1));
+  }
+
+    ~DriveSub(){
+    testBotCommunications.closeUart();
   }
 
 private:
@@ -34,9 +37,7 @@ private:
 
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 
-  ~DriveSub(){
-    testBotCommunications.closeUart();
-  }
+
 };
 
 int main(int argc, char *argv[])

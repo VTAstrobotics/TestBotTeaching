@@ -1,0 +1,7 @@
+[01m[K/Testbot/src/testbot_ws/src/drivetrain/src/drivesub.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joy.hpp: No such file or directory
+    5 | #include [01;31m[K"sensor_msgs/msg/joy.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

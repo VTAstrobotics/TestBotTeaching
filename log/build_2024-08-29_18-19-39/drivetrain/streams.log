@@ -1,0 +1,36 @@
+[0.181s] Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Testbot/src/testbot_ws/src/drivetrain -DCMAKE_INSTALL_PREFIX=/Testbot/install/drivetrain
+[0.366s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.557s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.661s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.544s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.547s] -- Configured cppcheck include dirs: 
+[2.548s] -- Configured cppcheck exclude dirs and/or files: 
+[2.556s] -- Added test 'lint_cmake' to check CMake code style
+[2.567s] -- Added test 'uncrustify' to check C / C++ code style
+[2.570s] -- Configured uncrustify additional arguments: 
+[2.573s] -- Added test 'xmllint' to check XML markup files
+[2.587s] -- Configuring done
+[2.640s] -- Generating done
+[2.656s] -- Build files have been written to: /Testbot/build/drivetrain
+[2.700s] Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Testbot/src/testbot_ws/src/drivetrain -DCMAKE_INSTALL_PREFIX=/Testbot/install/drivetrain
+[2.716s] Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4
+[3.063s] Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Testbot/build/drivetrain -- -j4 -l4
+[3.355s] Invoking command in '/Testbot/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Testbot/build/drivetrain
+[3.415s] -- Install configuration: ""
+[3.423s] -- Execute custom install script
+[3.423s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+[3.429s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+[3.430s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+[3.434s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+[3.436s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/environment/path.sh
+[3.437s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/environment/path.dsv
+[3.438s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/local_setup.bash
+[3.438s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/local_setup.sh
+[3.443s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/local_setup.zsh
+[3.451s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/local_setup.dsv
+[3.452s] -- Symlinking: /Testbot/install/drivetrain/share/drivetrain/package.dsv
+[3.513s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[3.514s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+[3.514s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+[3.515s] -- Up-to-date symlink: /Testbot/install/drivetrain/share/drivetrain/package.xml
+[3.532s] Invoked command in '/Testbot/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Testbot/build/drivetrain

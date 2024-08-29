@@ -1,5 +1,6 @@
 /Testbot/build/drivetrain/CMakeFiles/uninstall.dir
 /Testbot/build/drivetrain/CMakeFiles/drivetrain_uninstall.dir
+/Testbot/build/drivetrain/CMakeFiles/drivetrainNode.dir
 /Testbot/build/drivetrain/CMakeFiles/test.dir
 /Testbot/build/drivetrain/CMakeFiles/edit_cache.dir
 /Testbot/build/drivetrain/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.002225] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.002932] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.076605] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.082072] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.086548] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Testbot/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/Testbot/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '945d704c20d0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/Testbot/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/Testbot/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Testbot/install/drivetrain:/opt/ros/humble'), ('PWD', '/Testbot/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Testbot/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[0.099885] (-) TimerEvent: {}
+[0.202901] (-) TimerEvent: {}
+[0.304033] (-) TimerEvent: {}
+[0.405560] (-) TimerEvent: {}
+[0.506710] (-) TimerEvent: {}
+[0.607641] (-) TimerEvent: {}
+[0.614345] (drivetrain) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.707850] (-) TimerEvent: {}
+[0.809045] (-) TimerEvent: {}
+[0.910464] (-) TimerEvent: {}
+[1.011587] (-) TimerEvent: {}
+[1.112841] (-) TimerEvent: {}
+[1.213743] (-) TimerEvent: {}
+[1.298696] (drivetrain) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.313961] (-) TimerEvent: {}
+[1.351305] (drivetrain) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.414147] (-) TimerEvent: {}
+[1.511501] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.514295] (-) TimerEvent: {}
+[1.525853] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.568039] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.614489] (-) TimerEvent: {}
+[1.618493] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.684536] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.714676] (-) TimerEvent: {}
+[1.815474] (-) TimerEvent: {}
+[1.859622] (drivetrain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.867701] (drivetrain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.915656] (-) TimerEvent: {}
+[2.018275] (-) TimerEvent: {}
+[2.152851] (-) TimerEvent: {}
+[2.253683] (-) TimerEvent: {}
+[2.355351] (-) TimerEvent: {}
+[2.432679] (drivetrain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.455560] (-) TimerEvent: {}
+[2.556373] (-) TimerEvent: {}
+[2.657298] (-) TimerEvent: {}
+[2.690337] (drivetrain) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.757507] (-) TimerEvent: {}
+[2.858564] (-) TimerEvent: {}
+[2.860550] (drivetrain) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.958734] (-) TimerEvent: {}
+[3.059608] (-) TimerEvent: {}
+[3.160919] (-) TimerEvent: {}
+[3.262223] (-) TimerEvent: {}
+[3.272258] (drivetrain) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.273498] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.274344] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.278195] (drivetrain) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.285795] (drivetrain) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.290798] (drivetrain) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.317834] (drivetrain) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.318884] (drivetrain) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.322962] (drivetrain) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.330626] (drivetrain) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.362440] (-) TimerEvent: {}
+[3.422983] (drivetrain) StdoutLine: {'line': b'-- Generating done\n'}
+[3.437012] (drivetrain) StdoutLine: {'line': b'-- Build files have been written to: /Testbot/build/drivetrain\n'}
+[3.462684] (-) TimerEvent: {}
+[3.563567] (-) TimerEvent: {}
+[3.608997] (drivetrain) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[3.663812] (-) TimerEvent: {}
+[3.768259] (-) TimerEvent: {}
+[3.869063] (-) TimerEvent: {}
+[3.970039] (-) TimerEvent: {}
+[4.070941] (-) TimerEvent: {}
+[4.171845] (-) TimerEvent: {}
+[4.272627] (-) TimerEvent: {}
+[4.374067] (-) TimerEvent: {}
+[4.474996] (-) TimerEvent: {}
+[4.575776] (-) TimerEvent: {}
+[4.676740] (-) TimerEvent: {}
+[4.777544] (-) TimerEvent: {}
+[4.878373] (-) TimerEvent: {}
+[4.979157] (-) TimerEvent: {}
+[5.080489] (-) TimerEvent: {}
+[5.181498] (-) TimerEvent: {}
+[5.282298] (-) TimerEvent: {}
+[5.383125] (-) TimerEvent: {}
+[5.483993] (-) TimerEvent: {}
+[5.585014] (-) TimerEvent: {}
+[5.624568] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/Testbot/src/testbot_ws/src/drivetrain/src/drivesub.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstring__struct.hpp: No such file or directory\n'}
+[5.625676] (drivetrain) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<string__struct.hpp>\x1b[m\x1b[K\n'}
+[5.626523] (drivetrain) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.627223] (drivetrain) StderrLine: {'line': b'compilation terminated.\n'}
+[5.635496] (drivetrain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1\n'}
+[5.636901] (drivetrain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2\n'}
+[5.641008] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.650723] (drivetrain) CommandEnded: {'returncode': 2}
+[5.685432] (-) TimerEvent: {}
+[5.787817] (-) TimerEvent: {}
+[5.870763] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 2}
+[5.882686] (-) EventReactorShutdown: {}
