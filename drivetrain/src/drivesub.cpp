@@ -7,25 +7,24 @@
 #include "uart.h"
 
 using std::placeholders::_1;
-
 class DriveSub : public rclcpp::Node
 {  
 Uart testBotCommunications{};
 public:
-  DriveSub() : Node("drivesub")
+  DriveSub() : Node("drivetrainNode")
   {
-    rclcpp::SubscriptionBase::SharedPtr
-        subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
-            "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1));
+    subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
+      "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1));
   }
 
-    ~DriveSub(){
-    testBotCommunications.closeUart();
+  ~DriveSub(){
+      testBotCommunications.closeUart();
   }
 
 private:
   void joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg)
   {
+    printf("test");
     RCLCPP_INFO(this->get_logger(), "Axes: [%f, %f]", msg->axes[0], msg->axes[1]);
     RCLCPP_INFO(this->get_logger(), "Buttons: [%d, %d]", msg->buttons[0], msg->buttons[1]);
     float leftSpeed = 90 * msg-> axes[0];
@@ -36,8 +35,7 @@ private:
     
   }
 
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
-
+  rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
 
 };
 

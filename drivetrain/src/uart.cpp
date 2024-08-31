@@ -13,7 +13,7 @@
 #include <string>
 
 using namespace std;
-const char *uart_target = "/dev/ttyTHS1";
+const char *uart_target = "/dev/ttyACM0";
 
 Uart :: Uart (){
   int ii, jj, kk;
@@ -102,7 +102,7 @@ Uart :: Uart (){
   tcflush(fid, TCIFLUSH);
   tcflush(fid, TCIOFLUSH);
 
-  usleep(500000);   // 0.5 sec delay
+  //usleep(500000);   // 0.5 sec delay
 
 
 }

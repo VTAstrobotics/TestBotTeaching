@@ -1,5 +1,9 @@
 FROM ros:humble-ros-base-jammy
 
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ros-humble-desktop=0.10.0-1* \
+    && rm -rf /var/lib/apt/lists/*
+
 # Add nonroot user with same UID and GID as your host system
 # (copied from https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user#_creating-a-nonroot-user)
 ARG USERNAME=astro-dev
@@ -8,6 +12,7 @@ ARG USER_GID=$USER_UID
 RUN groupadd --gid $USER_GID $USERNAME 
 
 RUN useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME 
+RUN sudo usermod -aG sudo ${USERNAME}
 RUN apt-get update 
 RUN apt-get install -y sudo 
 RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME 
