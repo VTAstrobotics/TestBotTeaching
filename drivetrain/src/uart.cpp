@@ -135,7 +135,7 @@ void Uart :: sendUart(unsigned char *msg){
     if (count < 0)  printf("UART TX error\n");
   }
 
-  usleep(1000000);  // 1 sec delay (but why?)
+  // usleep(1000000);  // 1 sec delay (but why?)
 
 }
 
@@ -198,36 +198,41 @@ void Uart :: readUart(){
 
   printf("Ready to receive message.\n");
 
-
-  for (ii=0; ii<NSERIAL_CHAR; ii++)  serial_message[ii]=' ';
+  // for (ii=0; ii<NSERIAL_CHAR; ii++)  serial_message[ii]=' ';
 
 
   while (pickup && fid != -1)
   {
     nread++;
 
+    // printf("r\n");
     rx_length = read(fid, (void*)rx_buffer, VMINX);   // Filestream, buffer to store in, number of bytes to read (max)
 
-    printf("Event %d, rx_length=%d, Read=%s\n",  nread, rx_length, rx_buffer );
+    // printf("Event %d, rx_length=%d, Read=%s\n",  nread, rx_length, rx_buffer );
+
+    printf("%.*s", rx_length, rx_buffer);
 
     if (rx_length < 0)
     {
       //An error occured (will occur if there are no bytes)
+      printf("E");
     }
 
     if (rx_length == 0)
     {
       //No data waiting
+      printf("n");
     }
 
     if (rx_length>=0)
     {
       if (nread<=NSERIAL_CHAR){
-        serial_message[nread-1] = rx_buffer[0];   // Build message 1 character at a time
-        printf("%x ",serial_message[nread-1]);
+        // serial_message[nread-1] = rx_buffer[0];   // Build message 1 character at a time
+        // printf("%x ",serial_message[nread-1]);
       }
 
-      if (rx_buffer[0]=='#')   pickup=false;                               // # symbol is terminator
+      // Check for custom message terminator
+      if (rx_buffer[0]==';')   pickup=false;                               // # symbol is terminator
     }
   }
 
