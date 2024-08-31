@@ -16,7 +16,7 @@ using namespace std;
 const char *uart_target = "/dev/ttyACM0";
 
 Uart :: Uart (){
-  int ii, jj, kk;
+  // int ii, jj, kk;
 
   // SETUP SERIAL WORLD
 
@@ -102,7 +102,7 @@ Uart :: Uart (){
   tcflush(fid, TCIFLUSH);
   tcflush(fid, TCIOFLUSH);
 
-  //usleep(500000);   // 0.5 sec delay
+  usleep(500000);   // 0.5 sec delay
 
 
 }
@@ -135,8 +135,7 @@ void Uart :: sendUart(unsigned char *msg){
     if (count < 0)  printf("UART TX error\n");
   }
 
-  usleep(1000000);  // 1 sec delay
-
+  usleep(1000000);  // 1 sec delay (but why?)
 
 }
 
@@ -178,7 +177,7 @@ bool  Uart :: sendUart_fb(unsigned char *msg){
 	  return false;
   }
 
-  usleep(1000000);  // 1 sec delay
+  // usleep(1000000);  // 1 sec delay
 
 
 }
