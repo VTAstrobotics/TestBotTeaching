@@ -30,7 +30,7 @@ private:
     std::string MessageToArduino = (std::to_string(leftSpeed) + "," + std::to_string(rightSpeed)).c_str();
     RCLCPP_INFO(this->get_logger(), "Msg: [%s]", MessageToArduino.c_str());
 
-    testBotCommunications.sendUart(reinterpret_cast<unsigned char*>(const_cast<char*>(MessageToArduino.c_str())));
+    testBotCommunications.sendUart_fb(reinterpret_cast<unsigned char*>(const_cast<char*>(MessageToArduino.c_str())));
     testBotCommunications.readUart();
   }
 

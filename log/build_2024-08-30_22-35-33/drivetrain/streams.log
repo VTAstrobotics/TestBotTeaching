@@ -1,0 +1,84 @@
+[0.115s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+[0.706s] -- The C compiler identification is GNU 11.4.0
+[1.184s] -- The CXX compiler identification is GNU 11.4.0
+[1.271s] -- Detecting C compiler ABI info
+[1.981s] -- Detecting C compiler ABI info - done
+[2.025s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.026s] -- Detecting C compile features
+[2.029s] -- Detecting C compile features - done
+[2.061s] -- Detecting CXX compiler ABI info
+[2.757s] -- Detecting CXX compiler ABI info - done
+[2.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.819s] -- Detecting CXX compile features
+[2.821s] -- Detecting CXX compile features - done
+[2.883s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.192s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.187s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.753s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.822s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.927s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.726s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.753s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.566s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.758s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.075s] -- Looking for pthread.h
+[8.614s] -- Looking for pthread.h - found
+[8.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.342s] -- Found Threads: TRUE  
+[9.863s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.209s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.993s] -- Configured cppcheck include dirs: 
+[11.001s] -- Configured cppcheck exclude dirs and/or files: 
+[11.002s] -- Added test 'lint_cmake' to check CMake code style
+[11.009s] -- Added test 'uncrustify' to check C / C++ code style
+[11.010s] -- Configured uncrustify additional arguments: 
+[11.013s] -- Added test 'xmllint' to check XML markup files
+[11.024s] -- Configuring done
+[11.132s] -- Generating done
+[11.146s] -- Build files have been written to: /TestBotTeaching/build/drivetrain
+[11.230s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+[11.238s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[11.727s] [ 33%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[11.733s] [ 66%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/uart.cpp.o[0m
+[13.719s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[13.721s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kii[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.723s]    19 |   int [01;35m[Kii[m[K, jj, kk;
+[13.725s]       |       [01;35m[K^~[m[K
+[13.729s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjj[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.730s]    19 |   int ii, [01;35m[Kjj[m[K, kk;
+[13.732s]       |           [01;35m[K^~[m[K
+[13.734s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.735s]    19 |   int ii, jj, [01;35m[Kkk[m[K;
+[13.735s]       |               [01;35m[K^~[m[K
+[14.040s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[14.043s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.Uart::fid[m[K’ is used uninitialized [[01;35m[K-Wuninitialized[m[K]
+[14.050s]    25 |   [01;35m[Ktcgetattr(fid, &port_options)[m[K;        // Get the current attributes of the Serial port
+[14.055s]       |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[55.666s] [100%] [32m[1mLinking CXX executable drivetrainNode[0m
+[59.016s] [100%] Built target drivetrainNode
+[59.068s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[59.285s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[59.317s] -- Install configuration: ""
+[59.319s] -- Installing: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode
+[59.364s] -- Set runtime path of "/TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode" to ""
+[59.365s] -- Installing: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+[59.367s] -- Installing: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+[59.370s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+[59.370s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+[59.373s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh
+[59.373s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv
+[59.375s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash
+[59.377s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh
+[59.379s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh
+[59.382s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv
+[59.384s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv
+[59.386s] -- Installing: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[59.388s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+[59.390s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+[59.392s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml
+[59.399s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain

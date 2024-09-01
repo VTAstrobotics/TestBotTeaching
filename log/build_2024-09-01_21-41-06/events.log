@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.002322] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.007745] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.008038] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.055646] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.099070] (-) TimerEvent: {}
+[0.103785] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.108500] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '/TestBotTeaching/drivetrain', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '226ac0c0ad54'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/pythonDriving:/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/TestBotTeaching/build/pythonDriving:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/TestBotTeaching/install/pythonDriving:/opt/ros/humble')]), 'shell': False}
+[0.199085] (drivetrain) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200534] (-) TimerEvent: {}
+[0.304136] (-) TimerEvent: {}
+[0.407067] (-) TimerEvent: {}
+[0.509842] (-) TimerEvent: {}
+[0.611714] (-) TimerEvent: {}
+[0.714414] (-) TimerEvent: {}
+[0.817005] (-) TimerEvent: {}
+[0.920036] (-) TimerEvent: {}
+[0.970303] (drivetrain) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.020210] (-) TimerEvent: {}
+[1.021949] (drivetrain) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.120431] (-) TimerEvent: {}
+[1.221852] (-) TimerEvent: {}
+[1.229068] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.244167] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.286007] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.322048] (-) TimerEvent: {}
+[1.346465] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.422418] (-) TimerEvent: {}
+[1.436691] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.522720] (-) TimerEvent: {}
+[1.626173] (-) TimerEvent: {}
+[1.671346] (drivetrain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.683252] (drivetrain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.726391] (-) TimerEvent: {}
+[1.829124] (-) TimerEvent: {}
+[1.930594] (-) TimerEvent: {}
+[2.031460] (-) TimerEvent: {}
+[2.135155] (-) TimerEvent: {}
+[2.236680] (-) TimerEvent: {}
+[2.337705] (-) TimerEvent: {}
+[2.439112] (-) TimerEvent: {}
+[2.540789] (-) TimerEvent: {}
+[2.644633] (-) TimerEvent: {}
+[2.746532] (-) TimerEvent: {}
+[2.848487] (-) TimerEvent: {}
+[2.890450] (drivetrain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.948661] (-) TimerEvent: {}
+[3.050581] (-) TimerEvent: {}
+[3.151427] (-) TimerEvent: {}
+[3.178232] (drivetrain) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.251595] (-) TimerEvent: {}
+[3.352469] (-) TimerEvent: {}
+[3.362496] (drivetrain) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.452767] (-) TimerEvent: {}
+[3.556423] (-) TimerEvent: {}
+[3.658807] (-) TimerEvent: {}
+[3.759728] (-) TimerEvent: {}
+[3.860217] (drivetrain) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.862047] (-) TimerEvent: {}
+[3.869814] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.875604] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.876827] (drivetrain) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.878713] (drivetrain) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.879653] (drivetrain) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.881045] (drivetrain) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.892326] (drivetrain) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.962582] (-) TimerEvent: {}
+[4.011633] (drivetrain) StdoutLine: {'line': b'-- Generating done\n'}
+[4.029951] (drivetrain) StdoutLine: {'line': b'-- Build files have been written to: /TestBotTeaching/build/drivetrain\n'}
+[4.043980] (pythonDriving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/TestBotTeaching/build/pythonDriving/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/TestBotTeaching/build/pythonDriving', 'env': {'HOSTNAME': '226ac0c0ad54', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/astro-dev', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/TestBotTeaching/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/TestBotTeaching/install/pythonDriving:/TestBotTeaching/install/drivetrain:/opt/ros/humble', 'PWD': '/TestBotTeaching/build/pythonDriving', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/TestBotTeaching/build/pythonDriving:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/TestBotTeaching/install/drivetrain'}, 'shell': False}
+[4.064868] (-) TimerEvent: {}
+[4.072822] (drivetrain) CommandEnded: {'returncode': 0}
+[4.076840] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[4.083452] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '226ac0c0ad54'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/pythonDriving:/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/TestBotTeaching/build/pythonDriving:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/TestBotTeaching/install/pythonDriving:/opt/ros/humble')]), 'shell': False}
+[4.165066] (-) TimerEvent: {}
+[4.266547] (-) TimerEvent: {}
+[4.370589] (-) TimerEvent: {}
+[4.386623] (drivetrain) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drivetrainNode\x1b[0m\n'}
+[4.474492] (-) TimerEvent: {}
+[4.576834] (-) TimerEvent: {}
+[4.591334] (drivetrain) StdoutLine: {'line': b'[100%] Built target drivetrainNode\n'}
+[4.654475] (drivetrain) CommandEnded: {'returncode': 0}
+[4.677012] (-) TimerEvent: {}
+[4.779493] (-) TimerEvent: {}
+[4.823035] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'install'}
+[4.863500] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--install', '/TestBotTeaching/build/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '226ac0c0ad54'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/pythonDriving:/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/TestBotTeaching/build/pythonDriving:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/TestBotTeaching/install/pythonDriving:/opt/ros/humble')]), 'shell': False}
+[4.879697] (-) TimerEvent: {}
+[4.905558] (drivetrain) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.913970] (drivetrain) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.916181] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode\n'}
+[4.916878] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain\n'}
+[4.917940] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain\n'}
+[4.919161] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh\n'}
+[4.920139] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv\n'}
+[4.920926] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh\n'}
+[4.922434] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv\n'}
+[4.923618] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash\n'}
+[4.924427] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh\n'}
+[4.925267] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh\n'}
+[4.933560] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv\n'}
+[4.934233] (drivetrain) StdoutLine: {'line': b'-- Symlinking: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv\n'}
+[4.967592] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain\n'}
+[4.968741] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake\n'}
+[4.969683] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake\n'}
+[4.970933] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml\n'}
+[4.982852] (drivetrain) CommandEnded: {'returncode': 0}
+[4.984483] (-) TimerEvent: {}
+[5.086936] (-) TimerEvent: {}
+[5.188448] (-) TimerEvent: {}
+[5.262480] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 0}
+[5.288604] (-) TimerEvent: {}
+[5.389295] (-) TimerEvent: {}
+[5.490114] (-) TimerEvent: {}
+[5.590914] (-) TimerEvent: {}
+[5.691683] (-) TimerEvent: {}
+[5.792458] (-) TimerEvent: {}
+[5.829115] (pythonDriving) StdoutLine: {'line': b'running develop\n'}
+[5.892632] (-) TimerEvent: {}
+[5.993482] (-) TimerEvent: {}
+[6.094225] (-) TimerEvent: {}
+[6.194985] (-) TimerEvent: {}
+[6.295706] (-) TimerEvent: {}
+[6.396566] (-) TimerEvent: {}
+[6.497450] (-) TimerEvent: {}
+[6.598335] (-) TimerEvent: {}
+[6.699068] (-) TimerEvent: {}
+[6.717031] (pythonDriving) StdoutLine: {'line': b'running egg_info\n'}
+[6.717885] (pythonDriving) StdoutLine: {'line': b'writing pythonDriving.egg-info/PKG-INFO\n'}
+[6.719504] (pythonDriving) StdoutLine: {'line': b'writing dependency_links to pythonDriving.egg-info/dependency_links.txt\n'}
+[6.720673] (pythonDriving) StdoutLine: {'line': b'writing entry points to pythonDriving.egg-info/entry_points.txt\n'}
+[6.721666] (pythonDriving) StdoutLine: {'line': b'writing requirements to pythonDriving.egg-info/requires.txt\n'}
+[6.722564] (pythonDriving) StdoutLine: {'line': b'writing top-level names to pythonDriving.egg-info/top_level.txt\n'}
+[6.732959] (pythonDriving) StdoutLine: {'line': b"reading manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.738034] (pythonDriving) StdoutLine: {'line': b"writing manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.745344] (pythonDriving) StdoutLine: {'line': b'running build_ext\n'}
+[6.746418] (pythonDriving) StdoutLine: {'line': b'Creating /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving.egg-link (link to .)\n'}
+[6.749829] (pythonDriving) StdoutLine: {'line': b'Installing pythonDriving script to /TestBotTeaching/install/pythonDriving/lib/pythonDriving\n'}
+[6.751791] (pythonDriving) StdoutLine: {'line': b'\n'}
+[6.752531] (pythonDriving) StdoutLine: {'line': b'Installed /TestBotTeaching/build/pythonDriving\n'}
+[6.753145] (pythonDriving) StdoutLine: {'line': b'running symlink_data\n'}
+[6.753629] (pythonDriving) StdoutLine: {'line': b'symbolically linking /TestBotTeaching/build/pythonDriving/resource/pythonDriving -> /TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages\n'}
+[6.754644] (pythonDriving) StdoutLine: {'line': b'symbolically linking /TestBotTeaching/build/pythonDriving/package.xml -> /TestBotTeaching/install/pythonDriving/share/pythonDriving\n'}
+[6.799413] (-) TimerEvent: {}
+[6.900667] (-) TimerEvent: {}
+[6.906221] (pythonDriving) CommandEnded: {'returncode': 0}
+[6.957568] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 0}
+[6.961082] (-) EventReactorShutdown: {}

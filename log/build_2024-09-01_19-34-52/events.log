@@ -1,0 +1,547 @@
+[0.000000] (-) TimerEvent: {}
+[0.002279] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.003063] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.066263] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.070530] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '/TestBotTeaching/drivetrain', '-DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '67eb869990eb'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[0.098285] (-) TimerEvent: {}
+[0.145842] (drivetrain) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198530] (-) TimerEvent: {}
+[0.299382] (-) TimerEvent: {}
+[0.400792] (-) TimerEvent: {}
+[0.507267] (-) TimerEvent: {}
+[0.612699] (-) TimerEvent: {}
+[0.714131] (-) TimerEvent: {}
+[0.819203] (-) TimerEvent: {}
+[0.929636] (-) TimerEvent: {}
+[1.035896] (-) TimerEvent: {}
+[1.139680] (-) TimerEvent: {}
+[1.243891] (-) TimerEvent: {}
+[1.304164] (drivetrain) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.344151] (-) TimerEvent: {}
+[1.390347] (drivetrain) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.444942] (-) TimerEvent: {}
+[1.549462] (-) TimerEvent: {}
+[1.653321] (-) TimerEvent: {}
+[1.677884] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.702996] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.753974] (-) TimerEvent: {}
+[1.757675] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.845524] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.854567] (-) TimerEvent: {}
+[1.957373] (-) TimerEvent: {}
+[1.977435] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.057698] (-) TimerEvent: {}
+[2.159088] (-) TimerEvent: {}
+[2.180665] (drivetrain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.189498] (drivetrain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.259279] (-) TimerEvent: {}
+[2.360098] (-) TimerEvent: {}
+[2.461116] (-) TimerEvent: {}
+[2.562091] (-) TimerEvent: {}
+[2.662856] (-) TimerEvent: {}
+[2.763719] (-) TimerEvent: {}
+[2.864558] (-) TimerEvent: {}
+[2.965471] (-) TimerEvent: {}
+[3.066454] (-) TimerEvent: {}
+[3.167302] (-) TimerEvent: {}
+[3.206655] (drivetrain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.267538] (-) TimerEvent: {}
+[3.368656] (-) TimerEvent: {}
+[3.469461] (-) TimerEvent: {}
+[3.470780] (drivetrain) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.569676] (-) TimerEvent: {}
+[3.624169] (drivetrain) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.669834] (-) TimerEvent: {}
+[3.770679] (-) TimerEvent: {}
+[3.873722] (-) TimerEvent: {}
+[3.975041] (-) TimerEvent: {}
+[4.006291] (drivetrain) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.008937] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.009558] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.011664] (drivetrain) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.018544] (drivetrain) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.019275] (drivetrain) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.020639] (drivetrain) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.027550] (drivetrain) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.075266] (-) TimerEvent: {}
+[4.099054] (drivetrain) StdoutLine: {'line': b'-- Generating done\n'}
+[4.110453] (drivetrain) StdoutLine: {'line': b'-- Build files have been written to: /TestBotTeaching/build/drivetrain\n'}
+[4.140252] (drivetrain) CommandEnded: {'returncode': 0}
+[4.142393] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[4.145827] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '67eb869990eb'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[4.175458] (-) TimerEvent: {}
+[4.276407] (-) TimerEvent: {}
+[4.363167] (drivetrain) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drivetrainNode\x1b[0m\n'}
+[4.376652] (-) TimerEvent: {}
+[4.477448] (-) TimerEvent: {}
+[4.513959] (drivetrain) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[4.577685] (-) TimerEvent: {}
+[4.678603] (-) TimerEvent: {}
+[4.779477] (-) TimerEvent: {}
+[4.880761] (-) TimerEvent: {}
+[4.982284] (-) TimerEvent: {}
+[5.084793] (-) TimerEvent: {}
+[5.185626] (-) TimerEvent: {}
+[5.288032] (-) TimerEvent: {}
+[5.389113] (-) TimerEvent: {}
+[5.490250] (-) TimerEvent: {}
+[5.592267] (-) TimerEvent: {}
+[5.695600] (-) TimerEvent: {}
+[5.798820] (-) TimerEvent: {}
+[5.900778] (-) TimerEvent: {}
+[6.002728] (-) TimerEvent: {}
+[6.105070] (-) TimerEvent: {}
+[6.206855] (-) TimerEvent: {}
+[6.310086] (-) TimerEvent: {}
+[6.412266] (-) TimerEvent: {}
+[6.513795] (-) TimerEvent: {}
+[6.614871] (-) TimerEvent: {}
+[6.715765] (-) TimerEvent: {}
+[6.816631] (-) TimerEvent: {}
+[6.917459] (-) TimerEvent: {}
+[7.018295] (-) TimerEvent: {}
+[7.119221] (-) TimerEvent: {}
+[7.220256] (-) TimerEvent: {}
+[7.321220] (-) TimerEvent: {}
+[7.422087] (-) TimerEvent: {}
+[7.523010] (-) TimerEvent: {}
+[7.623844] (-) TimerEvent: {}
+[7.724897] (-) TimerEvent: {}
+[7.825872] (-) TimerEvent: {}
+[7.926674] (-) TimerEvent: {}
+[8.027723] (-) TimerEvent: {}
+[8.129416] (-) TimerEvent: {}
+[8.230357] (-) TimerEvent: {}
+[8.331264] (-) TimerEvent: {}
+[8.432212] (-) TimerEvent: {}
+[8.533129] (-) TimerEvent: {}
+[8.634016] (-) TimerEvent: {}
+[8.735321] (-) TimerEvent: {}
+[8.836290] (-) TimerEvent: {}
+[8.937434] (-) TimerEvent: {}
+[9.038634] (-) TimerEvent: {}
+[9.139913] (-) TimerEvent: {}
+[9.241887] (-) TimerEvent: {}
+[9.343036] (-) TimerEvent: {}
+[9.443911] (-) TimerEvent: {}
+[9.544858] (-) TimerEvent: {}
+[9.645824] (-) TimerEvent: {}
+[9.746782] (-) TimerEvent: {}
+[9.847819] (-) TimerEvent: {}
+[9.949154] (-) TimerEvent: {}
+[10.050118] (-) TimerEvent: {}
+[10.151546] (-) TimerEvent: {}
+[10.253632] (-) TimerEvent: {}
+[10.356722] (-) TimerEvent: {}
+[10.460710] (-) TimerEvent: {}
+[10.561755] (-) TimerEvent: {}
+[10.662858] (-) TimerEvent: {}
+[10.763813] (-) TimerEvent: {}
+[10.864750] (-) TimerEvent: {}
+[10.965839] (-) TimerEvent: {}
+[11.067016] (-) TimerEvent: {}
+[11.167928] (-) TimerEvent: {}
+[11.269008] (-) TimerEvent: {}
+[11.369916] (-) TimerEvent: {}
+[11.471174] (-) TimerEvent: {}
+[11.572027] (-) TimerEvent: {}
+[11.673192] (-) TimerEvent: {}
+[11.774080] (-) TimerEvent: {}
+[11.874957] (-) TimerEvent: {}
+[11.976035] (-) TimerEvent: {}
+[12.076930] (-) TimerEvent: {}
+[12.177789] (-) TimerEvent: {}
+[12.278841] (-) TimerEvent: {}
+[12.380246] (-) TimerEvent: {}
+[12.481925] (-) TimerEvent: {}
+[12.582852] (-) TimerEvent: {}
+[12.683717] (-) TimerEvent: {}
+[12.784637] (-) TimerEvent: {}
+[12.885535] (-) TimerEvent: {}
+[12.986385] (-) TimerEvent: {}
+[13.087321] (-) TimerEvent: {}
+[13.188166] (-) TimerEvent: {}
+[13.289166] (-) TimerEvent: {}
+[13.390074] (-) TimerEvent: {}
+[13.490937] (-) TimerEvent: {}
+[13.591849] (-) TimerEvent: {}
+[13.693310] (-) TimerEvent: {}
+[13.794142] (-) TimerEvent: {}
+[13.895062] (-) TimerEvent: {}
+[13.995968] (-) TimerEvent: {}
+[14.097012] (-) TimerEvent: {}
+[14.197970] (-) TimerEvent: {}
+[14.298912] (-) TimerEvent: {}
+[14.399808] (-) TimerEvent: {}
+[14.500817] (-) TimerEvent: {}
+[14.601642] (-) TimerEvent: {}
+[14.702538] (-) TimerEvent: {}
+[14.803459] (-) TimerEvent: {}
+[14.904657] (-) TimerEvent: {}
+[15.005489] (-) TimerEvent: {}
+[15.106508] (-) TimerEvent: {}
+[15.207386] (-) TimerEvent: {}
+[15.308354] (-) TimerEvent: {}
+[15.409305] (-) TimerEvent: {}
+[15.510200] (-) TimerEvent: {}
+[15.611028] (-) TimerEvent: {}
+[15.711889] (-) TimerEvent: {}
+[15.813106] (-) TimerEvent: {}
+[15.913987] (-) TimerEvent: {}
+[16.014859] (-) TimerEvent: {}
+[16.115835] (-) TimerEvent: {}
+[16.216811] (-) TimerEvent: {}
+[16.317652] (-) TimerEvent: {}
+[16.418671] (-) TimerEvent: {}
+[16.519644] (-) TimerEvent: {}
+[16.620543] (-) TimerEvent: {}
+[16.721439] (-) TimerEvent: {}
+[16.822358] (-) TimerEvent: {}
+[16.923245] (-) TimerEvent: {}
+[17.024260] (-) TimerEvent: {}
+[17.125266] (-) TimerEvent: {}
+[17.226976] (-) TimerEvent: {}
+[17.328038] (-) TimerEvent: {}
+[17.428955] (-) TimerEvent: {}
+[17.529868] (-) TimerEvent: {}
+[17.630785] (-) TimerEvent: {}
+[17.731824] (-) TimerEvent: {}
+[17.832865] (-) TimerEvent: {}
+[17.933713] (-) TimerEvent: {}
+[18.034632] (-) TimerEvent: {}
+[18.136135] (-) TimerEvent: {}
+[18.237042] (-) TimerEvent: {}
+[18.337965] (-) TimerEvent: {}
+[18.438861] (-) TimerEvent: {}
+[18.539708] (-) TimerEvent: {}
+[18.640570] (-) TimerEvent: {}
+[18.741433] (-) TimerEvent: {}
+[18.842309] (-) TimerEvent: {}
+[18.943177] (-) TimerEvent: {}
+[19.044124] (-) TimerEvent: {}
+[19.145148] (-) TimerEvent: {}
+[19.246599] (-) TimerEvent: {}
+[19.347506] (-) TimerEvent: {}
+[19.448398] (-) TimerEvent: {}
+[19.549306] (-) TimerEvent: {}
+[19.650438] (-) TimerEvent: {}
+[19.751367] (-) TimerEvent: {}
+[19.852374] (-) TimerEvent: {}
+[19.953718] (-) TimerEvent: {}
+[20.055160] (-) TimerEvent: {}
+[20.156037] (-) TimerEvent: {}
+[20.257340] (-) TimerEvent: {}
+[20.358367] (-) TimerEvent: {}
+[20.459623] (-) TimerEvent: {}
+[20.560624] (-) TimerEvent: {}
+[20.661524] (-) TimerEvent: {}
+[20.762421] (-) TimerEvent: {}
+[20.863486] (-) TimerEvent: {}
+[20.964376] (-) TimerEvent: {}
+[21.065519] (-) TimerEvent: {}
+[21.166452] (-) TimerEvent: {}
+[21.267428] (-) TimerEvent: {}
+[21.368395] (-) TimerEvent: {}
+[21.469447] (-) TimerEvent: {}
+[21.570513] (-) TimerEvent: {}
+[21.671545] (-) TimerEvent: {}
+[21.772460] (-) TimerEvent: {}
+[21.873400] (-) TimerEvent: {}
+[21.974235] (-) TimerEvent: {}
+[22.075043] (-) TimerEvent: {}
+[22.175895] (-) TimerEvent: {}
+[22.276857] (-) TimerEvent: {}
+[22.378532] (-) TimerEvent: {}
+[22.480058] (-) TimerEvent: {}
+[22.581603] (-) TimerEvent: {}
+[22.682636] (-) TimerEvent: {}
+[22.783497] (-) TimerEvent: {}
+[22.884610] (-) TimerEvent: {}
+[22.985603] (-) TimerEvent: {}
+[23.086565] (-) TimerEvent: {}
+[23.187499] (-) TimerEvent: {}
+[23.288398] (-) TimerEvent: {}
+[23.389364] (-) TimerEvent: {}
+[23.490278] (-) TimerEvent: {}
+[23.591129] (-) TimerEvent: {}
+[23.692155] (-) TimerEvent: {}
+[23.793473] (-) TimerEvent: {}
+[23.894383] (-) TimerEvent: {}
+[23.995245] (-) TimerEvent: {}
+[24.096088] (-) TimerEvent: {}
+[24.196995] (-) TimerEvent: {}
+[24.297877] (-) TimerEvent: {}
+[24.398826] (-) TimerEvent: {}
+[24.500219] (-) TimerEvent: {}
+[24.601119] (-) TimerEvent: {}
+[24.702213] (-) TimerEvent: {}
+[24.803225] (-) TimerEvent: {}
+[24.904182] (-) TimerEvent: {}
+[25.005184] (-) TimerEvent: {}
+[25.106043] (-) TimerEvent: {}
+[25.207147] (-) TimerEvent: {}
+[25.308055] (-) TimerEvent: {}
+[25.409314] (-) TimerEvent: {}
+[25.510241] (-) TimerEvent: {}
+[25.611400] (-) TimerEvent: {}
+[25.712307] (-) TimerEvent: {}
+[25.813350] (-) TimerEvent: {}
+[25.914473] (-) TimerEvent: {}
+[26.017417] (-) TimerEvent: {}
+[26.118995] (-) TimerEvent: {}
+[26.219967] (-) TimerEvent: {}
+[26.321173] (-) TimerEvent: {}
+[26.422260] (-) TimerEvent: {}
+[26.524520] (-) TimerEvent: {}
+[26.626667] (-) TimerEvent: {}
+[26.728968] (-) TimerEvent: {}
+[26.829836] (-) TimerEvent: {}
+[26.930641] (-) TimerEvent: {}
+[27.031567] (-) TimerEvent: {}
+[27.132842] (-) TimerEvent: {}
+[27.233687] (-) TimerEvent: {}
+[27.334557] (-) TimerEvent: {}
+[27.435376] (-) TimerEvent: {}
+[27.536515] (-) TimerEvent: {}
+[27.637459] (-) TimerEvent: {}
+[27.738272] (-) TimerEvent: {}
+[27.839106] (-) TimerEvent: {}
+[27.939986] (-) TimerEvent: {}
+[28.040929] (-) TimerEvent: {}
+[28.141973] (-) TimerEvent: {}
+[28.243073] (-) TimerEvent: {}
+[28.344050] (-) TimerEvent: {}
+[28.445266] (-) TimerEvent: {}
+[28.546128] (-) TimerEvent: {}
+[28.646988] (-) TimerEvent: {}
+[28.748556] (-) TimerEvent: {}
+[28.849939] (-) TimerEvent: {}
+[28.951150] (-) TimerEvent: {}
+[29.052092] (-) TimerEvent: {}
+[29.153103] (-) TimerEvent: {}
+[29.253970] (-) TimerEvent: {}
+[29.354857] (-) TimerEvent: {}
+[29.455862] (-) TimerEvent: {}
+[29.557080] (-) TimerEvent: {}
+[29.658246] (-) TimerEvent: {}
+[29.759667] (-) TimerEvent: {}
+[29.860789] (-) TimerEvent: {}
+[29.961665] (-) TimerEvent: {}
+[30.062589] (-) TimerEvent: {}
+[30.163815] (-) TimerEvent: {}
+[30.264729] (-) TimerEvent: {}
+[30.365585] (-) TimerEvent: {}
+[30.466461] (-) TimerEvent: {}
+[30.567417] (-) TimerEvent: {}
+[30.669100] (-) TimerEvent: {}
+[30.769974] (-) TimerEvent: {}
+[30.870821] (-) TimerEvent: {}
+[30.971677] (-) TimerEvent: {}
+[31.072847] (-) TimerEvent: {}
+[31.173662] (-) TimerEvent: {}
+[31.274561] (-) TimerEvent: {}
+[31.375403] (-) TimerEvent: {}
+[31.476258] (-) TimerEvent: {}
+[31.577133] (-) TimerEvent: {}
+[31.677968] (-) TimerEvent: {}
+[31.778867] (-) TimerEvent: {}
+[31.879729] (-) TimerEvent: {}
+[31.980599] (-) TimerEvent: {}
+[32.081554] (-) TimerEvent: {}
+[32.182385] (-) TimerEvent: {}
+[32.283293] (-) TimerEvent: {}
+[32.384200] (-) TimerEvent: {}
+[32.485167] (-) TimerEvent: {}
+[32.585979] (-) TimerEvent: {}
+[32.686892] (-) TimerEvent: {}
+[32.787918] (-) TimerEvent: {}
+[32.889371] (-) TimerEvent: {}
+[32.990235] (-) TimerEvent: {}
+[33.091076] (-) TimerEvent: {}
+[33.191898] (-) TimerEvent: {}
+[33.292752] (-) TimerEvent: {}
+[33.393585] (-) TimerEvent: {}
+[33.494419] (-) TimerEvent: {}
+[33.595284] (-) TimerEvent: {}
+[33.696151] (-) TimerEvent: {}
+[33.797054] (-) TimerEvent: {}
+[33.897979] (-) TimerEvent: {}
+[33.998922] (-) TimerEvent: {}
+[34.099808] (-) TimerEvent: {}
+[34.200659] (-) TimerEvent: {}
+[34.301562] (-) TimerEvent: {}
+[34.402478] (-) TimerEvent: {}
+[34.503337] (-) TimerEvent: {}
+[34.604203] (-) TimerEvent: {}
+[34.705161] (-) TimerEvent: {}
+[34.806034] (-) TimerEvent: {}
+[34.907025] (-) TimerEvent: {}
+[35.008061] (-) TimerEvent: {}
+[35.109048] (-) TimerEvent: {}
+[35.211509] (-) TimerEvent: {}
+[35.312442] (-) TimerEvent: {}
+[35.413362] (-) TimerEvent: {}
+[35.514318] (-) TimerEvent: {}
+[35.615160] (-) TimerEvent: {}
+[35.716024] (-) TimerEvent: {}
+[35.816933] (-) TimerEvent: {}
+[35.917846] (-) TimerEvent: {}
+[36.018770] (-) TimerEvent: {}
+[36.119794] (-) TimerEvent: {}
+[36.220661] (-) TimerEvent: {}
+[36.321550] (-) TimerEvent: {}
+[36.422412] (-) TimerEvent: {}
+[36.523288] (-) TimerEvent: {}
+[36.624159] (-) TimerEvent: {}
+[36.725034] (-) TimerEvent: {}
+[36.825883] (-) TimerEvent: {}
+[36.926911] (-) TimerEvent: {}
+[37.027825] (-) TimerEvent: {}
+[37.128657] (-) TimerEvent: {}
+[37.229526] (-) TimerEvent: {}
+[37.330368] (-) TimerEvent: {}
+[37.431267] (-) TimerEvent: {}
+[37.532172] (-) TimerEvent: {}
+[37.633119] (-) TimerEvent: {}
+[37.734332] (-) TimerEvent: {}
+[37.835190] (-) TimerEvent: {}
+[37.936090] (-) TimerEvent: {}
+[38.036957] (-) TimerEvent: {}
+[38.137911] (-) TimerEvent: {}
+[38.238750] (-) TimerEvent: {}
+[38.339588] (-) TimerEvent: {}
+[38.440457] (-) TimerEvent: {}
+[38.541390] (-) TimerEvent: {}
+[38.642205] (-) TimerEvent: {}
+[38.743035] (-) TimerEvent: {}
+[38.843871] (-) TimerEvent: {}
+[38.945635] (-) TimerEvent: {}
+[39.046456] (-) TimerEvent: {}
+[39.147317] (-) TimerEvent: {}
+[39.248175] (-) TimerEvent: {}
+[39.349093] (-) TimerEvent: {}
+[39.449940] (-) TimerEvent: {}
+[39.550761] (-) TimerEvent: {}
+[39.651626] (-) TimerEvent: {}
+[39.752601] (-) TimerEvent: {}
+[39.853659] (-) TimerEvent: {}
+[39.955761] (-) TimerEvent: {}
+[40.056758] (-) TimerEvent: {}
+[40.159419] (-) TimerEvent: {}
+[40.260373] (-) TimerEvent: {}
+[40.361244] (-) TimerEvent: {}
+[40.462049] (-) TimerEvent: {}
+[40.562906] (-) TimerEvent: {}
+[40.663703] (-) TimerEvent: {}
+[40.764625] (-) TimerEvent: {}
+[40.865490] (-) TimerEvent: {}
+[40.966452] (-) TimerEvent: {}
+[41.067329] (-) TimerEvent: {}
+[41.168197] (-) TimerEvent: {}
+[41.269099] (-) TimerEvent: {}
+[41.370263] (-) TimerEvent: {}
+[41.471301] (-) TimerEvent: {}
+[41.572117] (-) TimerEvent: {}
+[41.673039] (-) TimerEvent: {}
+[41.773914] (-) TimerEvent: {}
+[41.875099] (-) TimerEvent: {}
+[41.975957] (-) TimerEvent: {}
+[42.076831] (-) TimerEvent: {}
+[42.177942] (-) TimerEvent: {}
+[42.280124] (-) TimerEvent: {}
+[42.382442] (-) TimerEvent: {}
+[42.484227] (-) TimerEvent: {}
+[42.589860] (-) TimerEvent: {}
+[42.693313] (-) TimerEvent: {}
+[42.794338] (-) TimerEvent: {}
+[42.895148] (-) TimerEvent: {}
+[42.996634] (-) TimerEvent: {}
+[43.097729] (-) TimerEvent: {}
+[43.198602] (-) TimerEvent: {}
+[43.299777] (-) TimerEvent: {}
+[43.400752] (-) TimerEvent: {}
+[43.501619] (-) TimerEvent: {}
+[43.602526] (-) TimerEvent: {}
+[43.703465] (-) TimerEvent: {}
+[43.804342] (-) TimerEvent: {}
+[43.905366] (-) TimerEvent: {}
+[44.006272] (-) TimerEvent: {}
+[44.107695] (-) TimerEvent: {}
+[44.209112] (-) TimerEvent: {}
+[44.309974] (-) TimerEvent: {}
+[44.410856] (-) TimerEvent: {}
+[44.511891] (-) TimerEvent: {}
+[44.612918] (-) TimerEvent: {}
+[44.713994] (-) TimerEvent: {}
+[44.816980] (-) TimerEvent: {}
+[44.918435] (-) TimerEvent: {}
+[45.019453] (-) TimerEvent: {}
+[45.120750] (-) TimerEvent: {}
+[45.221903] (-) TimerEvent: {}
+[45.323463] (-) TimerEvent: {}
+[45.424420] (-) TimerEvent: {}
+[45.525646] (-) TimerEvent: {}
+[45.530856] (drivetrain) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable drivetrainNode\x1b[0m\n'}
+[45.625904] (-) TimerEvent: {}
+[45.726993] (-) TimerEvent: {}
+[45.831082] (-) TimerEvent: {}
+[45.932739] (-) TimerEvent: {}
+[46.038901] (-) TimerEvent: {}
+[46.141027] (-) TimerEvent: {}
+[46.246004] (-) TimerEvent: {}
+[46.348244] (-) TimerEvent: {}
+[46.449812] (-) TimerEvent: {}
+[46.556222] (-) TimerEvent: {}
+[46.660367] (-) TimerEvent: {}
+[46.764020] (-) TimerEvent: {}
+[46.869888] (-) TimerEvent: {}
+[46.975983] (-) TimerEvent: {}
+[47.079228] (-) TimerEvent: {}
+[47.185197] (-) TimerEvent: {}
+[47.293142] (-) TimerEvent: {}
+[47.398447] (-) TimerEvent: {}
+[47.504399] (-) TimerEvent: {}
+[47.607877] (-) TimerEvent: {}
+[47.710218] (-) TimerEvent: {}
+[47.811831] (-) TimerEvent: {}
+[47.912690] (-) TimerEvent: {}
+[48.013625] (-) TimerEvent: {}
+[48.114412] (-) TimerEvent: {}
+[48.215206] (-) TimerEvent: {}
+[48.316290] (-) TimerEvent: {}
+[48.418002] (-) TimerEvent: {}
+[48.519850] (-) TimerEvent: {}
+[48.620642] (-) TimerEvent: {}
+[48.722030] (-) TimerEvent: {}
+[48.735383] (drivetrain) StdoutLine: {'line': b'[100%] Built target drivetrainNode\n'}
+[48.782645] (drivetrain) CommandEnded: {'returncode': 0}
+[48.822272] (-) TimerEvent: {}
+[48.923418] (-) TimerEvent: {}
+[48.942675] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'install'}
+[48.986446] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--install', '/TestBotTeaching/build/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '67eb869990eb'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[49.022952] (drivetrain) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.023643] (-) TimerEvent: {}
+[49.025093] (drivetrain) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[49.026845] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode\n'}
+[49.028159] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain\n'}
+[49.029612] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain\n'}
+[49.030877] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh\n'}
+[49.031843] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv\n'}
+[49.033041] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh\n'}
+[49.034040] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv\n'}
+[49.035011] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash\n'}
+[49.036031] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh\n'}
+[49.037007] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh\n'}
+[49.037949] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv\n'}
+[49.038631] (drivetrain) StdoutLine: {'line': b'-- Symlinking: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv\n'}
+[49.077782] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain\n'}
+[49.078765] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake\n'}
+[49.079653] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake\n'}
+[49.080705] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml\n'}
+[49.087148] (drivetrain) CommandEnded: {'returncode': 0}
+[49.124372] (-) TimerEvent: {}
+[49.226099] (-) TimerEvent: {}
+[49.328194] (-) TimerEvent: {}
+[49.431222] (-) TimerEvent: {}
+[49.504455] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 0}
+[49.513291] (-) EventReactorShutdown: {}

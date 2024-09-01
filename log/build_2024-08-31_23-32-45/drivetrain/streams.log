@@ -1,0 +1,34 @@
+[0.128s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target drivetrainNode[0m
+[0.535s] [ 33%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/uart.cpp.o[0m
+[2.384s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In member function ‘[01m[Kvoid Uart::readUart()[m[K’:
+[2.385s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:191:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kii[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.386s]   191 |   int [01;35m[Kii[m[K;
+[2.387s]       |       [01;35m[K^~[m[K
+[2.743s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[2.747s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.Uart::fid[m[K’ is used uninitialized [[01;35m[K-Wuninitialized[m[K]
+[2.750s]    25 |   [01;35m[Ktcgetattr(fid, &port_options)[m[K;        // Get the current attributes of the Serial port
+[2.759s]       |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.933s] [ 66%] [32m[1mLinking CXX executable drivetrainNode[0m
+[6.266s] [100%] Built target drivetrainNode
+[6.313s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[6.526s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[6.560s] -- Install configuration: ""
+[6.562s] -- Installing: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode
+[6.603s] -- Set runtime path of "/TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode" to ""
+[6.603s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+[6.604s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+[6.605s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+[6.605s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+[6.606s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh
+[6.606s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv
+[6.614s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash
+[6.615s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh
+[6.617s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh
+[6.617s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv
+[6.618s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv
+[6.619s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[6.620s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+[6.620s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+[6.621s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml
+[6.627s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain

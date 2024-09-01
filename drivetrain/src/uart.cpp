@@ -40,12 +40,12 @@ Uart :: Uart (){
   //                 Caution: VMIN and VTIME flags are ignored if O_NONBLOCK flag is set.
   //	    O_NOCTTY - When set and path identifies a terminal device, open() shall not cause the terminal device to become the controlling terminal for the process.fid = open("/dev/ttyTHS1", O_RDWR | O_NOCTTY | O_NDELAY);		//Open in non blocking read/write mode
 
-  fid = open(uart_target, O_RDWR | O_NOCTTY );
+  fid = open(uart_target, O_RDWR | O_NOCTTY | O_NDELAY );
 
   tcflush(fid, TCIFLUSH);
   tcflush(fid, TCIOFLUSH);
 
-  usleep(1000000);  // 1 sec delay
+  // usleep(1000000);  // 1 sec delay
 
   if (fid == -1)
   {
@@ -75,16 +75,23 @@ Uart :: Uart (){
   port_options.c_cflag &= ~CRTSCTS;           // No Hardware flow Control
   port_options.c_cflag |=  CREAD | CLOCAL;                  // Enable receiver,Ignore Modem Control lines
   port_options.c_iflag &= ~(IXON | IXOFF | IXANY);          // Disable XON/XOFF flow control both input & output
-  port_options.c_iflag &= ~(ICANON | ECHO | ECHOE | ISIG);  // Non Cannonical mode
+  // port_options.c_iflag &= ~(ICANON | ECHO | ECHOE | ISIG);  // Non Cannonical mode
+  port_options.c_iflag &= ~(IGNBRK|BRKINT|PARMRK|ISTRIP|INLCR|IGNCR|ICRNL);
+
   port_options.c_oflag &= ~OPOST;                           // No Output Processing
+  port_options.c_oflag &= ~ONLCR;
 
-  port_options.c_lflag = 0;               //  enable raw input instead of canonical,
+  port_options.c_lflag &= ~ICANON;               //  enable raw input instead of canonical,
+  port_options.c_lflag &= ~ECHO;
+  port_options.c_lflag &= ~ECHOE;
+  port_options.c_lflag &= ~ECHONL;
+  port_options.c_lflag &= ~ISIG;
 
-  port_options.c_cc[VMIN]  = VMINX;       // Read at least 1 character
+  port_options.c_cc[VMIN]  = 0;       // Read at least 1 character
   port_options.c_cc[VTIME] = 0;           // Wait indefinetly
 
-  cfsetispeed(&port_options,BAUDRATE);    // Set Read  Speed
-  cfsetospeed(&port_options,BAUDRATE);    // Set Write Speed
+  cfsetispeed(&port_options,B115200);    // Set Read  Speed
+  cfsetospeed(&port_options,B115200);    // Set Write Speed
 
   // Set the attributes to the termios structure
   int att = tcsetattr(fid, TCSANOW, &port_options);
@@ -102,8 +109,7 @@ Uart :: Uart (){
   tcflush(fid, TCIFLUSH);
   tcflush(fid, TCIOFLUSH);
 
-  usleep(500000);   // 0.5 sec delay
-
+  // usleep(500000);   // 0.5 sec delay
 
 }
 
@@ -128,7 +134,7 @@ void Uart :: sendUart(unsigned char *msg){
   {
     int count = write(fid, &tx_buffer[0], (p_tx_buffer - &tx_buffer[0]));		//Filestream, bytes to write, number of bytes to write
 
-    usleep(1000);   // .001 sec delay
+    // usleep(1000);   // .001 sec delay
 
     printf("Count = %d\n", count);
 
@@ -161,7 +167,7 @@ bool  Uart :: sendUart_fb(unsigned char *msg){
   {
     int count = write(fid, &tx_buffer[0], (p_tx_buffer - &tx_buffer[0]));		//Filestream, bytes to write, number of bytes to write
 
-    usleep(1000);   // .001 sec delay
+    // usleep(1000);   // .001 sec delay
 
     printf("Count = %d\n", count);
 
@@ -194,41 +200,35 @@ void Uart :: readUart(){
 
   tcflush(fid, TCIOFLUSH);
 
-  usleep(1000);   // .001 sec delay
+  usleep(10000);   // .001 sec delay
 
   printf("Ready to receive message.\n");
 
-  // for (ii=0; ii<NSERIAL_CHAR; ii++)  serial_message[ii]=' ';
+  for (ii=0; ii<NSERIAL_CHAR; ii++)  serial_message[ii]=' ';
 
 
   while (pickup && fid != -1)
   {
     nread++;
 
-    printf("r\n");
     rx_length = read(fid, (void*)rx_buffer, VMINX);   // Filestream, buffer to store in, number of bytes to read (max)
-    printf("2\n");
 
     // printf("Event %d, rx_length=%d, Read=%s\n",  nread, rx_length, rx_buffer );
 
-    printf("%.*s", rx_length, rx_buffer);
+    //printf("%.*s", rx_length, rx_buffer);
 
     if (rx_length < 0)
-    {
-      //An error occured (will occur if there are no bytes)
-      printf("E");
+    { //An error occured (will occur if there are no bytes)
     }
 
     if (rx_length == 0)
-    {
-      //No data waiting
-      printf("n");
+    { //No data waiting
     }
 
     if (rx_length>=0)
     {
       if (nread<=NSERIAL_CHAR){
-        // serial_message[nread-1] = rx_buffer[0];   // Build message 1 character at a time
+        serial_message[nread-1] = rx_buffer[0];   // Build message 1 character at a time
         // printf("%x ",serial_message[nread-1]);
       }
 
@@ -237,6 +237,7 @@ void Uart :: readUart(){
     }
   }
 
+  // printf(serial_message);
   printf("\nMessage Received:");
 
 }

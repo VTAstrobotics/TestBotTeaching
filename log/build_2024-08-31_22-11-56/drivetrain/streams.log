@@ -1,0 +1,37 @@
+[0.084s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target drivetrainNode[0m
+[0.547s] [ 33%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/uart.cpp.o[0m
+[2.750s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In member function ‘[01m[Kvoid Uart::readUart()[m[K’:
+[2.752s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:213:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[2.753s]   213 |     printf("[01;35m[K%s[m[K", [32m[Krx_buffer[0][m[K);
+[2.755s]       |             [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~[m[K
+[2.756s]       |              [01;35m[K|[m[K              [32m[K|[m[K
+[2.757s]       |              [01;35m[Kchar*[m[K          [32m[Kint[m[K
+[2.759s]       |             [32m[K%d[m[K
+[2.928s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[2.929s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.Uart::fid[m[K’ is used uninitialized [[01;35m[K-Wuninitialized[m[K]
+[2.930s]    25 |   [01;35m[Ktcgetattr(fid, &port_options)[m[K;        // Get the current attributes of the Serial port
+[2.930s]       |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.098s] [ 66%] [32m[1mLinking CXX executable drivetrainNode[0m
+[6.501s] [100%] Built target drivetrainNode
+[6.559s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[6.768s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[6.803s] -- Install configuration: ""
+[6.804s] -- Installing: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode
+[6.846s] -- Set runtime path of "/TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode" to ""
+[6.847s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+[6.848s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+[6.848s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+[6.849s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+[6.850s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh
+[6.850s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv
+[6.851s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash
+[6.851s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh
+[6.852s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh
+[6.852s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv
+[6.853s] -- Installing: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv
+[6.854s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[6.854s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+[6.855s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+[6.855s] -- Up-to-date: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml
+[6.866s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain

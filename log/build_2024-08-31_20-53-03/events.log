@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.004953] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.005929] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.066175] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.070770] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.074686] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'add682492d05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[0.096947] (-) TimerEvent: {}
+[0.197980] (-) TimerEvent: {}
+[0.299474] (-) TimerEvent: {}
+[0.333742] (drivetrain) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drivetrainNode\x1b[0m\n'}
+[0.401095] (-) TimerEvent: {}
+[0.485842] (drivetrain) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[0.501263] (-) TimerEvent: {}
+[0.603091] (-) TimerEvent: {}
+[0.704802] (-) TimerEvent: {}
+[0.807422] (-) TimerEvent: {}
+[0.917850] (-) TimerEvent: {}
+[1.020788] (-) TimerEvent: {}
+[1.123578] (-) TimerEvent: {}
+[1.225578] (-) TimerEvent: {}
+[1.327773] (-) TimerEvent: {}
+[1.430101] (-) TimerEvent: {}
+[1.531684] (-) TimerEvent: {}
+[1.634356] (-) TimerEvent: {}
+[1.736067] (-) TimerEvent: {}
+[1.840862] (-) TimerEvent: {}
+[1.944080] (-) TimerEvent: {}
+[2.046576] (-) TimerEvent: {}
+[2.147690] (-) TimerEvent: {}
+[2.250301] (-) TimerEvent: {}
+[2.353647] (-) TimerEvent: {}
+[2.455406] (-) TimerEvent: {}
+[2.557282] (-) TimerEvent: {}
+[2.663264] (-) TimerEvent: {}
+[2.765905] (-) TimerEvent: {}
+[2.868264] (-) TimerEvent: {}
+[2.969597] (-) TimerEvent: {}
+[3.070495] (-) TimerEvent: {}
+[3.171352] (-) TimerEvent: {}
+[3.272350] (-) TimerEvent: {}
+[3.373309] (-) TimerEvent: {}
+[3.474537] (-) TimerEvent: {}
+[3.575901] (-) TimerEvent: {}
+[3.676817] (-) TimerEvent: {}
+[3.777750] (-) TimerEvent: {}
+[3.878619] (-) TimerEvent: {}
+[3.979493] (-) TimerEvent: {}
+[4.080413] (-) TimerEvent: {}
+[4.181420] (-) TimerEvent: {}
+[4.282404] (-) TimerEvent: {}
+[4.383220] (-) TimerEvent: {}
+[4.484120] (-) TimerEvent: {}
+[4.585082] (-) TimerEvent: {}
+[4.686030] (-) TimerEvent: {}
+[4.787317] (-) TimerEvent: {}
+[4.888211] (-) TimerEvent: {}
+[4.989668] (-) TimerEvent: {}
+[5.090663] (-) TimerEvent: {}
+[5.191725] (-) TimerEvent: {}
+[5.292902] (-) TimerEvent: {}
+[5.393880] (-) TimerEvent: {}
+[5.494747] (-) TimerEvent: {}
+[5.595868] (-) TimerEvent: {}
+[5.698662] (-) TimerEvent: {}
+[5.799702] (-) TimerEvent: {}
+[5.900680] (-) TimerEvent: {}
+[6.001832] (-) TimerEvent: {}
+[6.102883] (-) TimerEvent: {}
+[6.203712] (-) TimerEvent: {}
+[6.304598] (-) TimerEvent: {}
+[6.405690] (-) TimerEvent: {}
+[6.506519] (-) TimerEvent: {}
+[6.607448] (-) TimerEvent: {}
+[6.708367] (-) TimerEvent: {}
+[6.809254] (-) TimerEvent: {}
+[6.910178] (-) TimerEvent: {}
+[7.011135] (-) TimerEvent: {}
+[7.112695] (-) TimerEvent: {}
+[7.213564] (-) TimerEvent: {}
+[7.314574] (-) TimerEvent: {}
+[7.415508] (-) TimerEvent: {}
+[7.516773] (-) TimerEvent: {}
+[7.617790] (-) TimerEvent: {}
+[7.718644] (-) TimerEvent: {}
+[7.819571] (-) TimerEvent: {}
+[7.922154] (-) TimerEvent: {}
+[8.023091] (-) TimerEvent: {}
+[8.125220] (-) TimerEvent: {}
+[8.226365] (-) TimerEvent: {}
+[8.327624] (-) TimerEvent: {}
+[8.428627] (-) TimerEvent: {}
+[8.529563] (-) TimerEvent: {}
+[8.630497] (-) TimerEvent: {}
+[8.731435] (-) TimerEvent: {}
+[8.832454] (-) TimerEvent: {}
+[8.933346] (-) TimerEvent: {}
+[9.034476] (-) TimerEvent: {}
+[9.135343] (-) TimerEvent: {}
+[9.236238] (-) TimerEvent: {}
+[9.337100] (-) TimerEvent: {}
+[9.438016] (-) TimerEvent: {}
+[9.538858] (-) TimerEvent: {}
+[9.639881] (-) TimerEvent: {}
+[9.740905] (-) TimerEvent: {}
+[9.841850] (-) TimerEvent: {}
+[9.942763] (-) TimerEvent: {}
+[10.044289] (-) TimerEvent: {}
+[10.145218] (-) TimerEvent: {}
+[10.246191] (-) TimerEvent: {}
+[10.347041] (-) TimerEvent: {}
+[10.448004] (-) TimerEvent: {}
+[10.548923] (-) TimerEvent: {}
+[10.649965] (-) TimerEvent: {}
+[10.750907] (-) TimerEvent: {}
+[10.851832] (-) TimerEvent: {}
+[10.952853] (-) TimerEvent: {}
+[11.054050] (-) TimerEvent: {}
+[11.155435] (-) TimerEvent: {}
+[11.256485] (-) TimerEvent: {}
+[11.357652] (-) TimerEvent: {}
+[11.458573] (-) TimerEvent: {}
+[11.559588] (-) TimerEvent: {}
+[11.660576] (-) TimerEvent: {}
+[11.761692] (-) TimerEvent: {}
+[11.862768] (-) TimerEvent: {}
+[11.963792] (-) TimerEvent: {}
+[12.064678] (-) TimerEvent: {}
+[12.165596] (-) TimerEvent: {}
+[12.266756] (-) TimerEvent: {}
+[12.367685] (-) TimerEvent: {}
+[12.468569] (-) TimerEvent: {}
+[12.569425] (-) TimerEvent: {}
+[12.671235] (-) TimerEvent: {}
+[12.772129] (-) TimerEvent: {}
+[12.873107] (-) TimerEvent: {}
+[12.974045] (-) TimerEvent: {}
+[13.074988] (-) TimerEvent: {}
+[13.176086] (-) TimerEvent: {}
+[13.276926] (-) TimerEvent: {}
+[13.377835] (-) TimerEvent: {}
+[13.427917] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDriveSub::DriveSub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.431585] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[13.432527] (drivetrain) StderrLine: {'line': b'   17 |       "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.433183] (drivetrain) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.433882] (drivetrain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[13.434550] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:2\x1b[m\x1b[K:\n'}
+[13.435472] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.437028] (drivetrain) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[13.438029] (drivetrain) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.438908] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.439577] (drivetrain) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.440485] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.441389] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:17:63:\x1b[m\x1b[K   required from here\n'}
+[13.442031] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.442623] (drivetrain) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[13.443177] (drivetrain) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.443714] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.444424] (drivetrain) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[13.444935] (drivetrain) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.445390] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.446149] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:17:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.446761] (drivetrain) StderrLine: {'line': b'   17 |       "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.447241] (drivetrain) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.447696] (drivetrain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[13.448210] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:2\x1b[m\x1b[K:\n'}
+[13.448721] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.449252] (drivetrain) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[13.449808] (drivetrain) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.450284] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.450796] (drivetrain) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.451318] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.451902] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:17:63:\x1b[m\x1b[K   required from here\n'}
+[13.452343] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.452878] (drivetrain) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[13.453355] (drivetrain) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.454038] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.454586] (drivetrain) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[13.455078] (drivetrain) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.455553] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.456116] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:17:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.456667] (drivetrain) StderrLine: {'line': b'   17 |       "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.457151] (drivetrain) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.457713] (drivetrain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[13.458246] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:2\x1b[m\x1b[K:\n'}
+[13.458765] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.459309] (drivetrain) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[13.459793] (drivetrain) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.460244] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.460836] (drivetrain) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[13.461315] (drivetrain) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.461874] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.462412] (drivetrain) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[13.462921] (drivetrain) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.463404] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.464097] (drivetrain) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[13.464619] (drivetrain) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.478015] (-) TimerEvent: {}
+[13.579388] (-) TimerEvent: {}
+[13.680322] (-) TimerEvent: {}
+[13.781211] (-) TimerEvent: {}
+[13.882199] (-) TimerEvent: {}
+[13.983056] (-) TimerEvent: {}
+[14.083949] (-) TimerEvent: {}
+[14.184830] (-) TimerEvent: {}
+[14.285664] (-) TimerEvent: {}
+[14.386571] (-) TimerEvent: {}
+[14.487443] (-) TimerEvent: {}
+[14.588971] (-) TimerEvent: {}
+[14.690474] (-) TimerEvent: {}
+[14.791317] (-) TimerEvent: {}
+[14.892355] (-) TimerEvent: {}
+[14.993467] (-) TimerEvent: {}
+[15.094473] (-) TimerEvent: {}
+[15.195427] (-) TimerEvent: {}
+[15.296370] (-) TimerEvent: {}
+[15.397451] (-) TimerEvent: {}
+[15.498377] (-) TimerEvent: {}
+[15.599285] (-) TimerEvent: {}
+[15.701439] (-) TimerEvent: {}
+[15.802315] (-) TimerEvent: {}
+[15.903307] (-) TimerEvent: {}
+[16.004154] (-) TimerEvent: {}
+[16.107002] (-) TimerEvent: {}
+[16.207992] (-) TimerEvent: {}
+[16.308891] (-) TimerEvent: {}
+[16.410051] (-) TimerEvent: {}
+[16.511338] (-) TimerEvent: {}
+[16.612219] (-) TimerEvent: {}
+[16.713183] (-) TimerEvent: {}
+[16.814146] (-) TimerEvent: {}
+[16.915106] (-) TimerEvent: {}
+[17.016020] (-) TimerEvent: {}
+[17.116980] (-) TimerEvent: {}
+[17.218546] (-) TimerEvent: {}
+[17.319880] (-) TimerEvent: {}
+[17.420762] (-) TimerEvent: {}
+[17.521652] (-) TimerEvent: {}
+[17.622549] (-) TimerEvent: {}
+[17.723438] (-) TimerEvent: {}
+[17.824406] (-) TimerEvent: {}
+[17.925329] (-) TimerEvent: {}
+[18.026464] (-) TimerEvent: {}
+[18.127948] (-) TimerEvent: {}
+[18.228857] (-) TimerEvent: {}
+[18.329737] (-) TimerEvent: {}
+[18.430695] (-) TimerEvent: {}
+[18.531635] (-) TimerEvent: {}
+[18.632592] (-) TimerEvent: {}
+[18.733409] (-) TimerEvent: {}
+[18.834353] (-) TimerEvent: {}
+[18.935236] (-) TimerEvent: {}
+[19.036076] (-) TimerEvent: {}
+[19.136970] (-) TimerEvent: {}
+[19.238018] (-) TimerEvent: {}
+[19.339005] (-) TimerEvent: {}
+[19.439877] (-) TimerEvent: {}
+[19.540882] (-) TimerEvent: {}
+[19.641956] (-) TimerEvent: {}
+[19.742861] (-) TimerEvent: {}
+[19.843749] (-) TimerEvent: {}
+[19.944627] (-) TimerEvent: {}
+[20.045560] (-) TimerEvent: {}
+[20.146598] (-) TimerEvent: {}
+[20.247497] (-) TimerEvent: {}
+[20.348431] (-) TimerEvent: {}
+[20.449916] (-) TimerEvent: {}
+[20.550870] (-) TimerEvent: {}
+[20.651773] (-) TimerEvent: {}
+[20.752668] (-) TimerEvent: {}
+[20.853572] (-) TimerEvent: {}
+[20.954442] (-) TimerEvent: {}
+[21.055321] (-) TimerEvent: {}
+[21.156199] (-) TimerEvent: {}
+[21.257345] (-) TimerEvent: {}
+[21.358488] (-) TimerEvent: {}
+[21.459347] (-) TimerEvent: {}
+[21.560263] (-) TimerEvent: {}
+[21.661173] (-) TimerEvent: {}
+[21.762217] (-) TimerEvent: {}
+[21.863132] (-) TimerEvent: {}
+[21.963990] (-) TimerEvent: {}
+[22.065028] (-) TimerEvent: {}
+[22.166039] (-) TimerEvent: {}
+[22.267055] (-) TimerEvent: {}
+[22.367852] (-) TimerEvent: {}
+[22.468642] (-) TimerEvent: {}
+[22.569542] (-) TimerEvent: {}
+[22.670471] (-) TimerEvent: {}
+[22.771417] (-) TimerEvent: {}
+[22.872783] (-) TimerEvent: {}
+[22.883841] (drivetrain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1\n'}
+[22.885309] (drivetrain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2\n'}
+[22.889733] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.892923] (drivetrain) CommandEnded: {'returncode': 2}
+[22.972982] (-) TimerEvent: {}
+[23.074582] (-) TimerEvent: {}
+[23.127441] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 2}
+[23.139729] (-) EventReactorShutdown: {}

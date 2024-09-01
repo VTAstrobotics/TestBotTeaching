@@ -1,0 +1,36 @@
+[0.073s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[0.613s] [ 33%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[0.618s] [ 66%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/uart.cpp.o[0m
+[4.076s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[4.077s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kii[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.078s]    19 |   int [01;35m[Kii[m[K, jj, kk;
+[4.078s]       |       [01;35m[K^~[m[K
+[4.079s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjj[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.079s]    19 |   int ii, [01;35m[Kjj[m[K, kk;
+[4.080s]       |           [01;35m[K^~[m[K
+[4.080s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.081s]    19 |   int ii, jj, [01;35m[Kkk[m[K;
+[4.082s]       |               [01;35m[K^~[m[K
+[4.233s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[4.234s] [01m[K/TestBotTeaching/drivetrain/src/uart.cpp:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.Uart::fid[m[K’ is used uninitialized [[01;35m[K-Wuninitialized[m[K]
+[4.235s]    25 |   [01;35m[Ktcgetattr(fid, &port_options)[m[K;        // Get the current attributes of the Serial port
+[4.236s]       |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[18.623s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.662s]                  from [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:4[m[K:
+[18.665s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In member function ‘[01m[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.668s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:29:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[18.672s]    29 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Axes: [%f, %f]", msg->axes[0], msg->axes[1]);
+[18.674s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[29.582s] gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+[29.583s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+[29.584s] gmake: *** [Makefile:146: all] Error 2
+[29.595s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4

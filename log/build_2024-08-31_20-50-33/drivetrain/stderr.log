@@ -1,0 +1,14 @@
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kii[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |   int [01;35m[Kii[m[K, jj, kk;
+      |       [01;35m[K^~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjj[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |   int ii, [01;35m[Kjj[m[K, kk;
+      |           [01;35m[K^~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:19:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |   int ii, jj, [01;35m[Kkk[m[K;
+      |               [01;35m[K^~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:[m[K In constructor ‘[01m[KUart::Uart()[m[K’:
+[01m[K/TestBotTeaching/drivetrain/src/uart.cpp:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.Uart::fid[m[K’ is used uninitialized [[01;35m[K-Wuninitialized[m[K]
+   25 |   [01;35m[Ktcgetattr(fid, &port_options)[m[K;        // Get the current attributes of the Serial port
+      |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

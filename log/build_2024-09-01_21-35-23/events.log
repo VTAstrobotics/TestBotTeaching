@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001553] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.003022] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.003240] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.061491] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.093912] (-) TimerEvent: {}
+[0.128588] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.145715] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.151091] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '226ac0c0ad54'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.194097] (-) TimerEvent: {}
+[0.295168] (-) TimerEvent: {}
+[0.397188] (-) TimerEvent: {}
+[0.498095] (-) TimerEvent: {}
+[0.601363] (-) TimerEvent: {}
+[0.702558] (-) TimerEvent: {}
+[0.804442] (-) TimerEvent: {}
+[0.857053] (drivetrain) StdoutLine: {'line': b'[100%] Built target drivetrainNode\n'}
+[0.904612] (-) TimerEvent: {}
+[1.005561] (-) TimerEvent: {}
+[1.106473] (-) TimerEvent: {}
+[1.207848] (-) TimerEvent: {}
+[1.308782] (-) TimerEvent: {}
+[1.409585] (-) TimerEvent: {}
+[1.510424] (-) TimerEvent: {}
+[1.611187] (-) TimerEvent: {}
+[1.712197] (-) TimerEvent: {}
+[1.786392] (drivetrain) CommandEnded: {'returncode': 0}
+[1.812385] (-) TimerEvent: {}
+[1.915097] (-) TimerEvent: {}
+[1.926517] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'install'}
+[1.967743] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--install', '/TestBotTeaching/build/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '226ac0c0ad54'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.006863] (drivetrain) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.011505] (drivetrain) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.015038] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode\n'}
+[2.015970] (-) TimerEvent: {}
+[2.019180] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain\n'}
+[2.020431] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain\n'}
+[2.021111] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh\n'}
+[2.022262] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv\n'}
+[2.023538] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh\n'}
+[2.024680] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv\n'}
+[2.025815] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash\n'}
+[2.026959] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh\n'}
+[2.028645] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh\n'}
+[2.029850] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv\n'}
+[2.030987] (drivetrain) StdoutLine: {'line': b'-- Symlinking: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv\n'}
+[2.080708] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain\n'}
+[2.081894] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake\n'}
+[2.082900] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake\n'}
+[2.083974] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml\n'}
+[2.092049] (drivetrain) CommandEnded: {'returncode': 0}
+[2.116222] (-) TimerEvent: {}
+[2.219692] (-) TimerEvent: {}
+[2.320523] (-) TimerEvent: {}
+[2.384934] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 0}
+[2.421860] (-) TimerEvent: {}
+[2.522694] (-) TimerEvent: {}
+[2.623614] (-) TimerEvent: {}
+[2.726072] (-) TimerEvent: {}
+[2.827427] (-) TimerEvent: {}
+[2.928156] (-) TimerEvent: {}
+[3.028956] (-) TimerEvent: {}
+[3.132377] (-) TimerEvent: {}
+[3.233123] (-) TimerEvent: {}
+[3.334863] (-) TimerEvent: {}
+[3.435703] (-) TimerEvent: {}
+[3.536901] (-) TimerEvent: {}
+[3.637728] (-) TimerEvent: {}
+[3.738711] (-) TimerEvent: {}
+[3.840121] (-) TimerEvent: {}
+[3.859281] (pythonDriving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/TestBotTeaching/build/pythonDriving/build', '--no-deps', 'symlink_data'], 'cwd': '/TestBotTeaching/build/pythonDriving', 'env': {'HOSTNAME': '226ac0c0ad54', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/astro-dev', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/TestBotTeaching/build/pythonDriving', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.940283] (-) TimerEvent: {}
+[4.041355] (-) TimerEvent: {}
+[4.142083] (-) TimerEvent: {}
+[4.242997] (-) TimerEvent: {}
+[4.344236] (-) TimerEvent: {}
+[4.444954] (-) TimerEvent: {}
+[4.546021] (-) TimerEvent: {}
+[4.647188] (-) TimerEvent: {}
+[4.748072] (-) TimerEvent: {}
+[4.849035] (-) TimerEvent: {}
+[4.949835] (-) TimerEvent: {}
+[5.050652] (-) TimerEvent: {}
+[5.151442] (-) TimerEvent: {}
+[5.252200] (-) TimerEvent: {}
+[5.353093] (-) TimerEvent: {}
+[5.381412] (pythonDriving) StdoutLine: {'line': b'running develop\n'}
+[5.453260] (-) TimerEvent: {}
+[5.554021] (-) TimerEvent: {}
+[5.654756] (-) TimerEvent: {}
+[5.755586] (-) TimerEvent: {}
+[5.856378] (-) TimerEvent: {}
+[5.957134] (-) TimerEvent: {}
+[6.057912] (-) TimerEvent: {}
+[6.159210] (-) TimerEvent: {}
+[6.240494] (pythonDriving) StdoutLine: {'line': b'running egg_info\n'}
+[6.241338] (pythonDriving) StdoutLine: {'line': b'writing pythonDriving.egg-info/PKG-INFO\n'}
+[6.242515] (pythonDriving) StdoutLine: {'line': b'writing dependency_links to pythonDriving.egg-info/dependency_links.txt\n'}
+[6.243936] (pythonDriving) StdoutLine: {'line': b'writing entry points to pythonDriving.egg-info/entry_points.txt\n'}
+[6.244866] (pythonDriving) StdoutLine: {'line': b'writing requirements to pythonDriving.egg-info/requires.txt\n'}
+[6.245632] (pythonDriving) StdoutLine: {'line': b'writing top-level names to pythonDriving.egg-info/top_level.txt\n'}
+[6.254207] (pythonDriving) StdoutLine: {'line': b"reading manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.258510] (pythonDriving) StdoutLine: {'line': b"writing manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.259366] (-) TimerEvent: {}
+[6.265950] (pythonDriving) StdoutLine: {'line': b'running build_ext\n'}
+[6.267000] (pythonDriving) StdoutLine: {'line': b'Creating /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving.egg-link (link to .)\n'}
+[6.271015] (pythonDriving) StdoutLine: {'line': b'Installing pythonDriving script to /TestBotTeaching/install/pythonDriving/lib/pythonDriving\n'}
+[6.273108] (pythonDriving) StdoutLine: {'line': b'\n'}
+[6.273904] (pythonDriving) StdoutLine: {'line': b'Installed /TestBotTeaching/build/pythonDriving\n'}
+[6.274345] (pythonDriving) StdoutLine: {'line': b'running symlink_data\n'}
+[6.359667] (-) TimerEvent: {}
+[6.427907] (pythonDriving) CommandEnded: {'returncode': 0}
+[6.459806] (-) TimerEvent: {}
+[6.472610] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 0}
+[6.477383] (-) EventReactorShutdown: {}

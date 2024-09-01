@@ -1,0 +1,126 @@
+[0.866s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.866s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa53ba380>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa52d2aa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa52d2aa0>>, mixin_verb=('build',))
+[2.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/TestBotTeaching'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extensions ['ignore', 'ignore_ament_install']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extension 'ignore'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extension 'ignore_ament_install'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extensions ['colcon_pkg']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extension 'colcon_pkg'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extensions ['colcon_meta']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extension 'colcon_meta'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extensions ['ros']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(drivetrain) by extension 'ros'
+[2.346s] DEBUG:colcon.colcon_core.package_identification:Package 'drivetrain' with type 'ros.ament_cmake' and name 'drivetrain'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_cache' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_first' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_force_configure' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'ament_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.614s] DEBUG:colcon.colcon_core.verb:Building package 'drivetrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/TestBotTeaching/build/drivetrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/TestBotTeaching/install/drivetrain', 'merge_install': False, 'path': '/TestBotTeaching/drivetrain', 'symlink_install': False, 'test_result_base': None}
+[2.616s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/TestBotTeaching/drivetrain' with build type 'ament_cmake'
+[2.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/TestBotTeaching/drivetrain'
+[2.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+[16.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+[16.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[64.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[65.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[65.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[65.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[65.395s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain' for CMake module files
+[65.410s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain' for CMake config files
+[65.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'cmake_prefix_path')
+[65.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.ps1'
+[65.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.dsv'
+[65.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.sh'
+[65.462s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib'
+[65.465s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/bin'
+[65.467s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[65.486s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib/python3.10/site-packages'
+[65.489s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/bin'
+[65.493s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.ps1'
+[65.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv'
+[65.515s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.sh'
+[65.527s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.bash'
+[65.535s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.zsh'
+[65.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/TestBotTeaching/install/drivetrain/share/colcon-core/packages/drivetrain)
+[65.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[65.747s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain' for CMake module files
+[65.754s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain' for CMake config files
+[65.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'cmake_prefix_path')
+[65.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.ps1'
+[65.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.dsv'
+[65.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/TestBotTeaching/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.sh'
+[65.784s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib'
+[65.785s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/bin'
+[65.785s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[65.786s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/lib/python3.10/site-packages'
+[65.787s] Level 1:colcon.colcon_core.environment:checking '/TestBotTeaching/install/drivetrain/bin'
+[65.789s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.ps1'
+[65.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv'
+[65.798s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.sh'
+[65.806s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.bash'
+[65.813s] INFO:colcon.colcon_core.shell:Creating package script '/TestBotTeaching/install/drivetrain/share/drivetrain/package.zsh'
+[65.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/TestBotTeaching/install/drivetrain/share/colcon-core/packages/drivetrain)
+[65.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[65.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[65.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[65.837s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[65.989s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[65.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[65.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[65.995s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[65.997s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[65.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[66.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/TestBotTeaching/install/local_setup.ps1'
+[66.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/TestBotTeaching/install/_local_setup_util_ps1.py'
+[66.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/TestBotTeaching/install/setup.ps1'
+[66.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/TestBotTeaching/install/local_setup.sh'
+[66.065s] INFO:colcon.colcon_core.shell:Creating prefix util module '/TestBotTeaching/install/_local_setup_util_sh.py'
+[66.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/TestBotTeaching/install/setup.sh'
+[66.093s] INFO:colcon.colcon_core.shell:Creating prefix script '/TestBotTeaching/install/local_setup.bash'
+[66.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/TestBotTeaching/install/setup.bash'
+[66.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/TestBotTeaching/install/local_setup.zsh'
+[66.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/TestBotTeaching/install/setup.zsh'

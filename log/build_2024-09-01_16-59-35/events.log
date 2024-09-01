@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.003516] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.005835] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.095813] (-) TimerEvent: {}
+[0.141372] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.147880] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.151901] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', '3c220b9af21e'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astro-dev'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/TestBotTeaching/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble'), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/TestBotTeaching/install/drivetrain:/opt/ros/humble')]), 'shell': False}
+[0.196075] (-) TimerEvent: {}
+[0.297920] (-) TimerEvent: {}
+[0.399024] (-) TimerEvent: {}
+[0.416056] (drivetrain) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drivetrainNode\x1b[0m\n'}
+[0.499184] (-) TimerEvent: {}
+[0.552764] (drivetrain) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[0.599458] (-) TimerEvent: {}
+[0.701107] (-) TimerEvent: {}
+[0.803755] (-) TimerEvent: {}
+[0.905784] (-) TimerEvent: {}
+[1.006890] (-) TimerEvent: {}
+[1.114788] (-) TimerEvent: {}
+[1.217737] (-) TimerEvent: {}
+[1.318803] (-) TimerEvent: {}
+[1.420056] (-) TimerEvent: {}
+[1.520987] (-) TimerEvent: {}
+[1.621812] (-) TimerEvent: {}
+[1.722603] (-) TimerEvent: {}
+[1.823379] (-) TimerEvent: {}
+[1.924384] (-) TimerEvent: {}
+[2.025613] (-) TimerEvent: {}
+[2.128666] (-) TimerEvent: {}
+[2.230333] (-) TimerEvent: {}
+[2.333505] (-) TimerEvent: {}
+[2.434854] (-) TimerEvent: {}
+[2.539287] (-) TimerEvent: {}
+[2.640848] (-) TimerEvent: {}
+[2.742241] (-) TimerEvent: {}
+[2.843849] (-) TimerEvent: {}
+[2.945145] (-) TimerEvent: {}
+[3.045957] (-) TimerEvent: {}
+[3.146871] (-) TimerEvent: {}
+[3.247754] (-) TimerEvent: {}
+[3.348692] (-) TimerEvent: {}
+[3.449548] (-) TimerEvent: {}
+[3.550544] (-) TimerEvent: {}
+[3.651433] (-) TimerEvent: {}
+[3.752353] (-) TimerEvent: {}
+[3.853168] (-) TimerEvent: {}
+[3.954057] (-) TimerEvent: {}
+[4.055276] (-) TimerEvent: {}
+[4.156323] (-) TimerEvent: {}
+[4.257318] (-) TimerEvent: {}
+[4.358170] (-) TimerEvent: {}
+[4.459156] (-) TimerEvent: {}
+[4.560239] (-) TimerEvent: {}
+[4.661254] (-) TimerEvent: {}
+[4.762261] (-) TimerEvent: {}
+[4.863671] (-) TimerEvent: {}
+[4.966389] (-) TimerEvent: {}
+[5.067386] (-) TimerEvent: {}
+[5.168259] (-) TimerEvent: {}
+[5.269327] (-) TimerEvent: {}
+[5.370338] (-) TimerEvent: {}
+[5.471256] (-) TimerEvent: {}
+[5.572149] (-) TimerEvent: {}
+[5.673184] (-) TimerEvent: {}
+[5.774055] (-) TimerEvent: {}
+[5.875203] (-) TimerEvent: {}
+[5.976343] (-) TimerEvent: {}
+[6.077212] (-) TimerEvent: {}
+[6.178278] (-) TimerEvent: {}
+[6.279346] (-) TimerEvent: {}
+[6.381208] (-) TimerEvent: {}
+[6.482189] (-) TimerEvent: {}
+[6.583414] (-) TimerEvent: {}
+[6.684255] (-) TimerEvent: {}
+[6.785284] (-) TimerEvent: {}
+[6.886250] (-) TimerEvent: {}
+[6.987398] (-) TimerEvent: {}
+[7.088365] (-) TimerEvent: {}
+[7.190113] (-) TimerEvent: {}
+[7.291307] (-) TimerEvent: {}
+[7.392231] (-) TimerEvent: {}
+[7.493117] (-) TimerEvent: {}
+[7.594006] (-) TimerEvent: {}
+[7.694926] (-) TimerEvent: {}
+[7.795811] (-) TimerEvent: {}
+[7.896977] (-) TimerEvent: {}
+[7.997851] (-) TimerEvent: {}
+[8.098837] (-) TimerEvent: {}
+[8.199694] (-) TimerEvent: {}
+[8.301152] (-) TimerEvent: {}
+[8.402040] (-) TimerEvent: {}
+[8.502934] (-) TimerEvent: {}
+[8.603955] (-) TimerEvent: {}
+[8.704953] (-) TimerEvent: {}
+[8.805935] (-) TimerEvent: {}
+[8.906991] (-) TimerEvent: {}
+[9.007937] (-) TimerEvent: {}
+[9.108960] (-) TimerEvent: {}
+[9.209856] (-) TimerEvent: {}
+[9.310853] (-) TimerEvent: {}
+[9.412472] (-) TimerEvent: {}
+[9.513536] (-) TimerEvent: {}
+[9.615132] (-) TimerEvent: {}
+[9.716254] (-) TimerEvent: {}
+[9.817139] (-) TimerEvent: {}
+[9.918006] (-) TimerEvent: {}
+[10.018972] (-) TimerEvent: {}
+[10.119845] (-) TimerEvent: {}
+[10.220765] (-) TimerEvent: {}
+[10.321701] (-) TimerEvent: {}
+[10.422630] (-) TimerEvent: {}
+[10.523565] (-) TimerEvent: {}
+[10.624585] (-) TimerEvent: {}
+[10.725559] (-) TimerEvent: {}
+[10.826544] (-) TimerEvent: {}
+[10.927481] (-) TimerEvent: {}
+[11.028344] (-) TimerEvent: {}
+[11.129297] (-) TimerEvent: {}
+[11.231726] (-) TimerEvent: {}
+[11.332693] (-) TimerEvent: {}
+[11.433598] (-) TimerEvent: {}
+[11.534530] (-) TimerEvent: {}
+[11.635471] (-) TimerEvent: {}
+[11.736640] (-) TimerEvent: {}
+[11.837745] (-) TimerEvent: {}
+[11.938903] (-) TimerEvent: {}
+[12.040065] (-) TimerEvent: {}
+[12.140991] (-) TimerEvent: {}
+[12.241862] (-) TimerEvent: {}
+[12.342814] (-) TimerEvent: {}
+[12.443899] (-) TimerEvent: {}
+[12.544748] (-) TimerEvent: {}
+[12.645651] (-) TimerEvent: {}
+[12.746884] (-) TimerEvent: {}
+[12.847740] (-) TimerEvent: {}
+[12.948626] (-) TimerEvent: {}
+[13.049616] (-) TimerEvent: {}
+[13.150626] (-) TimerEvent: {}
+[13.174816] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.176538] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:36:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunsigned_char\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kunsigned\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.177357] (drivetrain) StderrLine: {'line': b'   36 |     testBotCommunications.sendUart(reinterpret_cast<\x1b[01;31m\x1b[Kunsigned_char\x1b[m\x1b[K*>(const_cast<char*>(std::chrono::system_clock::now().time_since_epoch())));\n'}
+[13.178046] (drivetrain) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.178829] (drivetrain) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[Kunsigned\x1b[m\x1b[K\n'}
+[13.179674] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:36:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.182832] (drivetrain) StderrLine: {'line': b'   36 | estBotCommunications.sendUart(reinterpret_cast<unsigned_char\x1b[01;31m\x1b[K*\x1b[m\x1b[K>(const_cast<char*>(std::chrono::system_clock::now().time_since_epoch())));\n'}
+[13.183597] (drivetrain) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.184265] (drivetrain) StderrLine: {'line': b'\n'}
+[13.184753] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:36:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.185236] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.185722] (drivetrain) StderrLine: {'line': b'   36 | stBotCommunications.sendUart(reinterpret_cast<unsigned_char*\x1b[01;31m\x1b[K>\x1b[m\x1b[K(const_cast<char*>(std::chrono::system_clock::now().time_since_epoch())));\n'}
+[13.186197] (drivetrain) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.186809] (drivetrain) StderrLine: {'line': b'\n'}
+[13.187302] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:36:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid \xe2\x80\x98\x1b[01m\x1b[Kconst_cast\x1b[m\x1b[K\xe2\x80\x99 from type \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::duration\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >\x1b[m\x1b[K\xe2\x80\x99} to type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.187787] (drivetrain) StderrLine: {'line': b'   36 | BotCommunications.sendUart(reinterpret_cast<unsigned_char*>(\x1b[01;31m\x1b[Kconst_cast<char*>(std::chrono::system_clock::now().time_since_epoch())\x1b[m\x1b[K));\n'}
+[13.188303] (drivetrain) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.188779] (drivetrain) StderrLine: {'line': b'\n'}
+[13.250813] (-) TimerEvent: {}
+[13.351866] (-) TimerEvent: {}
+[13.452986] (-) TimerEvent: {}
+[13.553867] (-) TimerEvent: {}
+[13.655174] (-) TimerEvent: {}
+[13.756055] (-) TimerEvent: {}
+[13.857041] (-) TimerEvent: {}
+[13.958666] (-) TimerEvent: {}
+[14.059585] (-) TimerEvent: {}
+[14.160526] (-) TimerEvent: {}
+[14.261435] (-) TimerEvent: {}
+[14.363080] (-) TimerEvent: {}
+[14.463995] (-) TimerEvent: {}
+[14.564870] (-) TimerEvent: {}
+[14.665854] (-) TimerEvent: {}
+[14.766764] (-) TimerEvent: {}
+[14.867729] (-) TimerEvent: {}
+[14.968595] (-) TimerEvent: {}
+[15.069495] (-) TimerEvent: {}
+[15.170407] (-) TimerEvent: {}
+[15.271380] (-) TimerEvent: {}
+[15.372307] (-) TimerEvent: {}
+[15.473169] (-) TimerEvent: {}
+[15.574417] (-) TimerEvent: {}
+[15.678657] (-) TimerEvent: {}
+[15.782645] (-) TimerEvent: {}
+[15.884429] (-) TimerEvent: {}
+[15.985708] (-) TimerEvent: {}
+[16.086705] (-) TimerEvent: {}
+[16.188256] (-) TimerEvent: {}
+[16.289221] (-) TimerEvent: {}
+[16.390131] (-) TimerEvent: {}
+[16.491044] (-) TimerEvent: {}
+[16.591901] (-) TimerEvent: {}
+[16.692884] (-) TimerEvent: {}
+[16.793757] (-) TimerEvent: {}
+[16.894603] (-) TimerEvent: {}
+[16.996241] (-) TimerEvent: {}
+[17.097435] (-) TimerEvent: {}
+[17.198557] (-) TimerEvent: {}
+[17.299643] (-) TimerEvent: {}
+[17.400512] (-) TimerEvent: {}
+[17.501403] (-) TimerEvent: {}
+[17.602317] (-) TimerEvent: {}
+[17.703252] (-) TimerEvent: {}
+[17.804148] (-) TimerEvent: {}
+[17.905336] (-) TimerEvent: {}
+[18.006638] (-) TimerEvent: {}
+[18.107542] (-) TimerEvent: {}
+[18.208490] (-) TimerEvent: {}
+[18.309454] (-) TimerEvent: {}
+[18.410470] (-) TimerEvent: {}
+[18.511374] (-) TimerEvent: {}
+[18.612416] (-) TimerEvent: {}
+[18.713736] (-) TimerEvent: {}
+[18.814772] (-) TimerEvent: {}
+[18.915707] (-) TimerEvent: {}
+[19.016535] (-) TimerEvent: {}
+[19.117411] (-) TimerEvent: {}
+[19.218353] (-) TimerEvent: {}
+[19.319455] (-) TimerEvent: {}
+[19.420743] (-) TimerEvent: {}
+[19.521605] (-) TimerEvent: {}
+[19.622529] (-) TimerEvent: {}
+[19.723415] (-) TimerEvent: {}
+[19.824347] (-) TimerEvent: {}
+[19.925597] (-) TimerEvent: {}
+[20.026603] (-) TimerEvent: {}
+[20.127685] (-) TimerEvent: {}
+[20.228582] (-) TimerEvent: {}
+[20.329576] (-) TimerEvent: {}
+[20.430571] (-) TimerEvent: {}
+[20.531611] (-) TimerEvent: {}
+[20.632628] (-) TimerEvent: {}
+[20.734168] (-) TimerEvent: {}
+[20.835212] (-) TimerEvent: {}
+[20.936211] (-) TimerEvent: {}
+[21.037082] (-) TimerEvent: {}
+[21.138695] (-) TimerEvent: {}
+[21.240513] (-) TimerEvent: {}
+[21.342930] (-) TimerEvent: {}
+[21.445523] (-) TimerEvent: {}
+[21.551401] (-) TimerEvent: {}
+[21.662240] (-) TimerEvent: {}
+[21.769895] (-) TimerEvent: {}
+[21.871899] (-) TimerEvent: {}
+[21.980810] (-) TimerEvent: {}
+[22.088838] (-) TimerEvent: {}
+[22.190702] (-) TimerEvent: {}
+[22.293138] (-) TimerEvent: {}
+[22.401169] (-) TimerEvent: {}
+[22.501991] (-) TimerEvent: {}
+[22.603464] (-) TimerEvent: {}
+[22.705274] (-) TimerEvent: {}
+[22.809009] (-) TimerEvent: {}
+[22.916028] (-) TimerEvent: {}
+[23.018245] (-) TimerEvent: {}
+[23.120433] (-) TimerEvent: {}
+[23.221925] (-) TimerEvent: {}
+[23.323247] (-) TimerEvent: {}
+[23.425534] (-) TimerEvent: {}
+[23.526399] (-) TimerEvent: {}
+[23.628165] (-) TimerEvent: {}
+[23.728982] (-) TimerEvent: {}
+[23.829925] (-) TimerEvent: {}
+[23.930958] (-) TimerEvent: {}
+[24.032557] (-) TimerEvent: {}
+[24.135119] (-) TimerEvent: {}
+[24.237705] (-) TimerEvent: {}
+[24.339821] (-) TimerEvent: {}
+[24.442902] (-) TimerEvent: {}
+[24.547513] (-) TimerEvent: {}
+[24.658931] (-) TimerEvent: {}
+[24.760346] (-) TimerEvent: {}
+[24.863400] (-) TimerEvent: {}
+[24.967877] (-) TimerEvent: {}
+[25.074982] (-) TimerEvent: {}
+[25.184844] (-) TimerEvent: {}
+[25.250254] (drivetrain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1\n'}
+[25.253286] (drivetrain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2\n'}
+[25.257381] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.268827] (drivetrain) CommandEnded: {'returncode': 2}
+[25.284907] (-) TimerEvent: {}
+[25.387198] (-) TimerEvent: {}
+[25.488171] (-) TimerEvent: {}
+[25.593188] (-) TimerEvent: {}
+[25.621791] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 2}
+[25.647489] (-) EventReactorShutdown: {}

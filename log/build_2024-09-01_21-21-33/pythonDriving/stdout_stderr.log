@@ -1,0 +1,31 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving.egg-link (link to .)
+running egg_info
+writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /TestBotTeaching/build/pythonDriving/build
+creating /TestBotTeaching/build/pythonDriving/build/lib
+creating /TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+copying pythonDriving/__init__.py -> /TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+running install
+running install_lib
+creating /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving
+copying /TestBotTeaching/build/pythonDriving/build/lib/pythonDriving/__init__.py -> /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving
+byte-compiling /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/pythonDriving -> /TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages
+copying package.xml -> /TestBotTeaching/install/pythonDriving/share/pythonDriving
+running install_egg_info
+Copying ../build/pythonDriving/pythonDriving.egg-info to /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving-0.0.0-py3.10.egg-info
+running install_scripts
+Installing name script to /TestBotTeaching/install/pythonDriving/lib/pythonDriving
+writing list of installed files to '/TestBotTeaching/build/pythonDriving/install.log'

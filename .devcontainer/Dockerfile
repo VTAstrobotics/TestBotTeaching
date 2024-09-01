@@ -25,8 +25,12 @@ USER $USERNAME
 RUN sudo apt update && sudo apt upgrade -y
 
 # Install Git
-RUN sudo apt install -y git
+RUN sudo apt install -y git python3
 RUN git config --global --add safe.directory /TestBotTeaching
+
+RUN sudo apt-get install python3-pip -y
+RUN pip3 install setuptools==58.2.0
+RUN pip3 install pyserial 
 
 # Rosdep update
 RUN rosdep update
@@ -36,6 +40,8 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 
 # Install clang-format for auto cpp formatting
 RUN sudo apt-get install -y clang-format
+
+
 
 # Need this to be the final DIR for the entrypoint
 WORKDIR /TestBotTeaching
