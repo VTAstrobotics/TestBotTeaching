@@ -37,5 +37,9 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 # Install clang-format for auto cpp formatting
 RUN sudo apt-get install -y clang-format
 
-# allow UART
-RUN sudo chmod 777 /dev/ttyACM0
+# Need this to be the final DIR for the entrypoint
+WORKDIR /TestBotTeaching
+
+# Commands to be run in the final layer
+# (do not put anything below this)
+CMD .devcontainer/entrypoint.sh

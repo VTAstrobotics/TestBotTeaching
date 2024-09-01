@@ -205,8 +205,9 @@ void Uart :: readUart(){
   {
     nread++;
 
-    // printf("r\n");
+    printf("r\n");
     rx_length = read(fid, (void*)rx_buffer, VMINX);   // Filestream, buffer to store in, number of bytes to read (max)
+    printf("2\n");
 
     // printf("Event %d, rx_length=%d, Read=%s\n",  nread, rx_length, rx_buffer );
 
