@@ -16,7 +16,7 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
-        self.reader = serial.Serial(port = "/dev/ttyACM0", baudrate = 115200, bytesize= serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE)
+        self.reader = serial.Serial(port = "/dev/ttyS0", baudrate = 115200, bytesize= serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE)
 
     def get(self):
         data = None
@@ -45,10 +45,9 @@ class MinimalSubscriber(Node):
 
 
     def listener_callback(self, msg:Joy):
-        print("I am getting data")
         self.get_logger().info('I heard: "%s"' % msg)
         self.send((str(msg.axes[1]) +  "," + str(msg.axes[4])).encode())
-        #print(self.getAllFeedback())
+        print(self.getAllFeedback())
         
 
 
