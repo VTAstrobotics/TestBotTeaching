@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(pico_sdk-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raspberrypi/pico-sdk" "GIT_TAG" "master" "GIT_SUBMODULES_RECURSE" "FALSE"
-                    SOURCE_DIR          "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src"
-                    BINARY_DIR          "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-build"
+                    SOURCE_DIR          "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src"
+                    BINARY_DIR          "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -1,4 +1,4 @@
-# Install script for directory: /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/rp2_common/pico_platform_panic
+# Install script for directory: /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/rp2_common/pico_platform_panic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()

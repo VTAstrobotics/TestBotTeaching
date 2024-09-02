@@ -1,8 +1,8 @@
-# Install script for directory: /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/lib/mbedtls/pkgconfig
+# Install script for directory: /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/lib/mbedtls/pkgconfig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
 endif()
 

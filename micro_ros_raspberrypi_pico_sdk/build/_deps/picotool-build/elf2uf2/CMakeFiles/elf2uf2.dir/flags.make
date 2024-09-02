@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/elf2uf2 -I/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/elf -I/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/errors -isystem /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/elf2uf2 -I/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/elf -I/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src/errors -isystem /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

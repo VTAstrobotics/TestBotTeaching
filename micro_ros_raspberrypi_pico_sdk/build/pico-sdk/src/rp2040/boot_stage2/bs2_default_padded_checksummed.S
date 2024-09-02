@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

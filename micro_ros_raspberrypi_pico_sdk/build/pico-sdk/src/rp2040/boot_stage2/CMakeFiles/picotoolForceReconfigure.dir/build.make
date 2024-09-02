@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk
+CMAKE_SOURCE_DIR = /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build
+CMAKE_BINARY_DIR = /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/
 include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure:
-	cd /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/CMakeLists.txt
+	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/CMakeLists.txt
 
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -78,10 +78,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build: p
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	cd /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
+	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/rp2040/boot_stage2 /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 /home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/pico_sdk-src/src/rp2040/boot_stage2 /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2 /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps
+prefix=/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

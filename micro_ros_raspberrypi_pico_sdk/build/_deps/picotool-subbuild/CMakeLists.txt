@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "GIT_TAG" "2.0.0" "GIT_PROGRESS" "true"
-                    SOURCE_DIR          "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src"
-                    BINARY_DIR          "/home/astrobotics/Documents/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build"
+                    SOURCE_DIR          "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-src"
+                    BINARY_DIR          "/home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
