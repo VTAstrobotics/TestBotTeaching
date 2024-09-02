@@ -16,7 +16,7 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
-        self.reader = serial.Serial(port = "/dev/ttyS0", baudrate = 115200, bytesize= serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE)
+        self.reader = serial.Serial(port = "/dev/ttyAMA0", baudrate = 115200, bytesize= serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE)
 
     def get(self):
         data = None
