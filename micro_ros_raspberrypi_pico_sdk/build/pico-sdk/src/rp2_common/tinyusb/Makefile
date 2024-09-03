@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
+CMAKE_SOURCE_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build
+CMAKE_BINARY_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb//CMakeFiles/progress.marks
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles 0
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb//CMakeFiles/progress.marks
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/clean
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
+.PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
+
+# Convenience name for target.
+PioasmBuild: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
+.PHONY : PioasmBuild
+
+# fast build rule for target.
+PioasmBuild/fast:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build
+.PHONY : PioasmBuild/fast
+
+# Convenience name for target.
+pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule
+.PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule
+
+# Convenience name for target.
+tinyusb_pico_pio_usb_usb_tx_pio_h: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule
+.PHONY : tinyusb_pico_pio_usb_usb_tx_pio_h
+
+# fast build rule for target.
+tinyusb_pico_pio_usb_usb_tx_pio_h/fast:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/build
+.PHONY : tinyusb_pico_pio_usb_usb_tx_pio_h/fast
+
+# Convenience name for target.
+pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule
+.PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule
+
+# Convenience name for target.
+tinyusb_pico_pio_usb_usb_rx_pio_h: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule
+.PHONY : tinyusb_pico_pio_usb_usb_rx_pio_h
+
+# fast build rule for target.
+tinyusb_pico_pio_usb_usb_rx_pio_h/fast:
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/build
+.PHONY : tinyusb_pico_pio_usb_usb_rx_pio_h/fast
 
 # Help Target
 help:
@@ -124,6 +166,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... PioasmBuild"
+	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
+	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 .PHONY : help
 
 
@@ -135,6 +180,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/astrobotics/Documents/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
