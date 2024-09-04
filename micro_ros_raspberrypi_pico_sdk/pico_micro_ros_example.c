@@ -13,12 +13,12 @@
 const uint LED_PIN = 25;
 
 rcl_publisher_t publisher;
-std_msgs__msg__Int32 msg;
+std_msgs__msg__String msg;
 
 void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 {
     rcl_ret_t ret = rcl_publish(&publisher, &msg, NULL);
-    msg.data++;
+    msg.;
 }
 
 int main()
@@ -61,7 +61,7 @@ int main()
     rclc_publisher_init_default(
         &publisher,
         &node,
-        ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+        ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
         "pico_publisher");
 
     rclc_timer_init_default(
@@ -74,8 +74,8 @@ int main()
     rclc_executor_add_timer(&executor, &timer);
 
     gpio_put(LED_PIN, 1);
-
-    msg.data = 0;
+    char* msgData[255];
+    msg.data = msgData;
     while (true)
     {
         rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));

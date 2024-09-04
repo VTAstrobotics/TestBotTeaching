@@ -1,4 +1,4 @@
-# Install script for directory: /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
+# Install script for directory: /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/cmake_install.cmake")
+  include("/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

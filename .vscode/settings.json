@@ -7,5 +7,5 @@
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/astrobotics/TestBotTeaching/drivetrain"
+    "cmake.sourceDirectory": "/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/drivetrain"
 }

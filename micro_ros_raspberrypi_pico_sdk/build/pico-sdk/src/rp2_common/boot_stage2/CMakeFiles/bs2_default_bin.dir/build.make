@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
+CMAKE_SOURCE_DIR = /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build
+CMAKE_BINARY_DIR = /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk /home/cameron/pico-sdk/src/rp2_common/boot_stage2 /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk /home/cameron/pico-sdk/src/rp2_common/boot_stage2 /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2 /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

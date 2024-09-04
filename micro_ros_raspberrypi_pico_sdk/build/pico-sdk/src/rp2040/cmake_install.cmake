@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

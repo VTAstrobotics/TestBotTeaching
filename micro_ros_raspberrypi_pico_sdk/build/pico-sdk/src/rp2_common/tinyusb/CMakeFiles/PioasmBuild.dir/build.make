@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk
+CMAKE_SOURCE_DIR = /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build
+CMAKE_BINARY_DIR = /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build
 
 # Utility rule file for PioasmBuild.
 
@@ -76,52 +76,52 @@ pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cache-Release.cmake /home/cameron/pico-sdk/tools/pioasm
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cache-Release.cmake /home/cameron/pico-sdk/tools/pioasm
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E echo_append
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E echo_append
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/pico-sdk/tools/pioasm
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pioasm
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/pico-sdk/tools/pioasm
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pioasm
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E make_directory /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E echo_append
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && /usr/bin/cmake -E touch /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 PioasmBuild: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
 PioasmBuild: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete
@@ -140,10 +140,10 @@ pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build: PioasmBuild
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/clean:
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/depend:
-	cd /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk /home/cameron/pico-sdk/src/rp2_common/tinyusb /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk /home/cameron/pico-sdk/src/rp2_common/tinyusb /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/depend
 

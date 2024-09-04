@@ -10,7 +10,6 @@
 #include <rmw_microros/rmw_microros.h>
 
 #include "pico/stdlib.h"
-#include "hardware/pwm.h"
 #include "pico_uart_transport.h"
 
 const uint LED_PIN = 25;
@@ -31,8 +30,8 @@ void joy_callback(const void *msgin)
     gpio_put(TEST_PIN, 1);
     
     // Message type shall be casted to expected type from void pointer.
-    const sensor_msgs__msg__Joy *msg = (const sensor_msgs__msg__Joy *)msgin;
-
+    const sensor_msgs__msg__Joy *msgJ = (const sensor_msgs__msg__Joy *)msgin;
+    rcl_publish(&publisher,&msg,NULL );
     gpio_put(LED_PIN, 1);
 }
 
@@ -46,22 +45,14 @@ int main()
         pico_serial_transport_write,
         pico_serial_transport_read);
     sensor_msgs__msg__Joy *joystickMSG = sensor_msgs__msg__Joy__create();
+    msg.data = 0;
 
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
     gpio_set_function(TEST_PIN, GPIO_FUNC_PWM);
     gpio_set_dir(TEST_PIN, GPIO_OUT);
-    uint slice_num = pwm_gpio_to_slice_num(0);
 
-    // Set period of 4 cycles (0 to 3 inclusive)
-    pwm_set_wrap(slice_num, 3);
-    // Set channel A output high for one cycle before dropping
-    pwm_set_chan_level(slice_num, PWM_CHAN_A, 1);
-    // Set initial B output high for three cycles before dropping
-    pwm_set_chan_level(slice_num, PWM_CHAN_B, 3);
-    // Set the PWM running
-    pwm_set_enabled(slice_num, true);
     rcl_timer_t timer;
     rcl_node_t node;
     rcl_allocator_t allocator;
@@ -109,7 +100,6 @@ int main()
 
     rclc_executor_add_subscription(&executor, &joy_Subscriber, &joystickMSG, &joy_callback, ON_NEW_DATA);
 
-    msg.data = 0;
     rclc_executor_spin(&executor);
     while (true)
     {

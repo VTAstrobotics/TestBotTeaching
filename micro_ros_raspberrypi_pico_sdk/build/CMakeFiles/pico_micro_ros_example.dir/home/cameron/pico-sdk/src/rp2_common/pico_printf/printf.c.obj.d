@@ -22,9 +22,9 @@ CMakeFiles/pico_micro_ros_example.dir/home/cameron/pico-sdk/src/rp2_common/pico_
  /home/cameron/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/cameron/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/include/newlib/assert.h \
- /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/generated/pico_base/pico/version.h \
+ /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/generated/pico_base/pico/version.h \
  /home/cameron/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/cameron/Astrobotics/TestBotTeaching/micro_ros_raspberrypi_pico_sdk/build/generated/pico_base/pico/config_autogen.h \
+ /home/cameron/Astrobotics/wtfisgoingon/micro_ros_raspberrypi_pico_sdk/micro_ros_raspberrypi_pico_sdk/build/generated/pico_base/pico/config_autogen.h \
  /home/cameron/pico-sdk/src/boards/include/boards/pico.h \
  /home/cameron/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/cameron/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
