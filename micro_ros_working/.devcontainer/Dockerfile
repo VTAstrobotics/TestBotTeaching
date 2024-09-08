@@ -17,6 +17,11 @@ RUN apt update  \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
 
+    RUN  git clone https://git.code.sf.net/p/openocd/code openocd
+    # we build it in the .sh
+   
+   
+
 RUN add-apt-repository universe
 
 RUN apt update
@@ -24,7 +29,6 @@ RUN apt update
 RUN apt install -y apt-transport-https
 
 RUN apt install -y cmake g++ gcc-arm-none-eabi doxygen libnewlib-arm-none-eabi git python3 
-
 
 # Create and switch to user
 RUN groupadd -g $GID $USERNAME \

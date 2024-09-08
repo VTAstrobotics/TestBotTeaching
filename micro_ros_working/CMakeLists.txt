@@ -4,6 +4,7 @@ set(PICO_SDK_FETCH_FROM_GIT on)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_DEBUG_POSTFIX debug)
 
 include(pico_sdk_import.cmake)
 
@@ -14,11 +15,13 @@ pico_sdk_init()
 
 link_directories(libmicroros)
 add_executable(pico_micro_ros_example
-    pico_micro_ros_example.c
+    pico2subDriving.c
     pico_uart_transport.c
     pico_uart_transport.h
 
 )
+set_target_properties(pico_micro_ros_example PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
+
 target_link_libraries(pico_micro_ros_example
     pico_stdlib
     microros

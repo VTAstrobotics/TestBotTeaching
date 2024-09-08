@@ -4,6 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 from std_msgs.msg import Float32
+import serial
 
 class MinimalSubscriber(Node):
 
@@ -30,13 +31,8 @@ class MinimalSubscriber(Node):
 
 
     def listener_callback(self, Joymsg : Joy):
-        msgLeft = Float32()
-        msgRight = Float32()
-        msgLeft.data = Joymsg.axes[1]
-        msgRight.data = Joymsg.axes[4]
-
-        self.leftPub.publish(msgLeft)
-        self.rightPub.publish(msgRight)
+        self.leftPub.publish(Joymsg.axes[1])
+        self.rightPub.publish(Joymsg.axes[1])
          
 
 

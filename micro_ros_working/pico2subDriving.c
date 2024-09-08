@@ -14,33 +14,50 @@
 
 const uint LED_PIN = 25;
 const uint TEST_PIN = 12;
+const uint LEFT_MOTOR = 10;
+const uint RIGHT_MOTOR = 14;
+
 
 rcl_publisher_t publisher;
-std_msgs__msg__Float32 msg;
+std_msgs__msg__Float32 msg, left, right;
+
+
+
 
 void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 {
     rcl_ret_t ret = rcl_publish(&publisher, &msg, NULL);
 }
 
-void joy_callback(const void *msgin)
+void left_callback(const void *msgin)
 {
     gpio_put(LED_PIN, 0);
     gpio_put(TEST_PIN, 1);
     
+    const std_msgs__msg__Float32* msgS = (const std_msgs__msg__Float32*)msgin;
+    
     // Message type shall be casted to expected type from void pointer.
-    const sensor_msgs__msg__Joy *msgJ = (const sensor_msgs__msg__Joy *)msgin;
+    // const sensor_msgs__msg__Joy *msgJ = (const sensor_msgs__msg__Joy *)msgin;
 
     
-    if (msgJ == NULL || msgJ->axes.data == NULL) {
-        
-        gpio_put(LED_PIN, 1);
-        return;
-    }
-        float leftJ = msgJ->axes.data[0];
 
+    msg.data = msgS[0].data;
+    rcl_publish(&publisher,&msg,NULL );
+}
 
-    msg.data = leftJ;
+void right_callback(const void *msgin)
+{
+    gpio_put(LED_PIN, 0);
+    gpio_put(TEST_PIN, 1);
+    
+    const std_msgs__msg__Float32* msgS = (const std_msgs__msg__Float32*)msgin;
+    
+    // Message type shall be casted to expected type from void pointer.
+     const std_msgs__msg__Float32* msgJ = (const sensor_msgs__msg__Joy *)msgin;
+
+    
+
+    msg.data = msgS[0].data;
     rcl_publish(&publisher,&msg,NULL );
 }
 
@@ -54,11 +71,14 @@ int main()
         pico_serial_transport_write,
         pico_serial_transport_read);
     sensor_msgs__msg__Joy *joystickMSG = sensor_msgs__msg__Joy__create();
+    left.data = -492921;
+    right.data = -321821;
+    // apparently this function checks that a message is inited std_msgs__msg__Float32__init();
     
 
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
-
+    
 
 
     rcl_timer_t timer;
@@ -82,13 +102,21 @@ int main()
         return ret;
     }
 
-    rcl_subscription_t joy_Subscriber;
+    // rcl_subscription_t joy_Subscriber;
+
+    rcl_subscription_t left_Subscriber;
+    rcl_subscription_t right_Subscriber;
+
 
     rclc_support_init(&support, 0, NULL, &allocator);
 
     rclc_node_init_default(&node, "pico_node", "", &support);
 
-    rclc_subscription_init_default(&joy_Subscriber, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, Joy), "/joy");
+    // rclc_subscription_init_default(&joy_Subscriber, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32), "/speeds");//TODO: can I just get the type or do I need the sequence type
+
+    rclc_subscription_init_default(&left_Subscriber, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32), "/left");//TODO: can I just get the type or do I need the sequence type
+    rclc_subscription_init_default(&right_Subscriber, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32), "/right");//TODO: can I just get the type or do I need the sequence type
+
 
     rclc_publisher_init_default(
         &publisher,
@@ -102,11 +130,12 @@ int main()
         RCL_MS_TO_NS(200),
         timer_callback);
 
-    rclc_executor_init(&executor, &support.context, 2, &allocator);
+    rclc_executor_init(&executor, &support.context, 3, &allocator);
 
     // rclc_executor_add_timer(&executor, &timer);
 
-    rclc_executor_add_subscription(&executor, &joy_Subscriber, &joystickMSG, &joy_callback, ON_NEW_DATA);
+    rclc_executor_add_subscription(&executor, &left_Subscriber, &left, &left_callback, ON_NEW_DATA);
+    rclc_executor_add_subscription(&executor, &right_Subscriber, &right, &right_callback, ON_NEW_DATA);
 
     rclc_executor_spin(&executor);
     while (true)

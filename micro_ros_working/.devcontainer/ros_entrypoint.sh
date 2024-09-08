@@ -2,9 +2,15 @@
 # shellcheck disable=SC1090,SC1091
 set -e
 
+
 # setup ros2 environment
 source /opt/ros/"$ROS_DISTRO"/setup.bash --
 source ~/ros2_ws/install/setup.bash --
+    cd /openocd
+     ./bootstrap
+     ./configure
+     make
+     sudo make install
 
 # add sourcing to .bashrc
 echo "source '/opt/ros/$ROS_DISTRO/setup.bash'" >> ~/.bashrc
