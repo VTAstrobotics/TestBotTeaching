@@ -25,6 +25,7 @@ set_target_properties(pico_micro_ros_example PROPERTIES DEBUG_POSTFIX ${CMAKE_DE
 target_link_libraries(pico_micro_ros_example
     pico_stdlib
     microros
+    hardware_pwm
 )
 
 target_include_directories(pico_micro_ros_example PUBLIC
