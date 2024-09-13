@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/TestBotTeaching/drivetrain"
+    "cmake.sourceDirectory": "/TestBotTeaching/drivetrain",
+    "C_Cpp.errorSquiggles": "enabled"
 }
