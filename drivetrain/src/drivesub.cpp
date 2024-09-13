@@ -8,7 +8,6 @@
 using std::placeholders::_1;
 class DriveSub : public rclcpp::Node
 {  
-Uart testBotCommunications{};
 public:
   DriveSub() : Node("drivetrainNode")
   { // we've made the subscription but you need to make the two Float32 publishers you will need
