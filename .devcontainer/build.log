@@ -1,0 +1,431 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context:
+#1 transferring context: 2B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 1.05kB 0.1s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/ros:humble-ros-base-jammy
+#3 DONE 0.7s
+
+#4 [ 1/13] FROM docker.io/library/ros:humble-ros-base-jammy@sha256:80a4f6329aad64f14b600133cb3fd279d0bf666feeca5abef3f10bb41b0916ea
+#4 resolve docker.io/library/ros:humble-ros-base-jammy@sha256:80a4f6329aad64f14b600133cb3fd279d0bf666feeca5abef3f10bb41b0916ea 0.1s done
+#4 sha256:09c724ca630052da62807e05387c435120e456b3b67aeb0b76c1f50264d7c847 5.61kB / 5.61kB done
+#4 sha256:80a4f6329aad64f14b600133cb3fd279d0bf666feeca5abef3f10bb41b0916ea 2.69kB / 2.69kB done
+#4 sha256:de0f7970708530dd7e6b15ea99c1277f125a23d6a82343ce2d2672ad1fb6492b 3.10kB / 3.10kB done
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 0B / 27.36MB 0.1s
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 0B / 3.60MB 0.1s
+#4 sha256:f5c92e67449590912b6c7755a150613269346b5015b668c99f2db49450f6a8e8 0B / 1.22MB 0.2s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 2.10MB / 27.36MB 0.4s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 4.19MB / 27.36MB 0.8s
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 1.05MB / 3.60MB 1.0s
+#4 sha256:f5c92e67449590912b6c7755a150613269346b5015b668c99f2db49450f6a8e8 1.22MB / 1.22MB 1.1s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 6.29MB / 27.36MB 1.2s
+#4 sha256:f5c92e67449590912b6c7755a150613269346b5015b668c99f2db49450f6a8e8 1.22MB / 1.22MB 1.1s done
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 2.10MB / 3.60MB 1.4s
+#4 sha256:9e9fe7ebd0a06ee011e10d604fd769d9ff4552a42b94b0887d4e53098983bf75 2.00kB / 2.00kB 1.3s done
+#4 sha256:1074b02edbde483a99adecce394a1c8fe6ec4582c39bad3ac5050bd5c6a5466b 0B / 274B 1.4s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 8.39MB / 27.36MB 1.5s
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 3.15MB / 3.60MB 1.7s
+#4 sha256:1074b02edbde483a99adecce394a1c8fe6ec4582c39bad3ac5050bd5c6a5466b 274B / 274B 1.5s done
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 3.60MB / 3.60MB 1.8s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 0B / 104.27MB 1.8s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 11.53MB / 27.36MB 1.9s
+#4 sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 3.60MB / 3.60MB 2.0s done
+#4 sha256:24cd9444ec78d82b8472db5e98823f37ae6d6f2c2f73640f40d3764e0b2813ae 0B / 195B 2.1s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 13.63MB / 27.36MB 2.3s
+#4 sha256:24cd9444ec78d82b8472db5e98823f37ae6d6f2c2f73640f40d3764e0b2813ae 195B / 195B 2.3s done
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 0B / 95.50MB 2.4s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 15.73MB / 27.36MB 2.6s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 17.83MB / 27.36MB 3.0s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 19.92MB / 27.36MB 3.5s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 5.24MB / 104.27MB 3.6s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 22.02MB / 27.36MB 3.9s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 24.12MB / 27.36MB 4.3s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 26.21MB / 27.36MB 4.8s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 5.24MB / 95.50MB 5.1s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 10.49MB / 104.27MB 5.2s
+#4 sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 27.36MB / 27.36MB 6.2s done
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 10.49MB / 95.50MB 6.3s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 15.73MB / 104.27MB 6.4s
+#4 sha256:41dce2bd3adc9c50d20f2fd0ee9f4d1ff3795f663b6f84c5e361effe45601d3e 0B / 336.41kB 6.4s
+#4 sha256:41dce2bd3adc9c50d20f2fd0ee9f4d1ff3795f663b6f84c5e361effe45601d3e 336.41kB / 336.41kB 6.7s
+#4 sha256:41dce2bd3adc9c50d20f2fd0ee9f4d1ff3795f663b6f84c5e361effe45601d3e 336.41kB / 336.41kB 6.7s done
+#4 sha256:60ab41a5e698c889953e1b84485d25d10a2b2a7dfbdf8affca8a1bc052e08bf9 0B / 2.44kB 6.8s
+#4 sha256:60ab41a5e698c889953e1b84485d25d10a2b2a7dfbdf8affca8a1bc052e08bf9 2.44kB / 2.44kB 6.9s done
+#4 extracting sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 0B / 22.25MB 7.0s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 15.73MB / 95.50MB 7.6s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 20.97MB / 104.27MB 7.7s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 2.10MB / 22.25MB 7.8s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 4.19MB / 22.25MB 8.4s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 20.97MB / 95.50MB 8.9s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 6.29MB / 22.25MB 9.0s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 26.21MB / 104.27MB 9.3s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 8.39MB / 22.25MB 9.6s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 26.21MB / 95.50MB 10.3s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 31.46MB / 104.27MB 10.6s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 10.49MB / 22.25MB 11.2s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 31.46MB / 95.50MB 11.4s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 36.70MB / 104.27MB 11.9s
+#4 extracting sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 5.1s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 36.70MB / 95.50MB 12.3s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 12.58MB / 22.25MB 13.0s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 41.94MB / 104.27MB 13.2s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 41.94MB / 95.50MB 13.4s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 47.19MB / 95.50MB 14.7s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 47.19MB / 104.27MB 14.9s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 14.68MB / 22.25MB 14.9s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 52.43MB / 95.50MB 16.3s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 16.78MB / 22.25MB 16.3s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 52.43MB / 104.27MB 17.3s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 57.57MB / 95.50MB 17.4s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 18.87MB / 22.25MB 18.3s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 62.91MB / 95.50MB 18.8s
+#4 extracting sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 11.8s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 57.67MB / 104.27MB 19.0s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 20.97MB / 22.25MB 19.1s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 68.16MB / 95.50MB 20.2s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 22.25MB / 22.25MB 20.2s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 62.91MB / 104.27MB 21.1s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 73.40MB / 95.50MB 21.4s
+#4 sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 22.25MB / 22.25MB 21.3s done
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 78.64MB / 95.50MB 22.4s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 68.16MB / 104.27MB 22.5s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 83.89MB / 95.50MB 23.6s
+#4 extracting sha256:e63ce922f0229bde5aea9f366c46883dcd23747e7d2c541f16665f199dbf98b8 17.0s done
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 73.40MB / 104.27MB 24.7s
+#4 extracting sha256:f5c92e67449590912b6c7755a150613269346b5015b668c99f2db49450f6a8e8
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 89.13MB / 95.50MB 25.9s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 78.64MB / 104.27MB 26.4s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 95.42MB / 95.50MB 26.9s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 83.89MB / 104.27MB 27.4s
+#4 sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 95.50MB / 95.50MB 27.4s done
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 89.13MB / 104.27MB 28.1s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 94.37MB / 104.27MB 28.6s
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 100.66MB / 104.27MB 29.2s
+#4 extracting sha256:f5c92e67449590912b6c7755a150613269346b5015b668c99f2db49450f6a8e8 4.4s done
+#4 extracting sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277
+#4 sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 104.27MB / 104.27MB 31.3s done
+#4 extracting sha256:b2693553852f919b16b21546e1d8543a7ad744597e5f6749446017c3790d7277 0.8s done
+#4 extracting sha256:9e9fe7ebd0a06ee011e10d604fd769d9ff4552a42b94b0887d4e53098983bf75 done
+#4 extracting sha256:1074b02edbde483a99adecce394a1c8fe6ec4582c39bad3ac5050bd5c6a5466b done
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 5.2s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 12.1s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 17.4s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 23.0s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 28.2s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 33.2s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 38.4s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 44.3s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 49.4s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 55.1s
+#4 extracting sha256:a52f3878065eb3ee88c776c4daebe7310fe219adc004d71d843d7ae13921f44b 59.5s done
+#4 extracting sha256:24cd9444ec78d82b8472db5e98823f37ae6d6f2c2f73640f40d3764e0b2813ae done
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 0.1s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 5.2s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 10.3s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 15.7s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 22.4s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 28.5s
+#4 extracting sha256:400875eb816dd007a1f3a4d1d620c988c9e102b70ccc1e87a56d5f4adac19218 28.9s done
+#4 extracting sha256:41dce2bd3adc9c50d20f2fd0ee9f4d1ff3795f663b6f84c5e361effe45601d3e
+#4 extracting sha256:41dce2bd3adc9c50d20f2fd0ee9f4d1ff3795f663b6f84c5e361effe45601d3e 0.1s done
+#4 extracting sha256:60ab41a5e698c889953e1b84485d25d10a2b2a7dfbdf8affca8a1bc052e08bf9 done
+#4 extracting sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d
+#4 extracting sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 5.2s
+#4 extracting sha256:aad1b2c6149792b532ea62cbce2735ace6578d53fb39f0df47109065457ab68d 9.4s done
+#4 DONE 143.3s
+
+#5 [ 2/13] RUN groupadd --gid 1000 astro-dev
+#5 DONE 3.6s
+
+#6 [ 3/13] RUN useradd -s /bin/bash --uid 1000 --gid 1000 -m astro-dev
+#6 DONE 1.8s
+
+#7 [ 4/13] RUN apt-get update
+#7 1.995 Get:1 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+#7 2.034 Get:2 http://ports.ubuntu.com/ubuntu-ports jammy InRelease [270 kB]
+#7 2.419 Get:3 http://packages.ros.org/ros2/ubuntu jammy/main arm64 Packages [1565 kB]
+#7 2.567 Get:4 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease [128 kB]
+#7 2.735 Get:5 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease [127 kB]
+#7 2.898 Get:6 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease [129 kB]
+#7 3.506 Get:7 http://ports.ubuntu.com/ubuntu-ports jammy/restricted arm64 Packages [24.2 kB]
+#7 3.612 Get:8 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 Packages [1758 kB]
+#7 4.116 Get:9 http://ports.ubuntu.com/ubuntu-ports jammy/multiverse arm64 Packages [224 kB]
+#7 4.181 Get:10 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 Packages [17.2 MB]
+#7 7.594 Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted arm64 Packages [2349 kB]
+#7 7.675 Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 Packages [2175 kB]
+#7 7.858 Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 Packages [1362 kB]
+#7 8.313 Get:14 http://ports.ubuntu.com/ubuntu-ports jammy-updates/multiverse arm64 Packages [29.5 kB]
+#7 8.530 Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-backports/main arm64 Packages [81.0 kB]
+#7 8.706 Get:16 http://ports.ubuntu.com/ubuntu-ports jammy-backports/universe arm64 Packages [31.8 kB]
+#7 8.748 Get:17 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe arm64 Packages [1078 kB]
+#7 9.074 Get:18 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted arm64 Packages [2261 kB]
+#7 9.433 Get:19 http://ports.ubuntu.com/ubuntu-ports jammy-security/multiverse arm64 Packages [24.1 kB]
+#7 9.439 Get:20 http://ports.ubuntu.com/ubuntu-ports jammy-security/main arm64 Packages [1905 kB]
+#7 12.84 Fetched 32.7 MB in 11s (2940 kB/s)
+#7 12.84 Reading package lists...
+#7 DONE 19.2s
+
+#8 [ 5/13] RUN apt-get install -y sudo
+#8 1.185 Reading package lists...
+#8 5.637 Building dependency tree...
+#8 6.529 Reading state information...
+#8 8.959 sudo is already the newest version (1.9.9-1ubuntu2.4).
+#8 8.959 sudo set to manually installed.
+#8 8.959 0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+#8 DONE 9.1s
+
+#9 [ 6/13] RUN echo astro-dev ALL=(root) NOPASSWD:ALL > /etc/sudoers.d/astro-dev
+#9 DONE 1.6s
+
+#10 [ 7/13] RUN chmod 0440 /etc/sudoers.d/astro-dev
+#10 DONE 1.2s
+
+#11 [ 8/13] RUN sudo apt update && sudo apt upgrade -y
+#11 1.232 
+#11 1.234 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+#11 1.235 
+#11 1.827 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
+#11 1.880 Hit:2 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+#11 1.975 Hit:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease
+#11 2.074 Hit:4 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease
+#11 2.174 Hit:5 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease
+#11 4.698 Reading package lists...
+#11 9.277 Building dependency tree...
+#11 10.06 Reading state information...
+#11 10.17 26 packages can be upgraded. Run 'apt list --upgradable' to see them.
+#11 10.25 
+#11 10.25 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+#11 10.25 
+#11 10.43 Reading package lists...
+#11 14.93 Building dependency tree...
+#11 15.63 Reading state information...
+#11 15.94 Calculating upgrade...
+#11 17.88 The following packages will be upgraded:
+#11 17.89   e2fsprogs libcom-err2 libext2fs2 libpython3-dev libpython3-stdlib libss2
+#11 17.89   linux-libc-dev logsave python3 python3-dev python3-minimal python3-rosdep
+#11 17.89   python3-rosdep-modules ros-humble-geometry2 ros-humble-kdl-parser
+#11 17.89   ros-humble-message-filters ros-humble-robot-state-publisher
+#11 17.89   ros-humble-ros-base ros-humble-tf2-bullet ros-humble-tf2-eigen
+#11 17.89   ros-humble-tf2-geometry-msgs ros-humble-tf2-kdl ros-humble-tf2-ros
+#11 17.89   ros-humble-tf2-sensor-msgs ros-humble-urdf ros-humble-urdf-parser-plugin
+#11 18.25 26 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+#11 18.25 Need to get 2973 kB of archives.
+#11 18.25 After this operation, 7168 B of additional disk space will be used.
+#11 18.25 Get:1 http://packages.ros.org/ros2/ubuntu jammy/main arm64 python3-rosdep-modules all 0.25.1-1 [54.0 kB]
+#11 18.26 Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 logsave arm64 1.46.5-2ubuntu1.2 [9918 B]
+#11 18.35 Get:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libext2fs2 arm64 1.46.5-2ubuntu1.2 [211 kB]
+#11 18.51 Get:4 http://packages.ros.org/ros2/ubuntu jammy/main arm64 python3-rosdep all 0.25.1-1 [3492 B]
+#11 18.51 Get:5 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-message-filters arm64 4.3.5-1jammy.20240820.160623 [40.5 kB]
+#11 18.59 Get:6 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-ros arm64 0.25.7-1jammy.20240820.161237 [294 kB]
+#11 18.65 Get:7 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 e2fsprogs arm64 1.46.5-2ubuntu1.2 [587 kB]
+#11 18.85 Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpython3-dev arm64 3.10.6-1~22.04.1 [7064 B]
+#11 18.86 Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 python3-dev arm64 3.10.6-1~22.04.1 [26.0 kB]
+#11 18.87 Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 python3-minimal arm64 3.10.6-1~22.04.1 [24.3 kB]
+#11 18.87 Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 python3 arm64 3.10.6-1~22.04.1 [22.8 kB]
+#11 18.88 Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpython3-stdlib arm64 3.10.6-1~22.04.1 [6812 B]
+#11 18.88 Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libcom-err2 arm64 1.46.5-2ubuntu1.2 [9108 B]
+#11 18.89 Get:14 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libss2 arm64 1.46.5-2ubuntu1.2 [11.9 kB]
+#11 18.90 Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 linux-libc-dev arm64 5.15.0-119.129 [1295 kB]
+#11 18.96 Get:16 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-bullet arm64 0.25.7-1jammy.20240820.164529 [11.2 kB]
+#11 18.96 Get:17 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-eigen arm64 0.25.7-1jammy.20240820.164625 [13.8 kB]
+#11 18.98 Get:18 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-geometry-msgs arm64 0.25.7-1jammy.20240820.164644 [20.2 kB]
+#11 19.00 Get:19 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-kdl arm64 0.25.7-1jammy.20240820.164819 [14.8 kB]
+#11 19.01 Get:20 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-tf2-sensor-msgs arm64 0.25.7-1jammy.20240820.164851 [10.3 kB]
+#11 19.11 Get:21 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-geometry2 arm64 0.25.7-1jammy.20240820.172404 [6014 B]
+#11 19.12 Get:22 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-urdf-parser-plugin arm64 2.6.1-1jammy.20240822.151135 [9838 B]
+#11 19.12 Get:23 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-urdf arm64 2.6.1-1jammy.20240822.151533 [98.1 kB]
+#11 19.21 Get:24 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-kdl-parser arm64 2.6.4-1jammy.20240822.151627 [21.0 kB]
+#11 19.21 Get:25 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-robot-state-publisher arm64 3.0.3-2jammy.20240822.152000 [158 kB]
+#11 19.31 Get:26 http://packages.ros.org/ros2/ubuntu jammy/main arm64 ros-humble-ros-base arm64 0.10.0-1jammy.20240822.152616 [5622 B]
+#11 20.52 debconf: delaying package configuration, since apt-utils is not installed
+#11 20.71 Fetched 2973 kB in 1s (2227 kB/s)
+#11 20.89 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37668 files and directories currently installed.)
+#11 21.17 Preparing to unpack .../logsave_1.46.5-2ubuntu1.2_arm64.deb ...
+#11 21.20 Unpacking logsave (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
+#11 21.43 Preparing to unpack .../libext2fs2_1.46.5-2ubuntu1.2_arm64.deb ...
+#11 21.48 Unpacking libext2fs2:arm64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
+#11 21.88 Setting up libext2fs2:arm64 (1.46.5-2ubuntu1.2) ...
+#11 22.09 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37668 files and directories currently installed.)
+#11 22.24 Preparing to unpack .../e2fsprogs_1.46.5-2ubuntu1.2_arm64.deb ...
+#11 22.30 Unpacking e2fsprogs (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
+#11 23.19 Preparing to unpack .../libpython3-dev_3.10.6-1~22.04.1_arm64.deb ...
+#11 23.22 Unpacking libpython3-dev:arm64 (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
+#11 23.41 Preparing to unpack .../python3-dev_3.10.6-1~22.04.1_arm64.deb ...
+#11 23.45 Unpacking python3-dev (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
+#11 23.65 Preparing to unpack .../python3-minimal_3.10.6-1~22.04.1_arm64.deb ...
+#11 23.70 Unpacking python3-minimal (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
+#11 24.01 Setting up python3-minimal (3.10.6-1~22.04.1) ...
+#11 25.16 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37668 files and directories currently installed.)
+#11 25.30 Preparing to unpack .../python3_3.10.6-1~22.04.1_arm64.deb ...
+#11 25.87 running python pre-rtupdate hooks for python3.10...
+#11 25.87 Unpacking python3 (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
+#11 26.16 Preparing to unpack .../libpython3-stdlib_3.10.6-1~22.04.1_arm64.deb ...
+#11 26.19 Unpacking libpython3-stdlib:arm64 (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
+#11 26.40 Preparing to unpack .../libcom-err2_1.46.5-2ubuntu1.2_arm64.deb ...
+#11 26.43 Unpacking libcom-err2:arm64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
+#11 26.77 Setting up libcom-err2:arm64 (1.46.5-2ubuntu1.2) ...
+#11 27.12 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37668 files and directories currently installed.)
+#11 27.33 Preparing to unpack .../00-libss2_1.46.5-2ubuntu1.2_arm64.deb ...
+#11 27.38 Unpacking libss2:arm64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
+#11 27.64 Preparing to unpack .../01-linux-libc-dev_5.15.0-119.129_arm64.deb ...
+#11 27.68 Unpacking linux-libc-dev:arm64 (5.15.0-119.129) over (5.15.0-118.128) ...
+#11 39.24 Preparing to unpack .../02-python3-rosdep-modules_0.25.1-1_all.deb ...
+#11 39.68 Unpacking python3-rosdep-modules (0.25.1-1) over (0.24.0-1) ...
+#11 40.30 Preparing to unpack .../03-python3-rosdep_0.25.1-1_all.deb ...
+#11 40.32 Unpacking python3-rosdep (0.25.1-1) over (0.24.0-1) ...
+#11 40.53 Preparing to unpack .../04-ros-humble-message-filters_4.3.5-1jammy.20240820.160623_arm64.deb ...
+#11 40.56 Unpacking ros-humble-message-filters (4.3.5-1jammy.20240820.160623) over (4.3.4-1jammy.20240731.002042) ...
+#11 41.22 Preparing to unpack .../05-ros-humble-tf2-ros_0.25.7-1jammy.20240820.161237_arm64.deb ...
+#11 41.24 Unpacking ros-humble-tf2-ros (0.25.7-1jammy.20240820.161237) over (0.25.7-1jammy.20240731.005007) ...
+#11 42.17 Preparing to unpack .../06-ros-humble-tf2-bullet_0.25.7-1jammy.20240820.164529_arm64.deb ...
+#11 42.20 Unpacking ros-humble-tf2-bullet (0.25.7-1jammy.20240820.164529) over (0.25.7-1jammy.20240731.012727) ...
+#11 42.64 Preparing to unpack .../07-ros-humble-tf2-eigen_0.25.7-1jammy.20240820.164625_arm64.deb ...
+#11 42.67 Unpacking ros-humble-tf2-eigen (0.25.7-1jammy.20240820.164625) over (0.25.7-1jammy.20240731.012728) ...
+#11 43.10 Preparing to unpack .../08-ros-humble-tf2-geometry-msgs_0.25.7-1jammy.20240820.164644_arm64.deb ...
+#11 43.14 Unpacking ros-humble-tf2-geometry-msgs (0.25.7-1jammy.20240820.164644) over (0.25.7-1jammy.20240731.012803) ...
+#11 43.71 Preparing to unpack .../09-ros-humble-tf2-kdl_0.25.7-1jammy.20240820.164819_arm64.deb ...
+#11 43.75 Unpacking ros-humble-tf2-kdl (0.25.7-1jammy.20240820.164819) over (0.25.7-1jammy.20240731.012955) ...
+#11 44.34 Preparing to unpack .../10-ros-humble-tf2-sensor-msgs_0.25.7-1jammy.20240820.164851_arm64.deb ...
+#11 44.37 Unpacking ros-humble-tf2-sensor-msgs (0.25.7-1jammy.20240820.164851) over (0.25.7-1jammy.20240731.033301) ...
+#11 44.74 Preparing to unpack .../11-ros-humble-geometry2_0.25.7-1jammy.20240820.172404_arm64.deb ...
+#11 44.77 Unpacking ros-humble-geometry2 (0.25.7-1jammy.20240820.172404) over (0.25.7-1jammy.20240731.041842) ...
+#11 45.17 Preparing to unpack .../12-ros-humble-urdf-parser-plugin_2.6.1-1jammy.20240822.151135_arm64.deb ...
+#11 45.20 Unpacking ros-humble-urdf-parser-plugin (2.6.1-1jammy.20240822.151135) over (2.6.0-2jammy.20240729.013738) ...
+#11 45.78 Preparing to unpack .../13-ros-humble-urdf_2.6.1-1jammy.20240822.151533_arm64.deb ...
+#11 45.82 Unpacking ros-humble-urdf (2.6.1-1jammy.20240822.151533) over (2.6.0-2jammy.20240729.032813) ...
+#11 46.41 Preparing to unpack .../14-ros-humble-kdl-parser_2.6.4-1jammy.20240822.151627_arm64.deb ...
+#11 46.49 Unpacking ros-humble-kdl-parser (2.6.4-1jammy.20240822.151627) over (2.6.4-1jammy.20240729.033817) ...
+#11 46.89 Preparing to unpack .../15-ros-humble-robot-state-publisher_3.0.3-2jammy.20240822.152000_arm64.deb ...
+#11 46.92 Unpacking ros-humble-robot-state-publisher (3.0.3-2jammy.20240822.152000) over (3.0.3-2jammy.20240731.011029) ...
+#11 47.53 Preparing to unpack .../16-ros-humble-ros-base_0.10.0-1jammy.20240822.152616_arm64.deb ...
+#11 47.56 Unpacking ros-humble-ros-base (0.10.0-1jammy.20240822.152616) over (0.10.0-1jammy.20240731.131941) ...
+#11 47.95 Setting up ros-humble-message-filters (4.3.5-1jammy.20240820.160623) ...
+#11 48.01 Setting up ros-humble-urdf-parser-plugin (2.6.1-1jammy.20240822.151135) ...
+#11 48.07 Setting up libpython3-dev:arm64 (3.10.6-1~22.04.1) ...
+#11 48.11 Setting up linux-libc-dev:arm64 (5.15.0-119.129) ...
+#11 48.14 Setting up libss2:arm64 (1.46.5-2ubuntu1.2) ...
+#11 48.17 Setting up ros-humble-tf2-ros (0.25.7-1jammy.20240820.161237) ...
+#11 48.19 Setting up logsave (1.46.5-2ubuntu1.2) ...
+#11 48.22 Setting up ros-humble-urdf (2.6.1-1jammy.20240822.151533) ...
+#11 48.25 Setting up ros-humble-tf2-eigen (0.25.7-1jammy.20240820.164625) ...
+#11 48.29 Setting up libpython3-stdlib:arm64 (3.10.6-1~22.04.1) ...
+#11 48.32 Setting up ros-humble-tf2-geometry-msgs (0.25.7-1jammy.20240820.164644) ...
+#11 48.35 Setting up ros-humble-tf2-bullet (0.25.7-1jammy.20240820.164529) ...
+#11 48.38 Setting up ros-humble-tf2-sensor-msgs (0.25.7-1jammy.20240820.164851) ...
+#11 48.41 Setting up ros-humble-kdl-parser (2.6.4-1jammy.20240822.151627) ...
+#11 48.44 Setting up e2fsprogs (1.46.5-2ubuntu1.2) ...
+#11 49.57 Setting up python3 (3.10.6-1~22.04.1) ...
+#11 49.61 running python rtupdate hooks for python3.10...
+#11 49.61 running python post-rtupdate hooks for python3.10...
+#11 50.37 Setting up ros-humble-tf2-kdl (0.25.7-1jammy.20240820.164819) ...
+#11 50.40 Setting up ros-humble-robot-state-publisher (3.0.3-2jammy.20240822.152000) ...
+#11 50.43 Setting up python3-rosdep-modules (0.25.1-1) ...
+#11 51.85 Setting up python3-dev (3.10.6-1~22.04.1) ...
+#11 51.88 Setting up ros-humble-geometry2 (0.25.7-1jammy.20240820.172404) ...
+#11 51.91 Setting up python3-rosdep (0.25.1-1) ...
+#11 51.94 Setting up ros-humble-ros-base (0.10.0-1jammy.20240822.152616) ...
+#11 51.97 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+#11 DONE 53.1s
+
+#12 [ 9/13] RUN sudo apt install -y git
+#12 0.958 
+#12 0.958 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+#12 0.958 
+#12 1.196 Reading package lists...
+#12 5.772 Building dependency tree...
+#12 6.454 Reading state information...
+#12 8.582 git is already the newest version (1:2.34.1-1ubuntu1.11).
+#12 8.582 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+#12 DONE 8.7s
+
+#13 [10/13] RUN git config --global --add safe.directory /TestBotTeaching
+#13 DONE 1.0s
+
+#14 [11/13] RUN rosdep update
+#14 34.04 reading in sources list data from /etc/ros/rosdep/sources.list.d
+#14 34.04 Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml
+#14 34.04 Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml
+#14 34.04 Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml
+#14 34.04 Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml
+#14 34.04 Hit https://raw.githubusercontent.com/ros/rosdistro/master/releases/fuerte.yaml
+#14 34.04 Query rosdistro index https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
+#14 34.04 Skip end-of-life distro "ardent"
+#14 34.04 Skip end-of-life distro "bouncy"
+#14 34.04 Skip end-of-life distro "crystal"
+#14 34.04 Skip end-of-life distro "dashing"
+#14 34.04 Skip end-of-life distro "eloquent"
+#14 34.04 Skip end-of-life distro "foxy"
+#14 34.04 Skip end-of-life distro "galactic"
+#14 34.04 Skip end-of-life distro "groovy"
+#14 34.04 Add distro "humble"
+#14 34.04 Skip end-of-life distro "hydro"
+#14 34.04 Skip end-of-life distro "indigo"
+#14 34.04 Add distro "iron"
+#14 34.04 Skip end-of-life distro "jade"
+#14 34.04 Add distro "jazzy"
+#14 34.04 Skip end-of-life distro "kinetic"
+#14 34.04 Skip end-of-life distro "lunar"
+#14 34.04 Skip end-of-life distro "melodic"
+#14 34.04 Add distro "noetic"
+#14 34.04 Add distro "rolling"
+#14 34.04 updated cache in /home/astro-dev/.ros/rosdep/sources.cache
+#14 DONE 34.4s
+
+#15 [12/13] RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+#15 DONE 1.1s
+
+#16 [13/13] RUN sudo apt-get install -y clang-format
+#16 1.283 Reading package lists...
+#16 5.300 Building dependency tree...
+#16 6.177 Reading state information...
+#16 7.875 The following additional packages will be installed:
+#16 7.882   clang-format-14 libclang-cpp14 libedit2 libllvm14
+#16 8.045 The following NEW packages will be installed:
+#16 8.054   clang-format clang-format-14 libclang-cpp14 libedit2 libllvm14
+#16 8.375 0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+#16 8.375 Need to get 34.2 MB of archives.
+#16 8.375 After this operation, 157 MB of additional disk space will be used.
+#16 8.375 Get:1 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libedit2 arm64 3.1-20210910-1build1 [96.0 kB]
+#16 8.780 Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libllvm14 arm64 1:14.0.0-1ubuntu1.1 [22.6 MB]
+#16 12.57 Get:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 libclang-cpp14 arm64 1:14.0.0-1ubuntu1.1 [11.5 MB]
+#16 14.20 Get:4 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 clang-format-14 arm64 1:14.0.0-1ubuntu1.1 [49.9 kB]
+#16 14.20 Get:5 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 clang-format arm64 1:14.0-55~exp2 [3694 B]
+#16 15.03 debconf: delaying package configuration, since apt-utils is not installed
+#16 15.26 Fetched 34.2 MB in 6s (5618 kB/s)
+#16 15.43 Selecting previously unselected package libedit2:arm64.
+#16 15.43 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37668 files and directories currently installed.)
+#16 15.66 Preparing to unpack .../libedit2_3.1-20210910-1build1_arm64.deb ...
+#16 15.70 Unpacking libedit2:arm64 (3.1-20210910-1build1) ...
+#16 15.89 Selecting previously unselected package libllvm14:arm64.
+#16 15.91 Preparing to unpack .../libllvm14_1%3a14.0.0-1ubuntu1.1_arm64.deb ...
+#16 15.92 Unpacking libllvm14:arm64 (1:14.0.0-1ubuntu1.1) ...
+#16 18.66 Selecting previously unselected package libclang-cpp14.
+#16 18.68 Preparing to unpack .../libclang-cpp14_1%3a14.0.0-1ubuntu1.1_arm64.deb ...
+#16 18.69 Unpacking libclang-cpp14 (1:14.0.0-1ubuntu1.1) ...
+#16 21.41 Selecting previously unselected package clang-format-14.
+#16 21.43 Preparing to unpack .../clang-format-14_1%3a14.0.0-1ubuntu1.1_arm64.deb ...
+#16 21.44 Unpacking clang-format-14 (1:14.0.0-1ubuntu1.1) ...
+#16 21.70 Selecting previously unselected package clang-format:arm64.
+#16 21.71 Preparing to unpack .../clang-format_1%3a14.0-55~exp2_arm64.deb ...
+#16 21.73 Unpacking clang-format:arm64 (1:14.0-55~exp2) ...
+#16 21.99 Setting up libedit2:arm64 (3.1-20210910-1build1) ...
+#16 22.03 Setting up libllvm14:arm64 (1:14.0.0-1ubuntu1.1) ...
+#16 22.06 Setting up libclang-cpp14 (1:14.0.0-1ubuntu1.1) ...
+#16 22.10 Setting up clang-format-14 (1:14.0.0-1ubuntu1.1) ...
+#16 22.15 Setting up clang-format:arm64 (1:14.0-55~exp2) ...
+#16 22.19 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+#16 DONE 29.2s
+
+#17 exporting to image
+#17 exporting layers
+#17 exporting layers 6.1s done
+#17 writing image sha256:6954335e2a0e2b4684bb11489af0df685c300d8540f2ce792cfb2f0dfe4e08a7 0.0s done
+#17 DONE 6.1s
