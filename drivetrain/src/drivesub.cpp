@@ -13,6 +13,7 @@ public:
   { // we've made the subscription but you need to make the two Float32 publishers you will need
     subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
       "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1));
+      //declare your two publishers here
   }
 
 
@@ -36,5 +37,6 @@ int main(int argc, char *argv[])
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<DriveSub>());
   rclcpp::shutdown();
+  // this is the code that actually makes the node run
   return 0;
 }
