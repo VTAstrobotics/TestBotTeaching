@@ -13,7 +13,7 @@ find_package(std_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-add_executable(drivetrainNode /TestBotTeaching/drivetrain/src/drivesub.cpp /TestBotTeaching/drivetrain/src/uart.h /TestBotTeaching/drivetrain/src/uart.cpp)
+add_executable(drivetrainNode /workspaces/TestBotTeaching/drivetrain/src/drivesub.cpp /TestBotTeaching/drivetrain/src/uart.h /TestBotTeaching/drivetrain/src/uart.cpp)
 ament_target_dependencies(drivetrainNode rclcpp sensor_msgs std_msgs)
 
 install(
