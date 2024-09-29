@@ -4,6 +4,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/joy.hpp>
 #include <std_msgs/msg/string.hpp>
+#include <std_msgs/msg/float32.hpp>
 
 using std::placeholders::_1;
 class DriveSub : public rclcpp::Node
@@ -14,21 +15,35 @@ public:
     subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
       "/joy", 10, std::bind(&DriveSub::joy_callback, this, _1));
       //declare your two publishers here
+    LeftPublisher_ = this->create_publisher<std_msgs::msg::Float32>("/left", 10);
+    RightPublisher_ = this->create_publisher<std_msgs::msg::Float32>("/right", 10);
   }
 
 
 private:
   void joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg)
   {
+
+    auto leftData = std_msgs::msg::Float32();
+    auto rightData = std_msgs::msg::Float32();
+
     /**
      * here you need to take in the msg and seperate it into a left and right speed variable and publish those values to the /left and /right topic
      */
+    float left  = msg-> axes[1];
+    float right = msg-> axes[4];
 
+    leftData.data = left;
+    rightData.data = right;
 
+    LeftPublisher_->publish(leftData);
+    RightPublisher_->publish(rightData);
 
   }
 
   rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
+  rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr LeftPublisher_;
+  rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr RightPublisher_;
 
 };
 
