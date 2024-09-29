@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/workspaces/TestBotTeaching/install/drivetrain
+Invoked command in '/workspaces/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/workspaces/TestBotTeaching/install/drivetrain
+Invoking command in '/workspaces/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/TestBotTeaching/build/drivetrain -- -j16 -l16
+Invoked command in '/workspaces/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/TestBotTeaching/build/drivetrain -- -j16 -l16
+Invoking command in '/workspaces/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/TestBotTeaching/build/drivetrain
+Invoked command in '/workspaces/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/TestBotTeaching/build/drivetrain

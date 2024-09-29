@@ -1,0 +1,7 @@
+[01m[K/workspaces/TestBotTeaching/drivetrain/src/drivesub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kuart.h: No such file or directory
+    7 | #include [01;31m[K"uart.h"[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

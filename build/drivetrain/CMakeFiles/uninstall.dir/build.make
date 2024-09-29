@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TestBotTeaching/drivetrain
+CMAKE_SOURCE_DIR = /workspaces/TestBotTeaching/drivetrain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TestBotTeaching/build/drivetrain
+CMAKE_BINARY_DIR = /workspaces/TestBotTeaching/build/drivetrain
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /TestBotTeaching/build/drivetrain && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /TestBotTeaching/drivetrain /TestBotTeaching/drivetrain /TestBotTeaching/build/drivetrain /TestBotTeaching/build/drivetrain /TestBotTeaching/build/drivetrain/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspaces/TestBotTeaching/build/drivetrain && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/TestBotTeaching/drivetrain /workspaces/TestBotTeaching/drivetrain /workspaces/TestBotTeaching/build/drivetrain /workspaces/TestBotTeaching/build/drivetrain /workspaces/TestBotTeaching/build/drivetrain/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

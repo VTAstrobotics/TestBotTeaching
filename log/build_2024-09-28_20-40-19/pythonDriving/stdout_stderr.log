@@ -1,0 +1,26 @@
+running egg_info
+creating ../build/pythonDriving/pythonDriving.egg-info
+writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/TestBotTeaching/build/pythonDriving/build
+creating /workspaces/TestBotTeaching/build/pythonDriving/build/lib
+creating /workspaces/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+copying pythonDriving/pythonDriving.py -> /workspaces/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+copying pythonDriving/__init__.py -> /workspaces/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/pythonDriving/pythonDriving.egg-info to /workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonDriving script to /workspaces/TestBotTeaching/install/pythonDriving/lib/pythonDriving
+writing list of installed files to '/workspaces/TestBotTeaching/build/pythonDriving/install.log'

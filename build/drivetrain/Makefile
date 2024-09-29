@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /TestBotTeaching/drivetrain
+CMAKE_SOURCE_DIR = /workspaces/TestBotTeaching/drivetrain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /TestBotTeaching/build/drivetrain
+CMAKE_BINARY_DIR = /workspaces/TestBotTeaching/build/drivetrain
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /TestBotTeaching/build/drivetrain/CMakeFiles /TestBotTeaching/build/drivetrain//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TestBotTeaching/build/drivetrain/CMakeFiles /workspaces/TestBotTeaching/build/drivetrain//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /TestBotTeaching/build/drivetrain/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TestBotTeaching/build/drivetrain/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -234,30 +234,6 @@ src/drivesub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.s
 .PHONY : src/drivesub.cpp.s
 
-src/uart.o: src/uart.cpp.o
-.PHONY : src/uart.o
-
-# target to build an object file
-src/uart.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.o
-.PHONY : src/uart.cpp.o
-
-src/uart.i: src/uart.cpp.i
-.PHONY : src/uart.i
-
-# target to preprocess a source file
-src/uart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.i
-.PHONY : src/uart.cpp.i
-
-src/uart.s: src/uart.cpp.s
-.PHONY : src/uart.s
-
-# target to generate assembly for a file
-src/uart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drivetrainNode.dir/build.make CMakeFiles/drivetrainNode.dir/src/uart.cpp.s
-.PHONY : src/uart.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,9 +253,6 @@ help:
 	@echo "... src/drivesub.o"
 	@echo "... src/drivesub.i"
 	@echo "... src/drivesub.s"
-	@echo "... src/uart.o"
-	@echo "... src/uart.i"
-	@echo "... src/uart.s"
 .PHONY : help
 
 

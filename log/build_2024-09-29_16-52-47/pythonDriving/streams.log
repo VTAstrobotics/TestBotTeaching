@@ -1,0 +1,21 @@
+[0.447s] Invoking command in '/workspaces/TestBotTeaching/pythonDriving': PYTHONPATH=/workspaces/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /workspaces/TestBotTeaching/build/pythonDriving/build install --record /workspaces/TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data
+[0.635s] running egg_info
+[0.635s] writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+[0.635s] writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+[0.635s] writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+[0.636s] writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+[0.636s] writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+[0.637s] reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[0.637s] writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[0.637s] running build
+[0.637s] running build_py
+[0.638s] running install
+[0.638s] running install_lib
+[0.639s] running install_data
+[0.639s] running install_egg_info
+[0.640s] removing '/workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving-0.0.0-py3.10.egg-info' (and everything under it)
+[0.640s] Copying ../build/pythonDriving/pythonDriving.egg-info to /workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.657s] Installing pythonDriving script to /workspaces/TestBotTeaching/install/pythonDriving/lib/pythonDriving
+[0.657s] writing list of installed files to '/workspaces/TestBotTeaching/build/pythonDriving/install.log'
+[0.679s] Invoked command in '/workspaces/TestBotTeaching/pythonDriving' returned '0': PYTHONPATH=/workspaces/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /workspaces/TestBotTeaching/build/pythonDriving/build install --record /workspaces/TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data
