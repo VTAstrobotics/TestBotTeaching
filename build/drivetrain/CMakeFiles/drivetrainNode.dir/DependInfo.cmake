@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/TestBotTeaching/drivetrain/src/drivesub.cpp" "CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o" "gcc" "CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o.d"
-  "/TestBotTeaching/drivetrain/src/uart.cpp" "CMakeFiles/drivetrainNode.dir/src/uart.cpp.o" "gcc" "CMakeFiles/drivetrainNode.dir/src/uart.cpp.o.d"
+  "/workspaces/TestBotTeaching/drivetrain/src/drivesub.cpp" "CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o" "gcc" "CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o.d"
   )
 
 # Targets to which this target links.

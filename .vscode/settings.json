@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/TestBotTeaching/drivetrain",
+    "cmake.sourceDirectory": "/workspaces/TestBotTeaching/drivetrain",
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "functional": "cpp"
