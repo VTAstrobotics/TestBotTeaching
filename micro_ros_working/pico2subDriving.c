@@ -19,7 +19,7 @@ const uint LEFT_MOTOR = 10;
 const uint RIGHT_MOTOR = 14;
 
 rcl_publisher_t publisher;
-std_msgs__msg__Float32 msg, left, right;
+std_msgs__msg__Float32 msg, left, right; // TODO: make these messages actually get data
 
 void configurePWM() {
 
@@ -110,9 +110,7 @@ int main() {
   rmw_uros_set_custom_transport(
       true, NULL, pico_serial_transport_open, pico_serial_transport_close,
       pico_serial_transport_write, pico_serial_transport_read);
-  sensor_msgs__msg__Joy *joystickMSG = sensor_msgs__msg__Joy__create();
-  left.data = -492921;
-  right.data = -321821;
+
   // apparently this function checks that a message is inited
   // std_msgs__msg__Float32__init();
 
@@ -139,10 +137,7 @@ int main() {
     return ret;
   }
 
-  // rcl_subscription_t joy_Subscriber;
 
-  rcl_subscription_t left_Subscriber;
-  rcl_subscription_t right_Subscriber;
 
   rclc_support_init(&support, 0, NULL, &allocator);
 
@@ -151,16 +146,7 @@ int main() {
   // rclc_subscription_init_default(&joy_Subscriber, &node,
   // ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32), "/speeds");//TODO: can
   // I just get the type or do I need the sequence type
-
-  rclc_subscription_init_default(
-      &left_Subscriber, &node,
-      ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
-      "/left"); // TODO: can I just get the type or do I need the sequence type
-  rclc_subscription_init_default(
-      &right_Subscriber, &node,
-      ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
-      "/right"); // TODO: can I just get the type or do I need the sequence type
-
+ 
   rclc_publisher_init_default(
       &publisher, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
       "pico_publisher");
@@ -169,12 +155,8 @@ int main() {
 
   rclc_executor_init(&executor, &support.context, 3, &allocator);
 
-  // rclc_executor_add_timer(&executor, &timer);
+ 
 
-  rclc_executor_add_subscription(&executor, &left_Subscriber, &left,
-                                 &left_callback, ON_NEW_DATA);
-  rclc_executor_add_subscription(&executor, &right_Subscriber, &right,
-                                 &right_callback, ON_NEW_DATA);
 
   rclc_executor_spin(&executor);
   while (true) {
