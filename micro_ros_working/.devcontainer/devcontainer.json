@@ -20,7 +20,16 @@
             "redhat.vscode-xml",
             "ms-vscode.cpptools",
             "twxs.cmake",
-            "ms-vscode.cmake-tools"
+            "ms-vscode.cmake-tools",
+            "raspberry-pi.raspberry-pi-pico",
+            "paulober.pico-w-go",
+            "mcu-debug.memory-view",
+            "ms-vscode.makefile-tools",
+            "marus25.cortex-debug",
+            "ms-vscode.vscode-serial-monitor",
+            "mcu-debug.peripheral-viewer",
+            "mcu-debug.debug-tracker-vscode",
+            "mcu-debug.rtos-views"
           ],
           "settings": {
               "files.associations": {

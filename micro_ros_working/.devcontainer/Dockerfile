@@ -17,10 +17,7 @@ RUN apt update  \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
 
-    RUN  git clone https://git.code.sf.net/p/openocd/code openocd
-    # we build it in the .sh
-   
-   
+
 
 RUN add-apt-repository universe
 
