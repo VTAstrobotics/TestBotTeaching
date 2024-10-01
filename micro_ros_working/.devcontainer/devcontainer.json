@@ -1,0 +1,53 @@
+{
+  "name": "ROS 2 Workspace humble-ros-base",
+  "remoteUser": "rosdev",
+  "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+          "USERNAME": "rosdev",
+          "GID": "1000",
+          "UID": "1000"
+      }
+  },
+  "customizations": {
+      "vscode": {
+          "extensions": [
+            "ms-python.python",
+            "charliermarsh.ruff",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-iot.vscode-ros",
+            "smilerobotics.urdf",
+            "redhat.vscode-xml",
+            "ms-vscode.cpptools",
+            "twxs.cmake",
+            "ms-vscode.cmake-tools",
+            "raspberry-pi.raspberry-pi-pico",
+            "paulober.pico-w-go",
+            "mcu-debug.memory-view",
+            "ms-vscode.makefile-tools",
+            "marus25.cortex-debug",
+            "ms-vscode.vscode-serial-monitor",
+            "mcu-debug.peripheral-viewer",
+            "mcu-debug.debug-tracker-vscode",
+            "mcu-debug.rtos-views"
+          ],
+          "settings": {
+              "files.associations": {
+                  "*.rviz": "yaml",
+                  "*.srdf": "xml",
+                  "*.urdf": "xml",
+                  "*.xacro": "xml"
+              }
+          }
+      }
+  },
+  "workspaceFolder": "/home/rosdev/ros2_ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/rosdev/ros2_ws/src,type=bind",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/micro_ros_raspberrypi_pico_sdk,type=bind,consistency=cached"
+  ],
+  "runArgs": [
+      "--net=host",
+      "--privileged"
+  ]
+}
