@@ -1,0 +1,21 @@
+running egg_info
+creating ../build/pythonDriving/pythonDriving.egg-info
+writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build
+creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib
+creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+copying pythonDriving/pythonDriving.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+copying pythonDriving/__init__.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+running install
+running install_lib
+running install_data
+copying resource/pythonDriving -> /home/astrobotics/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages

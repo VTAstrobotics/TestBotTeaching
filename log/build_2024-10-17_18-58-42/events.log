@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.004940] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.013998] (micro_ros_raspberrypicosdk) JobQueued: {'identifier': 'micro_ros_raspberrypicosdk', 'dependencies': OrderedDict()}
+[0.021396] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.022457] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.083995] (micro_ros_raspberrypicosdk) JobStarted: {'identifier': 'micro_ros_raspberrypicosdk'}
+[0.090081] (-) TimerEvent: {}
+[0.142837] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.201759] (-) TimerEvent: {}
+[0.299723] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.304862] (-) TimerEvent: {}
+[0.309445] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.313610] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0e73df53-6075-4b96-bfca-a8623884e5fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-f9e8f601-67d6-4b33-8e86-9fcc85d20845.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.335594] (micro_ros_raspberrypicosdk) JobProgress: {'identifier': 'micro_ros_raspberrypicosdk', 'progress': 'cmake'}
+[0.341283] (micro_ros_raspberrypicosdk) Command: {'cmd': ['/usr/bin/cmake', '/TestBotTeaching/micro_ros_working', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/micro_ros_raspberrypicosdk'], 'cwd': '/TestBotTeaching/build/micro_ros_raspberrypicosdk', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0e73df53-6075-4b96-bfca-a8623884e5fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-f9e8f601-67d6-4b33-8e86-9fcc85d20845.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/micro_ros_raspberrypicosdk'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.406754] (-) TimerEvent: {}
+[0.445434] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mPICO_SDK_PATH is /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src\x1b[0m\n'}
+[0.448075] (micro_ros_raspberrypicosdk) StderrLine: {'line': b"\x1b[0mTarget board (PICO_BOARD) is 'pico'.\x1b[0m\n"}
+[0.451352] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mUsing board configuration from /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/src/boards/include/boards/pico.h\x1b[0m\n'}
+[0.460581] (micro_ros_raspberrypicosdk) StderrLine: {'line': b"\x1b[0mPico Platform (PICO_PLATFORM) is 'rp2040'.\x1b[0m\n"}
+[0.462456] (micro_ros_raspberrypicosdk) StderrLine: {'line': b"\x1b[0mDefaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.\x1b[0m\n"}
+[0.463571] (micro_ros_raspberrypicosdk) StderrLine: {'line': b"\x1b[0mConfiguring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'\x1b[0m\n"}
+[0.515283] (-) TimerEvent: {}
+[0.535938] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[31mCMake Error at /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:29 (message):\n'}
+[0.545951] (micro_ros_raspberrypicosdk) StderrLine: {'line': b"  Compiler 'arm-none-eabi-gcc' not found, you can specify search path with\n"}
+[0.546815] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  "PICO_TOOLCHAIN_PATH".\n'}
+[0.547624] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.552642] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)\n'}
+[0.553401] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)\n'}
+[0.554138] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)\n'}
+[0.559571] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)\n'}
+[0.560605] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'  CMakeLists.txt:11 (project)\n'}
+[0.563144] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\n'}
+[0.565944] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.566619] (micro_ros_raspberrypicosdk) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.567448] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.\x1b[0m\n'}
+[0.568209] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\x1b[0m\n'}
+[0.568937] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\x1b[0m\n'}
+[0.569567] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: CMAKE_ASM_COMPILER not set, after EnableLanguage\x1b[0m\n'}
+[0.615475] (-) TimerEvent: {}
+[0.720775] (-) TimerEvent: {}
+[0.822213] (-) TimerEvent: {}
+[0.927840] (-) TimerEvent: {}
+[0.985059] (drivetrain) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[1.028376] (-) TimerEvent: {}
+[1.131669] (-) TimerEvent: {}
+[1.236423] (-) TimerEvent: {}
+[1.338395] (-) TimerEvent: {}
+[1.442589] (-) TimerEvent: {}
+[1.543889] (-) TimerEvent: {}
+[1.646017] (-) TimerEvent: {}
+[1.748769] (-) TimerEvent: {}
+[1.854608] (-) TimerEvent: {}
+[1.961467] (-) TimerEvent: {}
+[2.064011] (-) TimerEvent: {}
+[2.173883] (-) TimerEvent: {}
+[2.276747] (-) TimerEvent: {}
+[2.380676] (-) TimerEvent: {}
+[2.483055] (-) TimerEvent: {}
+[2.589709] (-) TimerEvent: {}
+[2.697671] (-) TimerEvent: {}
+[2.798747] (-) TimerEvent: {}
+[2.899884] (-) TimerEvent: {}
+[3.002310] (-) TimerEvent: {}
+[3.105367] (-) TimerEvent: {}
+[3.210445] (-) TimerEvent: {}
+[3.314875] (-) TimerEvent: {}
+[3.421640] (-) TimerEvent: {}
+[3.523661] (-) TimerEvent: {}
+[3.629560] (-) TimerEvent: {}
+[3.714973] (micro_ros_raspberrypicosdk) CommandEnded: {'returncode': 1}
+[3.740033] (-) TimerEvent: {}
+[3.844410] (-) TimerEvent: {}
+[3.949653] (-) TimerEvent: {}
+[3.962357] (micro_ros_raspberrypicosdk) JobEnded: {'identifier': 'micro_ros_raspberrypicosdk', 'rc': 1}
+[4.049864] (-) TimerEvent: {}
+[4.150781] (-) TimerEvent: {}
+[4.256505] (-) TimerEvent: {}
+[4.360420] (-) TimerEvent: {}
+[4.467762] (-) TimerEvent: {}
+[4.570101] (-) TimerEvent: {}
+[4.676942] (-) TimerEvent: {}
+[4.788462] (-) TimerEvent: {}
+[4.891004] (-) TimerEvent: {}
+[4.993663] (-) TimerEvent: {}
+[5.095842] (-) TimerEvent: {}
+[5.200567] (-) TimerEvent: {}
+[5.301977] (-) TimerEvent: {}
+[5.403859] (-) TimerEvent: {}
+[5.505058] (-) TimerEvent: {}
+[5.606278] (-) TimerEvent: {}
+[5.711293] (-) TimerEvent: {}
+[5.812521] (-) TimerEvent: {}
+[5.920033] (-) TimerEvent: {}
+[6.024467] (-) TimerEvent: {}
+[6.135109] (-) TimerEvent: {}
+[6.240311] (-) TimerEvent: {}
+[6.341685] (-) TimerEvent: {}
+[6.448385] (-) TimerEvent: {}
+[6.553585] (-) TimerEvent: {}
+[6.656996] (-) TimerEvent: {}
+[6.760366] (-) TimerEvent: {}
+[6.862234] (-) TimerEvent: {}
+[6.976351] (-) TimerEvent: {}
+[7.078460] (-) TimerEvent: {}
+[7.179471] (-) TimerEvent: {}
+[7.282880] (-) TimerEvent: {}
+[7.385543] (-) TimerEvent: {}
+[7.488551] (-) TimerEvent: {}
+[7.591060] (-) TimerEvent: {}
+[7.693029] (-) TimerEvent: {}
+[7.740053] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 'SIGINT'}
+[7.793349] (-) TimerEvent: {}
+[7.896383] (-) TimerEvent: {}
+[7.998955] (-) TimerEvent: {}
+[8.101505] (-) TimerEvent: {}
+[8.210619] (-) TimerEvent: {}
+[8.364393] (-) TimerEvent: {}
+[8.468763] (-) TimerEvent: {}
+[8.571766] (-) TimerEvent: {}
+[8.673928] (-) TimerEvent: {}
+[8.775019] (-) TimerEvent: {}
+[8.875966] (-) TimerEvent: {}
+[8.978640] (-) TimerEvent: {}
+[9.083663] (-) TimerEvent: {}
+[9.195703] (-) TimerEvent: {}
+[9.297418] (-) TimerEvent: {}
+[9.398958] (-) TimerEvent: {}
+[9.500363] (-) TimerEvent: {}
+[9.601979] (-) TimerEvent: {}
+[9.703647] (-) TimerEvent: {}
+[9.805354] (-) TimerEvent: {}
+[9.906647] (-) TimerEvent: {}
+[10.008103] (-) TimerEvent: {}
+[10.109513] (-) TimerEvent: {}
+[10.212764] (-) TimerEvent: {}
+[10.315705] (-) TimerEvent: {}
+[10.418669] (-) TimerEvent: {}
+[10.519881] (-) TimerEvent: {}
+[10.621327] (-) TimerEvent: {}
+[10.724016] (-) TimerEvent: {}
+[10.826743] (-) TimerEvent: {}
+[10.929896] (-) TimerEvent: {}
+[11.032442] (-) TimerEvent: {}
+[11.134411] (-) TimerEvent: {}
+[11.240535] (-) TimerEvent: {}
+[11.342880] (-) TimerEvent: {}
+[11.443850] (-) TimerEvent: {}
+[11.545155] (-) TimerEvent: {}
+[11.646669] (-) TimerEvent: {}
+[11.747554] (-) TimerEvent: {}
+[11.848668] (-) TimerEvent: {}
+[11.949887] (-) TimerEvent: {}
+[12.051378] (-) TimerEvent: {}
+[12.153036] (-) TimerEvent: {}
+[12.254755] (-) TimerEvent: {}
+[12.357134] (-) TimerEvent: {}
+[12.459182] (-) TimerEvent: {}
+[12.560494] (-) TimerEvent: {}
+[12.662837] (-) TimerEvent: {}
+[12.768450] (-) TimerEvent: {}
+[12.870469] (-) TimerEvent: {}
+[12.973866] (-) TimerEvent: {}
+[13.076757] (-) TimerEvent: {}
+[13.179276] (-) TimerEvent: {}
+[13.281767] (-) TimerEvent: {}
+[13.385269] (-) TimerEvent: {}
+[13.490382] (-) TimerEvent: {}
+[13.595771] (-) TimerEvent: {}
+[13.699411] (-) TimerEvent: {}
+[13.805589] (-) TimerEvent: {}
+[13.909283] (-) TimerEvent: {}
+[14.011032] (-) TimerEvent: {}
+[14.113498] (-) TimerEvent: {}
+[14.216040] (-) TimerEvent: {}
+[14.317136] (-) TimerEvent: {}
+[14.418628] (-) TimerEvent: {}
+[14.521133] (-) TimerEvent: {}
+[14.624215] (-) TimerEvent: {}
+[14.727106] (-) TimerEvent: {}
+[14.831381] (-) TimerEvent: {}
+[14.934477] (-) TimerEvent: {}
+[15.035438] (-) TimerEvent: {}
+[15.137111] (-) TimerEvent: {}
+[15.240575] (-) TimerEvent: {}
+[15.343609] (-) TimerEvent: {}
+[15.456176] (-) TimerEvent: {}
+[15.560755] (-) TimerEvent: {}
+[15.667911] (-) TimerEvent: {}
+[15.770110] (-) TimerEvent: {}
+[15.876881] (-) TimerEvent: {}
+[15.981081] (-) TimerEvent: {}
+[16.083625] (-) TimerEvent: {}
+[16.185447] (-) TimerEvent: {}
+[16.286846] (-) TimerEvent: {}
+[16.388823] (-) TimerEvent: {}
+[16.490898] (-) TimerEvent: {}
+[16.592376] (-) TimerEvent: {}
+[16.695502] (-) TimerEvent: {}
+[16.798297] (-) TimerEvent: {}
+[16.899275] (-) TimerEvent: {}
+[17.000350] (-) TimerEvent: {}
+[17.101811] (-) TimerEvent: {}
+[17.205981] (-) TimerEvent: {}
+[17.306983] (-) TimerEvent: {}
+[17.408134] (-) TimerEvent: {}
+[17.509111] (-) TimerEvent: {}
+[17.610128] (-) TimerEvent: {}
+[17.711336] (-) TimerEvent: {}
+[17.813568] (-) TimerEvent: {}
+[17.915038] (-) TimerEvent: {}
+[18.016366] (-) TimerEvent: {}
+[18.118168] (-) TimerEvent: {}
+[18.222299] (-) TimerEvent: {}
+[18.323985] (-) TimerEvent: {}
+[18.434299] (-) TimerEvent: {}
+[18.536435] (-) TimerEvent: {}
+[18.644557] (-) TimerEvent: {}
+[18.750429] (-) TimerEvent: {}
+[18.855172] (-) TimerEvent: {}
+[18.958073] (-) TimerEvent: {}
+[19.063562] (-) TimerEvent: {}
+[19.167078] (-) TimerEvent: {}
+[19.268782] (-) TimerEvent: {}
+[19.372530] (-) TimerEvent: {}
+[19.473791] (-) TimerEvent: {}
+[19.576726] (-) TimerEvent: {}
+[19.679630] (-) TimerEvent: {}
+[19.782668] (-) TimerEvent: {}
+[19.884859] (-) TimerEvent: {}
+[19.997932] (-) TimerEvent: {}
+[20.122528] (-) TimerEvent: {}
+[20.223984] (-) TimerEvent: {}
+[20.326357] (-) TimerEvent: {}
+[20.429095] (-) TimerEvent: {}
+[20.533066] (-) TimerEvent: {}
+[20.636674] (-) TimerEvent: {}
+[20.738711] (-) TimerEvent: {}
+[20.843399] (-) TimerEvent: {}
+[20.949584] (-) TimerEvent: {}
+[21.051287] (-) TimerEvent: {}
+[21.154231] (-) TimerEvent: {}
+[21.259178] (-) TimerEvent: {}
+[21.363484] (-) TimerEvent: {}
+[21.467542] (-) TimerEvent: {}
+[21.570799] (-) TimerEvent: {}
+[21.693902] (-) TimerEvent: {}
+[21.797551] (-) TimerEvent: {}
+[21.902782] (-) TimerEvent: {}
+[22.009226] (-) TimerEvent: {}
+[22.112189] (-) TimerEvent: {}
+[22.214375] (-) TimerEvent: {}
+[22.316035] (-) TimerEvent: {}
+[22.417681] (-) TimerEvent: {}
+[22.523206] (-) TimerEvent: {}
+[22.581940] (drivetrain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Interrupt\n'}
+[22.585921] (drivetrain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Interrupt\n'}
+[22.591833] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[22.624479] (-) TimerEvent: {}
+[22.705384] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 'SIGINT'}
+[22.730227] (-) TimerEvent: {}
+[22.732675] (-) EventReactorShutdown: {}

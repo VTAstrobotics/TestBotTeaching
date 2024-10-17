@@ -1,0 +1,1 @@
+Invoking command in '/home/astrobotics/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/astrobotics/TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/home/astrobotics/TestBotTeaching/install/drivetrain

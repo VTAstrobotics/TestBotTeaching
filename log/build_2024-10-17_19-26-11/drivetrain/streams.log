@@ -1,0 +1,23 @@
+[0.274s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[2.052s] [100%] Built target drivetrainNode
+[4.673s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/build/drivetrain -- -j4 -l4
+[5.292s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain
+[5.396s] -- Install configuration: ""
+[5.407s] -- Execute custom install script
+[5.427s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode
+[5.456s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+[5.475s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+[5.479s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+[5.487s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+[5.498s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh
+[5.500s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv
+[5.505s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash
+[5.508s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh
+[5.510s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh
+[5.514s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv
+[5.519s] -- Symlinking: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv
+[5.594s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[5.597s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+[5.599s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+[5.607s] -- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml
+[5.619s] Invoked command in '/TestBotTeaching/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /TestBotTeaching/build/drivetrain

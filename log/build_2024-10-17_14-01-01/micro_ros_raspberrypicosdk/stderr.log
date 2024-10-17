@@ -1,0 +1,25 @@
+[0mUsing master as default value for PICO_SDK_FETCH_FROM_GIT_TAG[0m
+[0mDownloading Raspberry Pi Pico SDK[0m
+[0mPICO_SDK_PATH is /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src[0m
+[0mDefaulting platform (PICO_PLATFORM) to 'rp2040' since not specified.[0m
+[0mDefaulting target board (PICO_BOARD) to 'pico' since not specified.[0m
+[0mUsing board configuration from /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/src/boards/include/boards/pico.h[0m
+[0mPico Platform (PICO_PLATFORM) is 'rp2040'.[0m
+[0mDefaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.[0m
+[0mConfiguring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'[0m
+[0mDefaulting PICO_GCC_TRIPLE to 'arm-none-eabi'[0m
+[31mCMake Error at /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:29 (message):
+  Compiler 'arm-none-eabi-gcc' not found, you can specify search path with
+  "PICO_TOOLCHAIN_PATH".
+Call Stack (most recent call first):
+  /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)
+  /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)
+  /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:11 (project)
+
+[0m
+[0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.[0m
+[0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage[0m
+[0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[0mCMake Error: CMAKE_ASM_COMPILER not set, after EnableLanguage[0m

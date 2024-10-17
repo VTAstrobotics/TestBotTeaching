@@ -1,0 +1,6 @@
+[0.084s] Invoking command in '/home/astrobotics/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrobotics/TestBotTeaching/build/drivetrain -- -j4 -l4
+[0.292s] [0mCMake Error: The current CMakeCache.txt directory /home/astrobotics/TestBotTeaching/build/drivetrain/CMakeCache.txt is different than the directory /TestBotTeaching/build/drivetrain where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.416s] [0mCMake Error: The source directory "/TestBotTeaching/drivetrain" does not exist.
+[0.416s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.438s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
+[1.769s] Invoked command in '/home/astrobotics/TestBotTeaching/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrobotics/TestBotTeaching/build/drivetrain -- -j4 -l4

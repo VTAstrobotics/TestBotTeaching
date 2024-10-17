@@ -1,0 +1,28 @@
+[0.090s] Invoking command in '/home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk': /usr/bin/cmake /home/astrobotics/TestBotTeaching/micro_ros_working -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/astrobotics/TestBotTeaching/install/micro_ros_raspberrypicosdk
+[0.135s] [0mUsing master as default value for PICO_SDK_FETCH_FROM_GIT_TAG[0m
+[0.145s] [0mDownloading Raspberry Pi Pico SDK[0m
+[185.695s] [0mPICO_SDK_PATH is /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src[0m
+[185.701s] [0mDefaulting platform (PICO_PLATFORM) to 'rp2040' since not specified.[0m
+[185.710s] [0mDefaulting target board (PICO_BOARD) to 'pico' since not specified.[0m
+[185.712s] [0mUsing board configuration from /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/src/boards/include/boards/pico.h[0m
+[185.714s] [0mPico Platform (PICO_PLATFORM) is 'rp2040'.[0m
+[185.724s] -- Defaulting build type to 'Release' since not specified.
+[185.745s] [0mDefaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.[0m
+[185.751s] [0mConfiguring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'[0m
+[185.789s] [0mDefaulting PICO_GCC_TRIPLE to 'arm-none-eabi'[0m
+[185.795s] [31mCMake Error at /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:29 (message):
+[185.797s]   Compiler 'arm-none-eabi-gcc' not found, you can specify search path with
+[185.799s]   "PICO_TOOLCHAIN_PATH".
+[185.801s] Call Stack (most recent call first):
+[185.802s]   /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)
+[185.810s]   /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)
+[185.826s]   /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)
+[185.828s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[185.829s]   CMakeLists.txt:11 (project)
+[185.830s] 
+[185.832s] [0m
+[185.833s] [0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.[0m
+[185.835s] [0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage[0m
+[185.836s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[185.837s] [0mCMake Error: CMAKE_ASM_COMPILER not set, after EnableLanguage[0m
+[185.838s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,17 @@
+[22.546s] Invoking command in '/TestBotTeaching/pythonDriving': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /TestBotTeaching/build/pythonDriving/build install --record /TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data
+[31.437s] running egg_info
+[31.454s] writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+[31.459s] writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+[31.460s] writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+[31.461s] writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+[31.461s] writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+[31.473s] reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[31.496s] writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[31.500s] running build
+[31.508s] running build_py
+[31.513s] running install
+[31.537s] running install_lib
+[31.579s] running install_data
+[31.586s] copying resource/pythonDriving -> /TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages
+[31.608s] error: could not create '/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages/pythonDriving': No such file or directory
+[31.909s] Invoked command in '/TestBotTeaching/pythonDriving' returned '1': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /TestBotTeaching/build/pythonDriving/build install --record /TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data

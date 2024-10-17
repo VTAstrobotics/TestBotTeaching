@@ -1,0 +1,2 @@
+Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/TestBotTeaching/install/pythonDriving:/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+Invoked command in '/TestBotTeaching/build/drivetrain' returned '1': CMAKE_PREFIX_PATH=/TestBotTeaching/install/pythonDriving:/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain

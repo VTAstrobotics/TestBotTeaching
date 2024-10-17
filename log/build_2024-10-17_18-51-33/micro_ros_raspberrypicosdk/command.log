@@ -1,0 +1,1 @@
+Invoking command in '/TestBotTeaching/build/micro_ros_raspberrypicosdk': /usr/bin/cmake /TestBotTeaching/micro_ros_working -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/micro_ros_raspberrypicosdk

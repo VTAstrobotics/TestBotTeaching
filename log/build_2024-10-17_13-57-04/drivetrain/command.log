@@ -1,0 +1,2 @@
+Invoking command in '/home/astrobotics/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrobotics/TestBotTeaching/build/drivetrain -- -j4 -l4
+Invoked command in '/home/astrobotics/TestBotTeaching/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrobotics/TestBotTeaching/build/drivetrain -- -j4 -l4

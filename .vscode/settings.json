@@ -7,6 +7,6 @@
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/micro_ros_raspberrypi_pico_sdk/micro_ros_working",
+    "cmake.sourceDirectory": "/TestBotTeaching/drivetrain",
     "C_Cpp.errorSquiggles": "enabled"
 }

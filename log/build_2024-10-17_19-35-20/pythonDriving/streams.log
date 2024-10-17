@@ -1,0 +1,17 @@
+[8.175s] Invoking command in '/TestBotTeaching/build/pythonDriving': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /TestBotTeaching/build/pythonDriving/build --no-deps symlink_data
+[11.158s] running develop
+[13.259s] running egg_info
+[13.270s] writing pythonDriving.egg-info/PKG-INFO
+[13.280s] writing dependency_links to pythonDriving.egg-info/dependency_links.txt
+[13.282s] writing entry points to pythonDriving.egg-info/entry_points.txt
+[13.289s] writing requirements to pythonDriving.egg-info/requires.txt
+[13.291s] writing top-level names to pythonDriving.egg-info/top_level.txt
+[13.297s] reading manifest file 'pythonDriving.egg-info/SOURCES.txt'
+[13.306s] writing manifest file 'pythonDriving.egg-info/SOURCES.txt'
+[13.317s] running build_ext
+[13.319s] Creating /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving.egg-link (link to .)
+[13.325s] Installing pythonDriving script to /TestBotTeaching/install/pythonDriving/lib/pythonDriving
+[13.329s] 
+[13.331s] Installed /TestBotTeaching/build/pythonDriving
+[13.340s] running symlink_data
+[13.609s] Invoked command in '/TestBotTeaching/build/pythonDriving' returned '0': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /TestBotTeaching/build/pythonDriving/build --no-deps symlink_data

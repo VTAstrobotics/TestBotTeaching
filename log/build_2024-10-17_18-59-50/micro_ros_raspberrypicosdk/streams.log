@@ -1,0 +1,24 @@
+[0.183s] Invoking command in '/TestBotTeaching/build/micro_ros_raspberrypicosdk': /usr/bin/cmake /TestBotTeaching/micro_ros_working -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/micro_ros_raspberrypicosdk
+[0.270s] [0mPICO_SDK_PATH is /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src[0m
+[0.272s] [0mTarget board (PICO_BOARD) is 'pico'.[0m
+[0.273s] [0mUsing board configuration from /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/src/boards/include/boards/pico.h[0m
+[0.290s] [0mPico Platform (PICO_PLATFORM) is 'rp2040'.[0m
+[0.294s] [0mDefaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.[0m
+[0.296s] [0mConfiguring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'[0m
+[0.390s] [31mCMake Error at /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:29 (message):
+[0.404s]   Compiler 'arm-none-eabi-gcc' not found, you can specify search path with
+[0.408s]   "PICO_TOOLCHAIN_PATH".
+[0.409s] Call Stack (most recent call first):
+[0.410s]   /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)
+[0.411s]   /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)
+[0.427s]   /TestBotTeaching/build/micro_ros_raspberrypicosdk/_deps/pico_sdk-src/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)
+[0.437s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.443s]   CMakeLists.txt:11 (project)
+[0.452s] 
+[0.455s] [0m
+[0.469s] -- Configuring incomplete, errors occurred!
+[0.489s] [0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.[0m
+[0.496s] [0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage[0m
+[0.509s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[0.512s] [0mCMake Error: CMAKE_ASM_COMPILER not set, after EnableLanguage[0m
+[2.740s] Invoked command in '/TestBotTeaching/build/micro_ros_raspberrypicosdk' returned '1': /usr/bin/cmake /TestBotTeaching/micro_ros_working -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/micro_ros_raspberrypicosdk

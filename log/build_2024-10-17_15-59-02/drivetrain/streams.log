@@ -1,0 +1,56 @@
+[0.097s] Invoking command in '/home/astrobotics/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/astrobotics/TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/home/astrobotics/TestBotTeaching/install/drivetrain
+[0.485s] -- The C compiler identification is GNU 11.4.0
+[0.859s] -- The CXX compiler identification is GNU 11.4.0
+[0.902s] -- Detecting C compiler ABI info
+[1.349s] -- Detecting C compiler ABI info - done
+[1.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.386s] -- Detecting C compile features
+[1.388s] -- Detecting C compile features - done
+[1.406s] -- Detecting CXX compiler ABI info
+[1.924s] -- Detecting CXX compiler ABI info - done
+[1.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.962s] -- Detecting CXX compile features
+[1.966s] -- Detecting CXX compile features - done
+[2.003s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.959s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.402s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.458s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.536s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.259s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.993s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.315s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.943s] -- Looking for pthread.h
+[7.471s] -- Looking for pthread.h - found
+[7.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.899s] -- Found Threads: TRUE  
+[8.237s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.441s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.019s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.020s] -- Configured cppcheck include dirs: 
+[9.020s] -- Configured cppcheck exclude dirs and/or files: 
+[9.024s] -- Added test 'lint_cmake' to check CMake code style
+[9.033s] -- Added test 'uncrustify' to check C / C++ code style
+[9.033s] -- Configured uncrustify additional arguments: 
+[9.035s] -- Added test 'xmllint' to check XML markup files
+[9.044s] -- Configuring done
+[9.079s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[9.080s]   Cannot find source file:
+[9.081s] 
+[9.082s]     /TestBotTeaching/drivetrain/src/drivesub.cpp
+[9.083s] 
+[9.083s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[9.084s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[9.084s] 
+[9.085s] [0m
+[9.086s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[9.086s]   No SOURCES given to target: drivetrainNode
+[9.087s] 
+[9.088s] [0m
+[9.089s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[9.135s] Invoked command in '/home/astrobotics/TestBotTeaching/build/drivetrain' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/astrobotics/TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/home/astrobotics/TestBotTeaching/install/drivetrain

@@ -1,0 +1,43 @@
+[0.530s] Invoking command in '/TestBotTeaching/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain
+[6.184s] -- The C compiler identification is GNU 11.4.0
+[10.846s] -- The CXX compiler identification is GNU 11.4.0
+[11.517s] -- Detecting C compiler ABI info
+[15.427s] -- Detecting C compiler ABI info - done
+[16.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.178s] -- Detecting C compile features
+[16.242s] -- Detecting C compile features - done
+[16.451s] -- Detecting CXX compiler ABI info
+[20.005s] -- Detecting CXX compiler ABI info - done
+[20.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[20.580s] -- Detecting CXX compile features
+[20.626s] -- Detecting CXX compile features - done
+[21.318s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[28.981s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[34.386s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[39.291s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[39.782s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[40.598s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[41.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[44.014s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[44.154s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[48.070s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[50.470s] -- Found FastRTPS: /opt/ros/humble/include  
+[53.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[53.302s] -- Looking for pthread.h
+[54.480s] -- Looking for pthread.h - found
+[54.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[56.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[56.947s] -- Found Threads: TRUE  
+[58.125s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[58.956s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[60.760s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[60.767s] -- Configured cppcheck include dirs: 
+[60.768s] -- Configured cppcheck exclude dirs and/or files: 
+[60.774s] -- Added test 'lint_cmake' to check CMake code style
+[60.788s] -- Added test 'uncrustify' to check C / C++ code style
+[60.794s] -- Configured uncrustify additional arguments: 
+[60.806s] -- Added test 'xmllint' to check XML markup files
+[60.831s] -- Configuring done
+[60.985s] -- Generating done
+[61.005s] -- Build files have been written to: /TestBotTeaching/build/drivetrain

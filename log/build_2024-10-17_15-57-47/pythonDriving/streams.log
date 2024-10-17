@@ -1,0 +1,24 @@
+[4.890s] Invoking command in '/home/astrobotics/TestBotTeaching/pythonDriving': PYTHONPATH=/home/astrobotics/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrobotics/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /home/astrobotics/TestBotTeaching/build/pythonDriving/build install --record /home/astrobotics/TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data
+[6.757s] running egg_info
+[6.761s] creating ../build/pythonDriving/pythonDriving.egg-info
+[6.762s] writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+[6.764s] writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+[6.765s] writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+[6.766s] writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+[6.767s] writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+[6.768s] writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[6.779s] reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[6.784s] writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[6.785s] running build
+[6.786s] running build_py
+[6.787s] creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build
+[6.788s] creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib
+[6.788s] creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+[6.789s] copying pythonDriving/pythonDriving.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+[6.790s] copying pythonDriving/__init__.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving
+[6.792s] running install
+[6.794s] running install_lib
+[6.803s] running install_data
+[6.805s] copying resource/pythonDriving -> /home/astrobotics/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages
+[6.807s] error: could not create '/home/astrobotics/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages/pythonDriving': No such file or directory
+[6.976s] Invoked command in '/home/astrobotics/TestBotTeaching/pythonDriving' returned '1': PYTHONPATH=/home/astrobotics/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrobotics/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /home/astrobotics/TestBotTeaching/build/pythonDriving/build install --record /home/astrobotics/TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data

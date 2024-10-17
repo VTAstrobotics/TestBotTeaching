@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.009518] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.012826] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.013760] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.090393] (-) TimerEvent: {}
+[0.135663] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.198573] (-) TimerEvent: {}
+[0.317115] (-) TimerEvent: {}
+[0.358763] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.405344] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.422474] (-) TimerEvent: {}
+[0.424088] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j4', '-l4'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/TestBotTeaching'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2c1d777f-d6bd-460d-9cfa-5775d00c0d13.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7b8799dd-6741-4c2a-9665-da93072049e0.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.569210] (-) TimerEvent: {}
+[0.672800] (-) TimerEvent: {}
+[0.779335] (-) TimerEvent: {}
+[0.888779] (-) TimerEvent: {}
+[0.991673] (-) TimerEvent: {}
+[1.101229] (-) TimerEvent: {}
+[1.231864] (-) TimerEvent: {}
+[1.338116] (-) TimerEvent: {}
+[1.440061] (-) TimerEvent: {}
+[1.542786] (-) TimerEvent: {}
+[1.650131] (-) TimerEvent: {}
+[1.754059] (-) TimerEvent: {}
+[1.866930] (-) TimerEvent: {}
+[1.969745] (-) TimerEvent: {}
+[2.072127] (-) TimerEvent: {}
+[2.209703] (-) TimerEvent: {}
+[2.311423] (-) TimerEvent: {}
+[2.414037] (-) TimerEvent: {}
+[2.516565] (-) TimerEvent: {}
+[2.625695] (-) TimerEvent: {}
+[2.729061] (-) TimerEvent: {}
+[2.830579] (-) TimerEvent: {}
+[2.933504] (-) TimerEvent: {}
+[3.045000] (-) TimerEvent: {}
+[3.152380] (-) TimerEvent: {}
+[3.256665] (-) TimerEvent: {}
+[3.367164] (-) TimerEvent: {}
+[3.471112] (-) TimerEvent: {}
+[3.585692] (-) TimerEvent: {}
+[3.693388] (-) TimerEvent: {}
+[3.800596] (-) TimerEvent: {}
+[3.922293] (-) TimerEvent: {}
+[4.033544] (-) TimerEvent: {}
+[4.141334] (-) TimerEvent: {}
+[4.243460] (-) TimerEvent: {}
+[4.353691] (-) TimerEvent: {}
+[4.462963] (-) TimerEvent: {}
+[4.577573] (-) TimerEvent: {}
+[4.692602] (-) TimerEvent: {}
+[4.808765] (-) TimerEvent: {}
+[4.920768] (-) TimerEvent: {}
+[5.036071] (-) TimerEvent: {}
+[5.139242] (-) TimerEvent: {}
+[5.272154] (-) TimerEvent: {}
+[5.302096] (drivetrain) StdoutLine: {'line': b'[100%] Built target drivetrainNode\n'}
+[5.372969] (-) TimerEvent: {}
+[5.482122] (-) TimerEvent: {}
+[5.583345] (-) TimerEvent: {}
+[5.693544] (-) TimerEvent: {}
+[5.796825] (-) TimerEvent: {}
+[5.902481] (-) TimerEvent: {}
+[6.016355] (-) TimerEvent: {}
+[6.129458] (-) TimerEvent: {}
+[6.259655] (-) TimerEvent: {}
+[6.365987] (-) TimerEvent: {}
+[6.472927] (-) TimerEvent: {}
+[6.575450] (-) TimerEvent: {}
+[6.690303] (-) TimerEvent: {}
+[6.791903] (-) TimerEvent: {}
+[6.893871] (-) TimerEvent: {}
+[6.996053] (-) TimerEvent: {}
+[7.100808] (-) TimerEvent: {}
+[7.205531] (-) TimerEvent: {}
+[7.314645] (-) TimerEvent: {}
+[7.417353] (-) TimerEvent: {}
+[7.520620] (-) TimerEvent: {}
+[7.627705] (-) TimerEvent: {}
+[7.739904] (-) TimerEvent: {}
+[7.843149] (-) TimerEvent: {}
+[7.946641] (-) TimerEvent: {}
+[8.049591] (-) TimerEvent: {}
+[8.151867] (-) TimerEvent: {}
+[8.253585] (-) TimerEvent: {}
+[8.369561] (-) TimerEvent: {}
+[8.485775] (-) TimerEvent: {}
+[8.521106] (drivetrain) CommandEnded: {'returncode': 0}
+[8.589018] (-) TimerEvent: {}
+[8.692783] (-) TimerEvent: {}
+[8.795355] (-) TimerEvent: {}
+[8.897232] (-) TimerEvent: {}
+[8.999416] (-) TimerEvent: {}
+[9.100366] (-) TimerEvent: {}
+[9.143675] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'install'}
+[9.200921] (-) TimerEvent: {}
+[9.258095] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--install', '/TestBotTeaching/build/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/TestBotTeaching'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2c1d777f-d6bd-460d-9cfa-5775d00c0d13.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7b8799dd-6741-4c2a-9665-da93072049e0.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.301111] (-) TimerEvent: {}
+[9.405506] (-) TimerEvent: {}
+[9.507484] (-) TimerEvent: {}
+[9.510239] (drivetrain) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.519916] (drivetrain) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.541811] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/lib/drivetrain/drivetrainNode\n'}
+[9.544577] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain\n'}
+[9.550359] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain\n'}
+[9.557858] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh\n'}
+[9.562167] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv\n'}
+[9.569990] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.sh\n'}
+[9.574252] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/environment/path.dsv\n'}
+[9.577888] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.bash\n'}
+[9.581920] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.sh\n'}
+[9.595041] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.zsh\n'}
+[9.606165] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/local_setup.dsv\n'}
+[9.609104] (-) TimerEvent: {}
+[9.614133] (drivetrain) StdoutLine: {'line': b'-- Symlinking: /TestBotTeaching/install/drivetrain/share/drivetrain/package.dsv\n'}
+[9.709312] (-) TimerEvent: {}
+[9.805171] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/ament_index/resource_index/packages/drivetrain\n'}
+[9.809504] (-) TimerEvent: {}
+[9.812371] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake\n'}
+[9.818631] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake\n'}
+[9.821571] (drivetrain) StdoutLine: {'line': b'-- Up-to-date symlink: /TestBotTeaching/install/drivetrain/share/drivetrain/package.xml\n'}
+[9.841196] (drivetrain) CommandEnded: {'returncode': 0}
+[9.913509] (-) TimerEvent: {}
+[10.038852] (-) TimerEvent: {}
+[10.149302] (-) TimerEvent: {}
+[10.253263] (-) TimerEvent: {}
+[10.369219] (-) TimerEvent: {}
+[10.481242] (-) TimerEvent: {}
+[10.595383] (-) TimerEvent: {}
+[10.737310] (-) TimerEvent: {}
+[10.845750] (-) TimerEvent: {}
+[10.863372] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 0}
+[10.953388] (-) TimerEvent: {}
+[11.057201] (-) TimerEvent: {}
+[11.161323] (-) TimerEvent: {}
+[11.265430] (-) TimerEvent: {}
+[11.372520] (-) TimerEvent: {}
+[11.489349] (-) TimerEvent: {}
+[11.601246] (-) TimerEvent: {}
+[11.705608] (-) TimerEvent: {}
+[11.840522] (-) TimerEvent: {}
+[11.944238] (-) TimerEvent: {}
+[12.047473] (-) TimerEvent: {}
+[12.166059] (-) TimerEvent: {}
+[12.268295] (-) TimerEvent: {}
+[12.371015] (-) TimerEvent: {}
+[12.472174] (-) TimerEvent: {}
+[12.582712] (-) TimerEvent: {}
+[12.684052] (-) TimerEvent: {}
+[12.789352] (-) TimerEvent: {}
+[12.892074] (-) TimerEvent: {}
+[12.994605] (-) TimerEvent: {}
+[13.097362] (-) TimerEvent: {}
+[13.200849] (-) TimerEvent: {}
+[13.304844] (-) TimerEvent: {}
+[13.407570] (-) TimerEvent: {}
+[13.510035] (-) TimerEvent: {}
+[13.612031] (-) TimerEvent: {}
+[13.716337] (-) TimerEvent: {}
+[13.824497] (-) TimerEvent: {}
+[13.934892] (-) TimerEvent: {}
+[14.043489] (-) TimerEvent: {}
+[14.145695] (-) TimerEvent: {}
+[14.248001] (-) TimerEvent: {}
+[14.352096] (-) TimerEvent: {}
+[14.455019] (-) TimerEvent: {}
+[14.563382] (-) TimerEvent: {}
+[14.666208] (-) TimerEvent: {}
+[14.773090] (-) TimerEvent: {}
+[14.877492] (-) TimerEvent: {}
+[14.988145] (-) TimerEvent: {}
+[15.097575] (-) TimerEvent: {}
+[15.201653] (-) TimerEvent: {}
+[15.305294] (-) TimerEvent: {}
+[15.406894] (-) TimerEvent: {}
+[15.511587] (-) TimerEvent: {}
+[15.618409] (-) TimerEvent: {}
+[15.737336] (-) TimerEvent: {}
+[15.840379] (-) TimerEvent: {}
+[15.962316] (-) TimerEvent: {}
+[16.068744] (-) TimerEvent: {}
+[16.174264] (-) TimerEvent: {}
+[16.265938] (pythonDriving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/TestBotTeaching/build/pythonDriving/build', '--no-deps', 'symlink_data'], 'cwd': '/TestBotTeaching/build/pythonDriving', 'env': {'HOSTNAME': 'astrobotics-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh', 'HOME': '/home/astro-dev', 'OLDPWD': '/TestBotTeaching', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2c1d777f-d6bd-460d-9cfa-5775d00c0d13.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-7b8799dd-6741-4c2a-9665-da93072049e0.sock', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-f3bb12dfc6.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-9b73d744-e7a5-46a7-b2f9-4af7159cbaf8.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/TestBotTeaching/build/pythonDriving', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[16.341610] (-) TimerEvent: {}
+[16.450244] (-) TimerEvent: {}
+[16.564266] (-) TimerEvent: {}
+[16.671070] (-) TimerEvent: {}
+[16.773412] (-) TimerEvent: {}
+[16.879553] (-) TimerEvent: {}
+[16.989652] (-) TimerEvent: {}
+[17.101235] (-) TimerEvent: {}
+[17.206487] (-) TimerEvent: {}
+[17.314571] (-) TimerEvent: {}
+[17.421328] (-) TimerEvent: {}
+[17.526475] (-) TimerEvent: {}
+[17.642144] (-) TimerEvent: {}
+[17.762187] (-) TimerEvent: {}
+[17.870644] (-) TimerEvent: {}
+[17.972968] (-) TimerEvent: {}
+[18.076801] (-) TimerEvent: {}
+[18.191734] (-) TimerEvent: {}
+[18.303744] (-) TimerEvent: {}
+[18.408574] (-) TimerEvent: {}
+[18.510441] (-) TimerEvent: {}
+[18.615422] (-) TimerEvent: {}
+[18.725287] (-) TimerEvent: {}
+[18.839753] (-) TimerEvent: {}
+[18.943826] (-) TimerEvent: {}
+[19.056871] (-) TimerEvent: {}
+[19.171428] (-) TimerEvent: {}
+[19.283556] (-) TimerEvent: {}
+[19.399830] (-) TimerEvent: {}
+[19.512597] (-) TimerEvent: {}
+[19.616958] (-) TimerEvent: {}
+[19.719951] (-) TimerEvent: {}
+[19.823062] (-) TimerEvent: {}
+[19.928295] (-) TimerEvent: {}
+[20.030676] (-) TimerEvent: {}
+[20.131846] (-) TimerEvent: {}
+[20.234482] (-) TimerEvent: {}
+[20.337276] (-) TimerEvent: {}
+[20.439679] (-) TimerEvent: {}
+[20.541973] (-) TimerEvent: {}
+[20.644278] (-) TimerEvent: {}
+[20.691191] (pythonDriving) StdoutLine: {'line': b'running develop\n'}
+[20.744426] (-) TimerEvent: {}
+[20.851125] (-) TimerEvent: {}
+[20.954401] (-) TimerEvent: {}
+[21.062845] (-) TimerEvent: {}
+[21.166031] (-) TimerEvent: {}
+[21.273492] (-) TimerEvent: {}
+[21.375118] (-) TimerEvent: {}
+[21.481242] (-) TimerEvent: {}
+[21.585490] (-) TimerEvent: {}
+[21.702802] (-) TimerEvent: {}
+[21.815181] (-) TimerEvent: {}
+[21.925444] (-) TimerEvent: {}
+[22.029134] (-) TimerEvent: {}
+[22.137619] (-) TimerEvent: {}
+[22.246769] (-) TimerEvent: {}
+[22.348581] (-) TimerEvent: {}
+[22.461410] (-) TimerEvent: {}
+[22.565702] (-) TimerEvent: {}
+[22.666915] (-) TimerEvent: {}
+[22.769402] (-) TimerEvent: {}
+[22.871862] (-) TimerEvent: {}
+[22.973651] (-) TimerEvent: {}
+[23.074963] (-) TimerEvent: {}
+[23.180854] (-) TimerEvent: {}
+[23.283056] (-) TimerEvent: {}
+[23.385474] (-) TimerEvent: {}
+[23.487675] (-) TimerEvent: {}
+[23.589609] (-) TimerEvent: {}
+[23.692980] (-) TimerEvent: {}
+[23.796205] (-) TimerEvent: {}
+[23.901700] (-) TimerEvent: {}
+[23.911643] (pythonDriving) StdoutLine: {'line': b'running egg_info\n'}
+[23.914143] (pythonDriving) StdoutLine: {'line': b'writing pythonDriving.egg-info/PKG-INFO\n'}
+[23.928064] (pythonDriving) StdoutLine: {'line': b'writing dependency_links to pythonDriving.egg-info/dependency_links.txt\n'}
+[23.936421] (pythonDriving) StdoutLine: {'line': b'writing entry points to pythonDriving.egg-info/entry_points.txt\n'}
+[23.944476] (pythonDriving) StdoutLine: {'line': b'writing requirements to pythonDriving.egg-info/requires.txt\n'}
+[23.950658] (pythonDriving) StdoutLine: {'line': b'writing top-level names to pythonDriving.egg-info/top_level.txt\n'}
+[23.976499] (pythonDriving) StdoutLine: {'line': b"reading manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[23.993072] (pythonDriving) StdoutLine: {'line': b"writing manifest file 'pythonDriving.egg-info/SOURCES.txt'\n"}
+[24.005547] (-) TimerEvent: {}
+[24.024707] (pythonDriving) StdoutLine: {'line': b'running build_ext\n'}
+[24.027120] (pythonDriving) StdoutLine: {'line': b'Creating /TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages/pythonDriving.egg-link (link to .)\n'}
+[24.048365] (pythonDriving) StdoutLine: {'line': b'Installing pythonDriving script to /TestBotTeaching/install/pythonDriving/lib/pythonDriving\n'}
+[24.052966] (pythonDriving) StdoutLine: {'line': b'\n'}
+[24.053988] (pythonDriving) StdoutLine: {'line': b'Installed /TestBotTeaching/build/pythonDriving\n'}
+[24.056897] (pythonDriving) StdoutLine: {'line': b'running symlink_data\n'}
+[24.105773] (-) TimerEvent: {}
+[24.208134] (-) TimerEvent: {}
+[24.321824] (-) TimerEvent: {}
+[24.488733] (-) TimerEvent: {}
+[24.495788] (pythonDriving) CommandEnded: {'returncode': 0}
+[24.593540] (-) TimerEvent: {}
+[24.686282] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 0}
+[24.703444] (-) TimerEvent: {}
+[24.704928] (-) EventReactorShutdown: {}

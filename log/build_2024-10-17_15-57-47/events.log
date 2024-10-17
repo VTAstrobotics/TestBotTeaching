@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.001957] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.002280] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.002844] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.033888] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.082798] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.084646] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '/home/astrobotics/TestBotTeaching/drivetrain', '-DCMAKE_INSTALL_PREFIX=/home/astrobotics/TestBotTeaching/install/drivetrain'], 'cwd': '/home/astrobotics/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('USER', 'astrobotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrobotics'), ('OLDPWD', '/home/astrobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '10731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'astrobotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrobotics-desktop:@/tmp/.ICE-unix/10501,unix/astrobotics-desktop:/tmp/.ICE-unix/10501'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e081162_8e4a_493b_835b_06af80c79e83'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NFW1V2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrobotics/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103223] (-) TimerEvent: {}
+[0.205835] (-) TimerEvent: {}
+[0.308655] (-) TimerEvent: {}
+[0.409392] (-) TimerEvent: {}
+[0.510393] (-) TimerEvent: {}
+[0.611293] (-) TimerEvent: {}
+[0.712033] (-) TimerEvent: {}
+[0.812876] (-) TimerEvent: {}
+[0.913799] (-) TimerEvent: {}
+[1.014805] (-) TimerEvent: {}
+[1.115840] (-) TimerEvent: {}
+[1.209885] (drivetrain) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.216091] (-) TimerEvent: {}
+[1.317162] (-) TimerEvent: {}
+[1.418759] (-) TimerEvent: {}
+[1.521047] (-) TimerEvent: {}
+[1.622346] (-) TimerEvent: {}
+[1.724088] (-) TimerEvent: {}
+[1.825558] (-) TimerEvent: {}
+[1.926575] (-) TimerEvent: {}
+[2.028666] (-) TimerEvent: {}
+[2.088199] (drivetrain) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.128911] (-) TimerEvent: {}
+[2.174587] (drivetrain) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.229402] (-) TimerEvent: {}
+[2.330589] (-) TimerEvent: {}
+[2.431510] (-) TimerEvent: {}
+[2.533109] (-) TimerEvent: {}
+[2.634932] (-) TimerEvent: {}
+[2.674913] (drivetrain) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.711971] (drivetrain) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.715520] (drivetrain) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.720479] (drivetrain) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.735136] (-) TimerEvent: {}
+[2.748985] (drivetrain) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.835426] (-) TimerEvent: {}
+[2.938176] (-) TimerEvent: {}
+[3.040501] (-) TimerEvent: {}
+[3.142200] (-) TimerEvent: {}
+[3.243356] (-) TimerEvent: {}
+[3.282608] (drivetrain) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.318690] (drivetrain) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.319928] (drivetrain) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.322719] (drivetrain) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.343532] (-) TimerEvent: {}
+[3.410125] (drivetrain) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.443708] (-) TimerEvent: {}
+[3.545157] (-) TimerEvent: {}
+[3.647429] (-) TimerEvent: {}
+[3.748672] (-) TimerEvent: {}
+[3.849856] (-) TimerEvent: {}
+[3.951380] (-) TimerEvent: {}
+[4.052440] (-) TimerEvent: {}
+[4.153937] (-) TimerEvent: {}
+[4.254837] (-) TimerEvent: {}
+[4.356997] (-) TimerEvent: {}
+[4.459559] (-) TimerEvent: {}
+[4.557126] (drivetrain) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.559958] (-) TimerEvent: {}
+[4.661296] (-) TimerEvent: {}
+[4.763392] (-) TimerEvent: {}
+[4.868686] (-) TimerEvent: {}
+[4.910414] (pythonDriving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/pythonDriving', 'build', '--build-base', '/home/astrobotics/TestBotTeaching/build/pythonDriving/build', 'install', '--record', '/home/astrobotics/TestBotTeaching/build/pythonDriving/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/astrobotics/TestBotTeaching/pythonDriving', 'env': {'USER': 'astrobotics', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/astrobotics', 'OLDPWD': '/home/astrobotics', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10731', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'astrobotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astrobotics', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astrobotics-desktop:@/tmp/.ICE-unix/10501,unix/astrobotics-desktop:/tmp/.ICE-unix/10501', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6e081162_8e4a_493b_835b_06af80c79e83', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NFW1V2', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/astrobotics/TestBotTeaching/build/pythonDriving', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astrobotics/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astrobotics/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.970435] (-) TimerEvent: {}
+[5.073248] (-) TimerEvent: {}
+[5.177553] (-) TimerEvent: {}
+[5.278832] (-) TimerEvent: {}
+[5.379815] (-) TimerEvent: {}
+[5.481582] (-) TimerEvent: {}
+[5.532429] (drivetrain) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.581969] (-) TimerEvent: {}
+[5.683480] (-) TimerEvent: {}
+[5.784406] (-) TimerEvent: {}
+[5.885555] (-) TimerEvent: {}
+[5.987281] (-) TimerEvent: {}
+[6.084052] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.087693] (-) TimerEvent: {}
+[6.152317] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.187969] (-) TimerEvent: {}
+[6.251292] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.288248] (-) TimerEvent: {}
+[6.389572] (-) TimerEvent: {}
+[6.394825] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.489832] (-) TimerEvent: {}
+[6.574528] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.590189] (-) TimerEvent: {}
+[6.692132] (-) TimerEvent: {}
+[6.790783] (pythonDriving) StdoutLine: {'line': b'running egg_info\n'}
+[6.792414] (-) TimerEvent: {}
+[6.795588] (pythonDriving) StdoutLine: {'line': b'creating ../build/pythonDriving/pythonDriving.egg-info\n'}
+[6.796703] (pythonDriving) StdoutLine: {'line': b'writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO\n'}
+[6.797868] (pythonDriving) StdoutLine: {'line': b'writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt\n'}
+[6.798992] (pythonDriving) StdoutLine: {'line': b'writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt\n'}
+[6.800053] (pythonDriving) StdoutLine: {'line': b'writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt\n'}
+[6.801182] (pythonDriving) StdoutLine: {'line': b'writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt\n'}
+[6.802198] (pythonDriving) StdoutLine: {'line': b"writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.813281] (pythonDriving) StdoutLine: {'line': b"reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.817934] (pythonDriving) StdoutLine: {'line': b"writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'\n"}
+[6.818842] (pythonDriving) StdoutLine: {'line': b'running build\n'}
+[6.819550] (pythonDriving) StdoutLine: {'line': b'running build_py\n'}
+[6.820914] (pythonDriving) StdoutLine: {'line': b'creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build\n'}
+[6.821787] (pythonDriving) StdoutLine: {'line': b'creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib\n'}
+[6.822641] (pythonDriving) StdoutLine: {'line': b'creating /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving\n'}
+[6.823299] (pythonDriving) StdoutLine: {'line': b'copying pythonDriving/pythonDriving.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving\n'}
+[6.824139] (pythonDriving) StdoutLine: {'line': b'copying pythonDriving/__init__.py -> /home/astrobotics/TestBotTeaching/build/pythonDriving/build/lib/pythonDriving\n'}
+[6.826068] (pythonDriving) StdoutLine: {'line': b'running install\n'}
+[6.828011] (pythonDriving) StdoutLine: {'line': b'running install_lib\n'}
+[6.837644] (pythonDriving) StdoutLine: {'line': b'running install_data\n'}
+[6.838628] (pythonDriving) StdoutLine: {'line': b'copying resource/pythonDriving -> /home/astrobotics/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages\n'}
+[6.840423] (pythonDriving) StderrLine: {'line': b"error: could not create '/home/astrobotics/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages/pythonDriving': No such file or directory\n"}
+[6.892941] (-) TimerEvent: {}
+[6.995146] (-) TimerEvent: {}
+[7.010170] (pythonDriving) CommandEnded: {'returncode': 1}
+[7.011874] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 1}
+[7.095269] (-) TimerEvent: {}
+[7.126379] (drivetrain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.162998] (drivetrain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.195469] (-) TimerEvent: {}
+[7.296315] (-) TimerEvent: {}
+[7.397437] (-) TimerEvent: {}
+[7.498703] (-) TimerEvent: {}
+[7.599654] (-) TimerEvent: {}
+[7.700866] (-) TimerEvent: {}
+[7.801757] (-) TimerEvent: {}
+[7.903365] (-) TimerEvent: {}
+[7.985064] (drivetrain) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.003692] (-) TimerEvent: {}
+[8.105198] (-) TimerEvent: {}
+[8.206411] (-) TimerEvent: {}
+[8.307820] (-) TimerEvent: {}
+[8.308905] (drivetrain) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.407926] (-) TimerEvent: {}
+[8.508647] (-) TimerEvent: {}
+[8.609366] (-) TimerEvent: {}
+[8.710315] (-) TimerEvent: {}
+[8.811123] (-) TimerEvent: {}
+[8.815579] (drivetrain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.911324] (-) TimerEvent: {}
+[8.926400] (drivetrain) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.011552] (-) TimerEvent: {}
+[9.112620] (-) TimerEvent: {}
+[9.213411] (-) TimerEvent: {}
+[9.314398] (-) TimerEvent: {}
+[9.399284] (drivetrain) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.402011] (drivetrain) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.414599] (-) TimerEvent: {}
+[9.515487] (-) TimerEvent: {}
+[9.617454] (-) TimerEvent: {}
+[9.718861] (-) TimerEvent: {}
+[9.820445] (-) TimerEvent: {}
+[9.844817] (drivetrain) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.851461] (drivetrain) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.920698] (-) TimerEvent: {}
+[10.021769] (-) TimerEvent: {}
+[10.123150] (-) TimerEvent: {}
+[10.224540] (-) TimerEvent: {}
+[10.299764] (drivetrain) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.324719] (-) TimerEvent: {}
+[10.425472] (-) TimerEvent: {}
+[10.526228] (-) TimerEvent: {}
+[10.576775] (drivetrain) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.626373] (-) TimerEvent: {}
+[10.727282] (-) TimerEvent: {}
+[10.828030] (-) TimerEvent: {}
+[10.928981] (-) TimerEvent: {}
+[11.030197] (-) TimerEvent: {}
+[11.131152] (-) TimerEvent: {}
+[11.191107] (drivetrain) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.192506] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.193249] (drivetrain) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.198513] (drivetrain) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.210239] (drivetrain) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.211231] (drivetrain) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.214428] (drivetrain) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.230399] (drivetrain) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.231559] (-) TimerEvent: {}
+[11.268271] (drivetrain) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[11.269885] (drivetrain) StderrLine: {'line': b'  Cannot find source file:\n'}
+[11.270823] (drivetrain) StderrLine: {'line': b'\n'}
+[11.271536] (drivetrain) StderrLine: {'line': b'    /TestBotTeaching/drivetrain/src/drivesub.cpp\n'}
+[11.272006] (drivetrain) StderrLine: {'line': b'\n'}
+[11.272411] (drivetrain) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[11.273194] (drivetrain) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[11.273702] (drivetrain) StderrLine: {'line': b'\n'}
+[11.274193] (drivetrain) StderrLine: {'line': b'\x1b[0m\n'}
+[11.274957] (drivetrain) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[11.275830] (drivetrain) StderrLine: {'line': b'  No SOURCES given to target: drivetrainNode\n'}
+[11.276450] (drivetrain) StderrLine: {'line': b'\n'}
+[11.277365] (drivetrain) StderrLine: {'line': b'\x1b[0m\n'}
+[11.279407] (drivetrain) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[11.327164] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 'SIGINT'}
+[11.331733] (-) TimerEvent: {}
+[11.342412] (-) EventReactorShutdown: {}

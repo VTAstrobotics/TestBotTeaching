@@ -8,6 +8,9 @@ colcon build --symlink-install
 
 # allow UART
 sudo chmod 777 /dev/ttyACM0
+sudo chmod 777 /dev/input/event*
+# this one may be unneeded
+sudo chmod 777 /dev/input/js*
 
 # LAST COMMAND
 /bin/bash

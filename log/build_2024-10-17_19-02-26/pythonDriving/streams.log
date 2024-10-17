@@ -1,0 +1,17 @@
+[6.324s] Invoking command in '/TestBotTeaching/pythonDriving': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /TestBotTeaching/build/pythonDriving/build install --record /TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data
+[8.798s] running egg_info
+[8.811s] writing ../build/pythonDriving/pythonDriving.egg-info/PKG-INFO
+[8.814s] writing dependency_links to ../build/pythonDriving/pythonDriving.egg-info/dependency_links.txt
+[8.819s] writing entry points to ../build/pythonDriving/pythonDriving.egg-info/entry_points.txt
+[8.821s] writing requirements to ../build/pythonDriving/pythonDriving.egg-info/requires.txt
+[8.823s] writing top-level names to ../build/pythonDriving/pythonDriving.egg-info/top_level.txt
+[8.833s] reading manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[8.841s] writing manifest file '../build/pythonDriving/pythonDriving.egg-info/SOURCES.txt'
+[8.842s] running build
+[8.843s] running build_py
+[8.847s] running install
+[8.849s] running install_lib
+[8.861s] running install_data
+[8.865s] copying resource/pythonDriving -> /TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages
+[8.881s] error: could not create '/TestBotTeaching/install/pythonDriving/share/ament_index/resource_index/packages/pythonDriving': No such file or directory
+[9.058s] Invoked command in '/TestBotTeaching/pythonDriving' returned '1': PYTHONPATH=/TestBotTeaching/build/pythonDriving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/TestBotTeaching/install/pythonDriving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pythonDriving build --build-base /TestBotTeaching/build/pythonDriving/build install --record /TestBotTeaching/build/pythonDriving/install.log --single-version-externally-managed install_data

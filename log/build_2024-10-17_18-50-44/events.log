@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.004530] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.005545] (micro_ros_raspberrypicosdk) JobQueued: {'identifier': 'micro_ros_raspberrypicosdk', 'dependencies': OrderedDict()}
+[0.007472] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.008499] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.099760] (-) TimerEvent: {}
+[0.137726] (micro_ros_raspberrypicosdk) JobStarted: {'identifier': 'micro_ros_raspberrypicosdk'}
+[0.171919] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.200824] (-) TimerEvent: {}
+[0.279603] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.290305] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '/TestBotTeaching/drivetrain', '-DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/drivetrain'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0e73df53-6075-4b96-bfca-a8623884e5fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-f9e8f601-67d6-4b33-8e86-9fcc85d20845.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.302992] (-) TimerEvent: {}
+[0.371865] (micro_ros_raspberrypicosdk) JobProgress: {'identifier': 'micro_ros_raspberrypicosdk', 'progress': 'cmake'}
+[0.395584] (micro_ros_raspberrypicosdk) Command: {'cmd': ['/usr/bin/cmake', '/TestBotTeaching/micro_ros_working', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/TestBotTeaching/install/micro_ros_raspberrypicosdk'], 'cwd': '/TestBotTeaching/build/micro_ros_raspberrypicosdk', 'env': OrderedDict([('HOSTNAME', 'astrobotics-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0e73df53-6075-4b96-bfca-a8623884e5fc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-f9e8f601-67d6-4b33-8e86-9fcc85d20845.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock","/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-f3bb12dfc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-737b8b71-5f86-4c73-8e82-987f8247714b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/micro_ros_raspberrypicosdk'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.423805] (-) TimerEvent: {}
+[0.532710] (-) TimerEvent: {}
+[0.634273] (-) TimerEvent: {}
+[0.735648] (-) TimerEvent: {}
+[0.836789] (-) TimerEvent: {}
+[0.949408] (-) TimerEvent: {}
+[1.029718] (drivetrain) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /TestBotTeaching/build/drivetrain/CMakeCache.txt is different than the directory /home/astrobotics/TestBotTeaching/build/drivetrain where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.031069] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /TestBotTeaching/build/micro_ros_raspberrypicosdk/CMakeCache.txt is different than the directory /home/astrobotics/TestBotTeaching/build/micro_ros_raspberrypicosdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.032090] (micro_ros_raspberrypicosdk) StderrLine: {'line': b'\x1b[0mCMake Error: The source "/TestBotTeaching/micro_ros_working/CMakeLists.txt" does not match the source "/home/astrobotics/TestBotTeaching/micro_ros_working/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.\x1b[0m\n'}
+[1.032867] (drivetrain) StderrLine: {'line': b'\x1b[0mCMake Error: The source "/TestBotTeaching/drivetrain/CMakeLists.txt" does not match the source "/home/astrobotics/TestBotTeaching/drivetrain/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.\x1b[0m\n'}
+[1.084090] (-) TimerEvent: {}
+[1.201579] (-) TimerEvent: {}
+[1.305599] (-) TimerEvent: {}
+[1.406552] (-) TimerEvent: {}
+[1.510441] (-) TimerEvent: {}
+[1.611632] (-) TimerEvent: {}
+[1.715594] (-) TimerEvent: {}
+[1.816698] (-) TimerEvent: {}
+[1.920876] (-) TimerEvent: {}
+[2.022905] (-) TimerEvent: {}
+[2.127206] (-) TimerEvent: {}
+[2.234346] (-) TimerEvent: {}
+[2.338942] (-) TimerEvent: {}
+[2.442979] (-) TimerEvent: {}
+[2.544081] (-) TimerEvent: {}
+[2.645398] (-) TimerEvent: {}
+[2.747536] (-) TimerEvent: {}
+[2.849248] (-) TimerEvent: {}
+[2.950471] (-) TimerEvent: {}
+[3.052780] (-) TimerEvent: {}
+[3.157761] (-) TimerEvent: {}
+[3.263184] (-) TimerEvent: {}
+[3.372999] (-) TimerEvent: {}
+[3.477748] (-) TimerEvent: {}
+[3.543161] (micro_ros_raspberrypicosdk) CommandEnded: {'returncode': 1}
+[3.573345] (drivetrain) CommandEnded: {'returncode': 1}
+[3.578333] (-) TimerEvent: {}
+[3.683938] (-) TimerEvent: {}
+[3.787403] (-) TimerEvent: {}
+[3.892506] (-) TimerEvent: {}
+[3.927551] (micro_ros_raspberrypicosdk) JobEnded: {'identifier': 'micro_ros_raspberrypicosdk', 'rc': 1}
+[3.949278] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 'SIGINT'}
+[3.997450] (-) TimerEvent: {}
+[4.103163] (-) TimerEvent: {}
+[4.214923] (-) TimerEvent: {}
+[4.316847] (-) TimerEvent: {}
+[4.438271] (-) TimerEvent: {}
+[4.539727] (-) TimerEvent: {}
+[4.641400] (-) TimerEvent: {}
+[4.742685] (-) TimerEvent: {}
+[4.844782] (-) TimerEvent: {}
+[4.946285] (-) TimerEvent: {}
+[5.047978] (-) TimerEvent: {}
+[5.149207] (-) TimerEvent: {}
+[5.253010] (-) TimerEvent: {}
+[5.354501] (-) TimerEvent: {}
+[5.456583] (-) TimerEvent: {}
+[5.559989] (-) TimerEvent: {}
+[5.663147] (-) TimerEvent: {}
+[5.773586] (-) TimerEvent: {}
+[5.879454] (-) TimerEvent: {}
+[5.982244] (-) TimerEvent: {}
+[6.086160] (-) TimerEvent: {}
+[6.188336] (-) TimerEvent: {}
+[6.294955] (-) TimerEvent: {}
+[6.410558] (-) TimerEvent: {}
+[6.515168] (-) TimerEvent: {}
+[6.626019] (-) TimerEvent: {}
+[6.739696] (-) TimerEvent: {}
+[6.842678] (-) TimerEvent: {}
+[6.955064] (-) TimerEvent: {}
+[7.068330] (-) TimerEvent: {}
+[7.172089] (-) TimerEvent: {}
+[7.273339] (-) TimerEvent: {}
+[7.386127] (-) TimerEvent: {}
+[7.489532] (-) TimerEvent: {}
+[7.598161] (-) TimerEvent: {}
+[7.703311] (-) TimerEvent: {}
+[7.809215] (-) TimerEvent: {}
+[7.915413] (-) TimerEvent: {}
+[8.021383] (-) TimerEvent: {}
+[8.125930] (-) TimerEvent: {}
+[8.230559] (-) TimerEvent: {}
+[8.339522] (-) TimerEvent: {}
+[8.444044] (-) TimerEvent: {}
+[8.551360] (-) TimerEvent: {}
+[8.653381] (-) TimerEvent: {}
+[8.756387] (-) TimerEvent: {}
+[8.861825] (-) TimerEvent: {}
+[8.968904] (-) TimerEvent: {}
+[9.071951] (-) TimerEvent: {}
+[9.176397] (-) TimerEvent: {}
+[9.285679] (-) TimerEvent: {}
+[9.388362] (-) TimerEvent: {}
+[9.393417] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 'SIGINT'}
+[9.424527] (-) EventReactorShutdown: {}
