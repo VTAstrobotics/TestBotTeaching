@@ -1,0 +1,51 @@
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In constructor ‘[01m[KDriveSub::DriveSub()[m[K’:
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+   20 |       [01;31m[Kpublisher_left[m[K = this->create_publisher<std_msgs::msg::Float32>("left", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:62:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   20 |       publisher_left = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>("left", 10);
+      |                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDriveSub::create_publisher<<expression error> >(const char [5], int)[m[K’
+   20 |       publisher_left = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("left", 10)[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |       publisher_left = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("left", 10)[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+   21 |       [01;31m[Kpublisher_right[m[K = this->create_publisher<std_msgs::msg::Float32>("right", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   21 |       publisher_right = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>("right", 10);
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDriveSub::create_publisher<<expression error> >(const char [6], int)[m[K’
+   21 |       publisher_right = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("right", 10)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |       publisher_right = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("right", 10)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In member function ‘[01m[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+   71 |   [01;31m[Kpublisher_left[m[K->publish(left_speed);
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+   72 |   [01;31m[Kpublisher_right[m[K->publish(right_speed);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

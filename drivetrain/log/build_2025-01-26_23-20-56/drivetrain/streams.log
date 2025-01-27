@@ -1,0 +1,80 @@
+[0.309s] Invoking command in '/TestBotTeaching/drivetrain/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain
+[0.564s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.068s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.117s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.120s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.130s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.277s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.535s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.589s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.340s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.344s] -- Configured cppcheck include dirs: 
+[19.348s] -- Configured cppcheck exclude dirs and/or files: 
+[21.338s] -- Added test 'flake8' to check Python code syntax and style conventions
+[24.452s] -- Added test 'lint_cmake' to check CMake code style
+[26.398s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[42.781s] -- Added test 'uncrustify' to check C / C++ code style
+[42.785s] -- Configured uncrustify additional arguments: 
+[44.804s] -- Added test 'xmllint' to check XML markup files
+[45.136s] -- Configuring done
+[47.163s] -- Generating done
+[48.429s] -- Build files have been written to: /TestBotTeaching/drivetrain/build/drivetrain
+[48.434s] Invoked command in '/TestBotTeaching/drivetrain/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain
+[48.483s] Invoking command in '/TestBotTeaching/drivetrain/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/drivetrain/build/drivetrain -- -j12 -l12
+[49.152s] [ 50%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[56.705s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In constructor ‘[01m[KDriveSub::DriveSub()[m[K’:
+[56.709s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+[56.713s]    20 |       [01;31m[Kpublisher_left[m[K = this->create_publisher<std_msgs::msg::Float32>("left", 10);
+[56.717s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[56.721s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:62:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[56.725s]    20 |       publisher_left = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>("left", 10);
+[56.728s]       |                                                              [01;31m[K^~~~~~~[m[K
+[56.732s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDriveSub::create_publisher<<expression error> >(const char [5], int)[m[K’
+[56.736s]    20 |       publisher_left = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("left", 10)[m[K;
+[56.740s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[56.743s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[56.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[56.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[56.755s]                  from [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5[m[K:
+[56.760s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[56.763s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[56.766s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[56.769s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[56.771s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:20:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.775s]    20 |       publisher_left = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("left", 10)[m[K;
+[56.779s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[56.782s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+[56.785s]    21 |       [01;31m[Kpublisher_right[m[K = this->create_publisher<std_msgs::msg::Float32>("right", 10);
+[56.789s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[56.793s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[56.796s]    21 |       publisher_right = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>("right", 10);
+[56.799s]       |                                                               [01;31m[K^~~~~~~[m[K
+[56.804s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDriveSub::create_publisher<<expression error> >(const char [6], int)[m[K’
+[56.808s]    21 |       publisher_right = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("right", 10)[m[K;
+[56.811s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[56.815s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[56.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[56.822s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[56.825s]                  from [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5[m[K:
+[56.828s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[56.831s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[56.834s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[56.838s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[56.842s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:21:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.845s]    21 |       publisher_right = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>("right", 10)[m[K;
+[56.848s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[56.851s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In member function ‘[01m[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[56.854s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+[56.858s]    71 |   [01;31m[Kpublisher_left[m[K->publish(left_speed);
+[56.863s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[56.867s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+[56.871s]    72 |   [01;31m[Kpublisher_right[m[K->publish(right_speed);
+[56.874s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[63.853s] gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+[63.859s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+[63.862s] gmake: *** [Makefile:146: all] Error 2
+[63.865s] Invoked command in '/TestBotTeaching/drivetrain/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/drivetrain/build/drivetrain -- -j12 -l12

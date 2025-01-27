@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target drivetrainNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable drivetrainNode[0m
+[100%] Built target drivetrainNode
+-- Install configuration: ""
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/lib/drivetrain/drivetrainNode
+-- Set runtime path of "/TestBotTeaching/drivetrain/install/drivetrain/lib/drivetrain/drivetrainNode" to ""
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/ament_index/resource_index/package_run_dependencies/drivetrain
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/ament_index/resource_index/parent_prefix_path/drivetrain
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/environment/ament_prefix_path.sh
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/environment/ament_prefix_path.dsv
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/environment/path.sh
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/environment/path.dsv
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/local_setup.bash
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/local_setup.sh
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/local_setup.zsh
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/local_setup.dsv
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/package.dsv
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/cmake/drivetrainConfig.cmake
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/cmake/drivetrainConfig-version.cmake
+-- Installing: /TestBotTeaching/drivetrain/install/drivetrain/share/drivetrain/package.xml

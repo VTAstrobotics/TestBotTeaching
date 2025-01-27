@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.002570] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.003608] (pythonDriving) JobQueued: {'identifier': 'pythonDriving', 'dependencies': OrderedDict()}
+[0.004606] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.046244] (pythonDriving) JobStarted: {'identifier': 'pythonDriving'}
+[0.093247] (-) TimerEvent: {}
+[0.194715] (-) TimerEvent: {}
+[0.287997] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.294946] (-) TimerEvent: {}
+[0.373026] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.396705] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/build/drivetrain', '--', '-j12', '-l12'], 'cwd': '/TestBotTeaching/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-613127a3-8e10-4e48-8924-389fcd2c498a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-edea88b1-e0bd-4d9a-86b4-cdc28d53ab29.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c732eef-3edc-4c27-bb95-b48807d19304.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-90d6789823.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.451040] (-) TimerEvent: {}
+[0.552345] (-) TimerEvent: {}
+[0.653787] (-) TimerEvent: {}
+[0.755185] (-) TimerEvent: {}
+[0.856540] (-) TimerEvent: {}
+[0.866897] (drivetrain) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.956840] (-) TimerEvent: {}
+[1.058110] (-) TimerEvent: {}
+[1.159333] (-) TimerEvent: {}
+[1.260585] (-) TimerEvent: {}
+[1.362704] (-) TimerEvent: {}
+[1.396810] (drivetrain) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.455993] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.460590] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.463236] (-) TimerEvent: {}
+[1.472886] (drivetrain) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.518747] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.558632] (drivetrain) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.563480] (-) TimerEvent: {}
+[1.633082] (drivetrain) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.653568] (drivetrain) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.663955] (-) TimerEvent: {}
+[1.765270] (-) TimerEvent: {}
+[1.866739] (-) TimerEvent: {}
+[1.968108] (-) TimerEvent: {}
+[2.069575] (-) TimerEvent: {}
+[2.170868] (-) TimerEvent: {}
+[2.272032] (-) TimerEvent: {}
+[2.373587] (-) TimerEvent: {}
+[2.475258] (-) TimerEvent: {}
+[2.576544] (-) TimerEvent: {}
+[2.677885] (-) TimerEvent: {}
+[2.718758] (drivetrain) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.778185] (-) TimerEvent: {}
+[2.832882] (drivetrain) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.878468] (-) TimerEvent: {}
+[2.912182] (drivetrain) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.978792] (-) TimerEvent: {}
+[3.000787] (drivetrain) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[3.007514] (drivetrain) StderrLine: {'line': b'  Operation not permitted\n'}
+[3.011353] (drivetrain) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.015602] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[3.019582] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.023260] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.030940] (drivetrain) StderrLine: {'line': b'  CMakeLists.txt:33 (ament_lint_auto_find_test_dependencies)\n'}
+[3.043728] (drivetrain) StderrLine: {'line': b'\n'}
+[3.046741] (drivetrain) StderrLine: {'line': b'\x1b[0m\n'}
+[3.079027] (-) TimerEvent: {}
+[3.108169] (drivetrain) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[3.111802] (drivetrain) StderrLine: {'line': b'  Operation not permitted\n'}
+[3.114362] (drivetrain) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.117282] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[3.120873] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.124922] (drivetrain) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[3.128110] (drivetrain) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_package)\n'}
+[3.130929] (drivetrain) StderrLine: {'line': b'\n'}
+[3.133641] (drivetrain) StderrLine: {'line': b'\x1b[0m\n'}
+[3.179510] (-) TimerEvent: {}
+[3.280728] (-) TimerEvent: {}
+[3.382404] (-) TimerEvent: {}
+[3.484081] (-) TimerEvent: {}
+[3.585721] (-) TimerEvent: {}
+[3.687647] (-) TimerEvent: {}
+[3.789286] (-) TimerEvent: {}
+[3.891273] (-) TimerEvent: {}
+[3.981367] (drivetrain) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.986528] (drivetrain) StdoutLine: {'line': b'See also "/TestBotTeaching/build/drivetrain/CMakeFiles/CMakeOutput.log".\n'}
+[3.991473] (-) TimerEvent: {}
+[4.093746] (-) TimerEvent: {}
+[4.132424] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:294: cmake_check_build_system] Error 1\n'}
+[4.139127] (drivetrain) CommandEnded: {'returncode': 2}
+[4.193994] (-) TimerEvent: {}
+[4.296522] (-) TimerEvent: {}
+[4.400251] (-) TimerEvent: {}
+[4.501666] (-) TimerEvent: {}
+[4.603068] (-) TimerEvent: {}
+[4.704855] (-) TimerEvent: {}
+[4.806593] (-) TimerEvent: {}
+[4.908188] (-) TimerEvent: {}
+[5.009801] (-) TimerEvent: {}
+[5.111138] (-) TimerEvent: {}
+[5.212592] (-) TimerEvent: {}
+[5.314199] (-) TimerEvent: {}
+[5.416091] (-) TimerEvent: {}
+[5.435518] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 2}
+[5.466286] (pythonDriving) JobEnded: {'identifier': 'pythonDriving', 'rc': 'SIGINT'}
+[5.491006] (-) EventReactorShutdown: {}

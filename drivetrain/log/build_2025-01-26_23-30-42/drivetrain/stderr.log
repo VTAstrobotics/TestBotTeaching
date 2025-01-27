@@ -1,0 +1,10 @@
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In member function ‘[01m[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+   71 |   [01;31m[Kpublisher_left[m[K->publish(left_speed);
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+   72 |   [01;31m[Kpublisher_right[m[K->publish(right_speed);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

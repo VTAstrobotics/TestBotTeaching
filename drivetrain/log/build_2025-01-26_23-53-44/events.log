@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.001732] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.002420] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.091355] (-) TimerEvent: {}
+[0.110333] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'cmake'}
+[0.191614] (-) TimerEvent: {}
+[0.236005] (drivetrain) JobProgress: {'identifier': 'drivetrain', 'progress': 'build'}
+[0.257531] (drivetrain) Command: {'cmd': ['/usr/bin/cmake', '--build', '/TestBotTeaching/drivetrain/build/drivetrain', '--', '-j12', '-l12'], 'cwd': '/TestBotTeaching/drivetrain/build/drivetrain', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/TestBotTeaching'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-613127a3-8e10-4e48-8924-389fcd2c498a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-edea88b1-e0bd-4d9a-86b4-cdc28d53ab29.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c732eef-3edc-4c27-bb95-b48807d19304.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-90d6789823.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/TestBotTeaching/drivetrain/build/drivetrain'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.338713] (-) TimerEvent: {}
+[0.440398] (-) TimerEvent: {}
+[0.542376] (-) TimerEvent: {}
+[0.643527] (-) TimerEvent: {}
+[0.745530] (-) TimerEvent: {}
+[0.848064] (-) TimerEvent: {}
+[0.950589] (-) TimerEvent: {}
+[1.052601] (-) TimerEvent: {}
+[1.058580] (drivetrain) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drivetrainNode\x1b[0m\n'}
+[1.152878] (-) TimerEvent: {}
+[1.254349] (-) TimerEvent: {}
+[1.355494] (-) TimerEvent: {}
+[1.457105] (-) TimerEvent: {}
+[1.558642] (-) TimerEvent: {}
+[1.659840] (-) TimerEvent: {}
+[1.761043] (-) TimerEvent: {}
+[1.862800] (-) TimerEvent: {}
+[1.964488] (-) TimerEvent: {}
+[2.066367] (-) TimerEvent: {}
+[2.168526] (-) TimerEvent: {}
+[2.270291] (-) TimerEvent: {}
+[2.371815] (-) TimerEvent: {}
+[2.475767] (-) TimerEvent: {}
+[2.579278] (-) TimerEvent: {}
+[2.681521] (-) TimerEvent: {}
+[2.783510] (-) TimerEvent: {}
+[2.885781] (-) TimerEvent: {}
+[2.988131] (-) TimerEvent: {}
+[3.027673] (drivetrain) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o\x1b[0m\n'}
+[3.088556] (-) TimerEvent: {}
+[3.190466] (-) TimerEvent: {}
+[3.291581] (-) TimerEvent: {}
+[3.393112] (-) TimerEvent: {}
+[3.494535] (-) TimerEvent: {}
+[3.595896] (-) TimerEvent: {}
+[3.697664] (-) TimerEvent: {}
+[3.799160] (-) TimerEvent: {}
+[3.900335] (-) TimerEvent: {}
+[4.001569] (-) TimerEvent: {}
+[4.102990] (-) TimerEvent: {}
+[4.205060] (-) TimerEvent: {}
+[4.306205] (-) TimerEvent: {}
+[4.407597] (-) TimerEvent: {}
+[4.509098] (-) TimerEvent: {}
+[4.610550] (-) TimerEvent: {}
+[4.712691] (-) TimerEvent: {}
+[4.813993] (-) TimerEvent: {}
+[4.915624] (-) TimerEvent: {}
+[5.017057] (-) TimerEvent: {}
+[5.118419] (-) TimerEvent: {}
+[5.220185] (-) TimerEvent: {}
+[5.321508] (-) TimerEvent: {}
+[5.423254] (-) TimerEvent: {}
+[5.525250] (-) TimerEvent: {}
+[5.626438] (-) TimerEvent: {}
+[5.727504] (-) TimerEvent: {}
+[5.829062] (-) TimerEvent: {}
+[5.930477] (-) TimerEvent: {}
+[6.031954] (-) TimerEvent: {}
+[6.133148] (-) TimerEvent: {}
+[6.234629] (-) TimerEvent: {}
+[6.336171] (-) TimerEvent: {}
+[6.437864] (-) TimerEvent: {}
+[6.539148] (-) TimerEvent: {}
+[6.640477] (-) TimerEvent: {}
+[6.742278] (-) TimerEvent: {}
+[6.844151] (-) TimerEvent: {}
+[6.945742] (-) TimerEvent: {}
+[7.047909] (-) TimerEvent: {}
+[7.149393] (-) TimerEvent: {}
+[7.251046] (-) TimerEvent: {}
+[7.352578] (-) TimerEvent: {}
+[7.454106] (-) TimerEvent: {}
+[7.555877] (-) TimerEvent: {}
+[7.659049] (-) TimerEvent: {}
+[7.761060] (-) TimerEvent: {}
+[7.862781] (-) TimerEvent: {}
+[7.964641] (-) TimerEvent: {}
+[8.067312] (-) TimerEvent: {}
+[8.169306] (-) TimerEvent: {}
+[8.270998] (-) TimerEvent: {}
+[8.314249] (drivetrain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.319646] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.325050] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.330968] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.336284] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.341064] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.346279] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.352752] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.357472] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.360549] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.364181] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.368320] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5\x1b[m\x1b[K:\n'}
+[8.371856] (-) TimerEvent: {}
+[8.373280] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.376169] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:69:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.379361] (drivetrain) StderrLine: {'line': b'   69 |    RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing left speed: %f\\n"\x1b[m\x1b[K, \x1b[32m\x1b[Kleft_speed\x1b[m\x1b[K);\n'}
+[8.383339] (drivetrain) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.386290] (drivetrain) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[8.389998] (drivetrain) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[Kstd_msgs::msg::Float32_<std::allocator<void> >\x1b[m\x1b[K\n'}
+[8.393283] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:69:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.396223] (drivetrain) StderrLine: {'line': b'   69 | ->get_logger(), "Publishing left speed: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K\\n", left_speed);\n'}
+[8.400666] (drivetrain) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.403731] (drivetrain) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.407223] (drivetrain) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[8.411387] (drivetrain) StderrLine: {'line': b'\n'}
+[8.414809] (drivetrain) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.418266] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.421978] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.424924] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.428502] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.431849] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.434868] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.439169] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.442432] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.446210] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.450469] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.454169] (drivetrain) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:5\x1b[m\x1b[K:\n'}
+[8.457597] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:70:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.461627] (drivetrain) StderrLine: {'line': b'   70 |    RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing right speed: %f\\n"\x1b[m\x1b[K, \x1b[32m\x1b[Kright_speed\x1b[m\x1b[K);\n'}
+[8.465996] (drivetrain) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.469827] (drivetrain) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[8.472960] (-) TimerEvent: {}
+[8.473940] (drivetrain) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Kstd_msgs::msg::Float32_<std::allocator<void> >\x1b[m\x1b[K\n'}
+[8.477485] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:70:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.480659] (drivetrain) StderrLine: {'line': b'   70 | >get_logger(), "Publishing right speed: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K\\n", right_speed);\n'}
+[8.484067] (drivetrain) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.486971] (drivetrain) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.490798] (drivetrain) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[8.493645] (drivetrain) StderrLine: {'line': b'\n'}
+[8.497269] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:74:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_left\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.501365] (drivetrain) StderrLine: {'line': b'   74 |   \x1b[01;31m\x1b[Kpublisher_left\x1b[m\x1b[K->publish(left_speed);\n'}
+[8.503788] (drivetrain) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.506961] (drivetrain) StderrLine: {'line': b'\x1b[01m\x1b[K/TestBotTeaching/drivetrain/src/drivesub.cpp:75:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_right\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.509408] (drivetrain) StderrLine: {'line': b'   75 |   \x1b[01;31m\x1b[Kpublisher_right\x1b[m\x1b[K->publish(right_speed);\n'}
+[8.511446] (drivetrain) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.573193] (-) TimerEvent: {}
+[8.674534] (-) TimerEvent: {}
+[8.776262] (-) TimerEvent: {}
+[8.877608] (-) TimerEvent: {}
+[8.979506] (-) TimerEvent: {}
+[9.081871] (-) TimerEvent: {}
+[9.183393] (-) TimerEvent: {}
+[9.284712] (-) TimerEvent: {}
+[9.386517] (-) TimerEvent: {}
+[9.488147] (-) TimerEvent: {}
+[9.589952] (-) TimerEvent: {}
+[9.691393] (-) TimerEvent: {}
+[9.792817] (-) TimerEvent: {}
+[9.894259] (-) TimerEvent: {}
+[9.996005] (-) TimerEvent: {}
+[10.097986] (-) TimerEvent: {}
+[10.199464] (-) TimerEvent: {}
+[10.300863] (-) TimerEvent: {}
+[10.402317] (-) TimerEvent: {}
+[10.503955] (-) TimerEvent: {}
+[10.605623] (-) TimerEvent: {}
+[10.706928] (-) TimerEvent: {}
+[10.808203] (-) TimerEvent: {}
+[10.909539] (-) TimerEvent: {}
+[11.011626] (-) TimerEvent: {}
+[11.113040] (-) TimerEvent: {}
+[11.214445] (-) TimerEvent: {}
+[11.315884] (-) TimerEvent: {}
+[11.417202] (-) TimerEvent: {}
+[11.519082] (-) TimerEvent: {}
+[11.620853] (-) TimerEvent: {}
+[11.722688] (-) TimerEvent: {}
+[11.824255] (-) TimerEvent: {}
+[11.925891] (-) TimerEvent: {}
+[12.027891] (-) TimerEvent: {}
+[12.129569] (-) TimerEvent: {}
+[12.230932] (-) TimerEvent: {}
+[12.332288] (-) TimerEvent: {}
+[12.434001] (-) TimerEvent: {}
+[12.535884] (-) TimerEvent: {}
+[12.637784] (-) TimerEvent: {}
+[12.739234] (-) TimerEvent: {}
+[12.840715] (-) TimerEvent: {}
+[12.942188] (-) TimerEvent: {}
+[13.043966] (-) TimerEvent: {}
+[13.145493] (-) TimerEvent: {}
+[13.247045] (-) TimerEvent: {}
+[13.348319] (-) TimerEvent: {}
+[13.449956] (-) TimerEvent: {}
+[13.551418] (-) TimerEvent: {}
+[13.652593] (-) TimerEvent: {}
+[13.754163] (-) TimerEvent: {}
+[13.855480] (-) TimerEvent: {}
+[13.956663] (-) TimerEvent: {}
+[14.058344] (-) TimerEvent: {}
+[14.157506] (drivetrain) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1\n'}
+[14.160480] (-) TimerEvent: {}
+[14.163433] (drivetrain) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2\n'}
+[14.166449] (drivetrain) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.171372] (drivetrain) CommandEnded: {'returncode': 2}
+[14.260753] (-) TimerEvent: {}
+[14.362538] (-) TimerEvent: {}
+[14.464468] (-) TimerEvent: {}
+[14.567303] (-) TimerEvent: {}
+[14.669483] (-) TimerEvent: {}
+[14.771018] (-) TimerEvent: {}
+[14.872460] (-) TimerEvent: {}
+[14.974105] (-) TimerEvent: {}
+[15.076373] (-) TimerEvent: {}
+[15.139480] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 2}
+[15.180842] (-) TimerEvent: {}
+[15.181877] (-) EventReactorShutdown: {}

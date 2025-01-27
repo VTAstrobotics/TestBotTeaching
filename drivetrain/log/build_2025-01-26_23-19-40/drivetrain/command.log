@@ -1,0 +1,2 @@
+Invoking command in '/TestBotTeaching/drivetrain/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain
+Invoked command in '/TestBotTeaching/drivetrain/build/drivetrain' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain

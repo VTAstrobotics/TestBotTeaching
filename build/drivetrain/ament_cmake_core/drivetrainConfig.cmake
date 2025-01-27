@@ -16,7 +16,7 @@ set(_drivetrain_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT drivetrain_FIND_QUIETLY)
-  message(STATUS "Found drivetrain: 0.0.0 (${drivetrain_DIR})")
+  message(STATUS "Found drivetrain:  (${drivetrain_DIR})")
 endif()
 
 # warn when using a deprecated package

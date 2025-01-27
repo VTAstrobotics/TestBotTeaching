@@ -1,0 +1,14 @@
+[0.289s] Invoking command in '/TestBotTeaching/drivetrain/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/drivetrain/build/drivetrain -- -j12 -l12
+[1.174s] [35m[1mConsolidate compiler generated dependencies of target drivetrainNode[0m
+[3.023s] [ 50%] [32mBuilding CXX object CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o[0m
+[8.498s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:[m[K In member function ‘[01m[Kvoid DriveSub::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.507s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:74:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+[8.511s]    74 |    [01;31m[Kpublisher_left[m[K->publish(left_speed);
+[8.514s]       |    [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.519s] [01m[K/TestBotTeaching/drivetrain/src/drivesub.cpp:75:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+[8.523s]    75 |    [01;31m[Kpublisher_right[m[K->publish(right_speed);
+[8.526s]       |    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.957s] gmake[2]: *** [CMakeFiles/drivetrainNode.dir/build.make:76: CMakeFiles/drivetrainNode.dir/src/drivesub.cpp.o] Error 1
+[13.965s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drivetrainNode.dir/all] Error 2
+[13.968s] gmake: *** [Makefile:146: all] Error 2
+[13.971s] Invoked command in '/TestBotTeaching/drivetrain/build/drivetrain' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /TestBotTeaching/drivetrain/build/drivetrain -- -j12 -l12

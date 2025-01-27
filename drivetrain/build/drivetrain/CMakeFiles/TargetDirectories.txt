@@ -1,0 +1,10 @@
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/uninstall.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/drivetrain_uninstall.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/drivetrainNode.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/test.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/edit_cache.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/rebuild_cache.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/list_install_components.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/install.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/install/local.dir
+/TestBotTeaching/drivetrain/build/drivetrain/CMakeFiles/install/strip.dir

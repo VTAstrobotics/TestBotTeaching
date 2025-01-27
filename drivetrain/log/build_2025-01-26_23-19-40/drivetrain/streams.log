@@ -1,0 +1,38 @@
+[0.219s] Invoking command in '/TestBotTeaching/drivetrain/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain
+[0.404s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.872s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.912s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.916s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.927s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.050s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.058s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.111s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.168s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.208s] -- Configured cppcheck include dirs: 
+[16.211s] -- Configured cppcheck exclude dirs and/or files: 
+[17.955s] -- Added test 'flake8' to check Python code syntax and style conventions
+[20.898s] -- Added test 'lint_cmake' to check CMake code style
+[22.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[39.115s] -- Added test 'uncrustify' to check C / C++ code style
+[39.118s] -- Configured uncrustify additional arguments: 
+[40.655s] -- Added test 'xmllint' to check XML markup files
+[41.043s] -- Configuring done
+[41.313s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[41.318s]   Cannot find source file:
+[41.322s] 
+[41.325s]     drivetrain/src/drivesub.cpp
+[41.327s] 
+[41.330s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[41.332s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[41.335s] 
+[41.338s] [0m
+[41.341s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[41.343s]   No SOURCES given to target: drivetrainNode
+[41.347s] 
+[41.350s] [0m
+[41.354s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[41.357s] Invoked command in '/TestBotTeaching/drivetrain/build/drivetrain' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /TestBotTeaching/drivetrain -DCMAKE_INSTALL_PREFIX=/TestBotTeaching/drivetrain/install/drivetrain
